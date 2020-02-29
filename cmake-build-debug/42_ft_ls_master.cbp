@@ -8,419 +8,418 @@
 		<Option virtualFolders="CMake Files\;"/>
 		<Build>
 			<Target title="all">
-				<Option working_dir="/mnt/c/Users/n.kats/OneDrive/Desktop/42.ft_ls-master/cmake-build-debug"/>
+				<Option working_dir="/Users/lgunship/Desktop/CLion_Work_Dir/ft_ls/cmake-build-debug"/>
 				<Option type="4"/>
 				<MakeCommands>
-					<Build command="/usr/bin/make -j8 -f &quot;/mnt/c/Users/n.kats/OneDrive/Desktop/42.ft_ls-master/cmake-build-debug/Makefile&quot;  VERBOSE=1 all"/>
-					<CompileFile command="/usr/bin/make -j8 -f &quot;/mnt/c/Users/n.kats/OneDrive/Desktop/42.ft_ls-master/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
-					<Clean command="/usr/bin/make -j8 -f &quot;/mnt/c/Users/n.kats/OneDrive/Desktop/42.ft_ls-master/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
-					<DistClean command="/usr/bin/make -j8 -f &quot;/mnt/c/Users/n.kats/OneDrive/Desktop/42.ft_ls-master/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<Build command="/usr/bin/make -j4 -f &quot;/Users/lgunship/Desktop/CLion_Work_Dir/ft_ls/cmake-build-debug/Makefile&quot;  VERBOSE=1 all"/>
+					<CompileFile command="/usr/bin/make -j4 -f &quot;/Users/lgunship/Desktop/CLion_Work_Dir/ft_ls/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j4 -f &quot;/Users/lgunship/Desktop/CLion_Work_Dir/ft_ls/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j4 -f &quot;/Users/lgunship/Desktop/CLion_Work_Dir/ft_ls/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
 				</MakeCommands>
 			</Target>
 			<Target title="rebuild_cache">
-				<Option working_dir="/mnt/c/Users/n.kats/OneDrive/Desktop/42.ft_ls-master/cmake-build-debug"/>
+				<Option working_dir="/Users/lgunship/Desktop/CLion_Work_Dir/ft_ls/cmake-build-debug"/>
 				<Option type="4"/>
 				<MakeCommands>
-					<Build command="/usr/bin/make -j8 -f &quot;/mnt/c/Users/n.kats/OneDrive/Desktop/42.ft_ls-master/cmake-build-debug/Makefile&quot;  VERBOSE=1 rebuild_cache"/>
-					<CompileFile command="/usr/bin/make -j8 -f &quot;/mnt/c/Users/n.kats/OneDrive/Desktop/42.ft_ls-master/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
-					<Clean command="/usr/bin/make -j8 -f &quot;/mnt/c/Users/n.kats/OneDrive/Desktop/42.ft_ls-master/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
-					<DistClean command="/usr/bin/make -j8 -f &quot;/mnt/c/Users/n.kats/OneDrive/Desktop/42.ft_ls-master/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
-				</MakeCommands>
-			</Target>
-			<Target title="42_ft_ls_master">
-				<Option output="/mnt/c/Users/n.kats/OneDrive/Desktop/42.ft_ls-master/cmake-build-debug/42_ft_ls_master" prefix_auto="0" extension_auto="0"/>
-				<Option working_dir="/mnt/c/Users/n.kats/OneDrive/Desktop/42.ft_ls-master/cmake-build-debug"/>
-				<Option object_output="./"/>
-				<Option type="1"/>
-				<Option compiler="gcc"/>
-				<Compiler>
-					<Add directory="/mnt/c/Users/n.kats/OneDrive/Desktop/42.ft_ls-master/includes"/>
-					<Add directory="/mnt/c/Users/n.kats/OneDrive/Desktop/42.ft_ls-master/libft/ft_printf"/>
-					<Add directory="/mnt/c/Users/n.kats/OneDrive/Desktop/42.ft_ls-master/libft/inc"/>
-					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/7/include"/>
-					<Add directory="/usr/local/include"/>
-					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/7/include-fixed"/>
-					<Add directory="/usr/include/x86_64-linux-gnu"/>
-					<Add directory="/usr/include"/>
-				</Compiler>
-				<MakeCommands>
-					<Build command="/usr/bin/make -j8 -f &quot;/mnt/c/Users/n.kats/OneDrive/Desktop/42.ft_ls-master/cmake-build-debug/Makefile&quot;  VERBOSE=1 42_ft_ls_master"/>
-					<CompileFile command="/usr/bin/make -j8 -f &quot;/mnt/c/Users/n.kats/OneDrive/Desktop/42.ft_ls-master/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
-					<Clean command="/usr/bin/make -j8 -f &quot;/mnt/c/Users/n.kats/OneDrive/Desktop/42.ft_ls-master/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
-					<DistClean command="/usr/bin/make -j8 -f &quot;/mnt/c/Users/n.kats/OneDrive/Desktop/42.ft_ls-master/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
-				</MakeCommands>
-			</Target>
-			<Target title="42_ft_ls_master/fast">
-				<Option output="/mnt/c/Users/n.kats/OneDrive/Desktop/42.ft_ls-master/cmake-build-debug/42_ft_ls_master" prefix_auto="0" extension_auto="0"/>
-				<Option working_dir="/mnt/c/Users/n.kats/OneDrive/Desktop/42.ft_ls-master/cmake-build-debug"/>
-				<Option object_output="./"/>
-				<Option type="1"/>
-				<Option compiler="gcc"/>
-				<Compiler>
-					<Add directory="/mnt/c/Users/n.kats/OneDrive/Desktop/42.ft_ls-master/includes"/>
-					<Add directory="/mnt/c/Users/n.kats/OneDrive/Desktop/42.ft_ls-master/libft/ft_printf"/>
-					<Add directory="/mnt/c/Users/n.kats/OneDrive/Desktop/42.ft_ls-master/libft/inc"/>
-					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/7/include"/>
-					<Add directory="/usr/local/include"/>
-					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/7/include-fixed"/>
-					<Add directory="/usr/include/x86_64-linux-gnu"/>
-					<Add directory="/usr/include"/>
-				</Compiler>
-				<MakeCommands>
-					<Build command="/usr/bin/make -j8 -f &quot;/mnt/c/Users/n.kats/OneDrive/Desktop/42.ft_ls-master/cmake-build-debug/Makefile&quot;  VERBOSE=1 42_ft_ls_master/fast"/>
-					<CompileFile command="/usr/bin/make -j8 -f &quot;/mnt/c/Users/n.kats/OneDrive/Desktop/42.ft_ls-master/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
-					<Clean command="/usr/bin/make -j8 -f &quot;/mnt/c/Users/n.kats/OneDrive/Desktop/42.ft_ls-master/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
-					<DistClean command="/usr/bin/make -j8 -f &quot;/mnt/c/Users/n.kats/OneDrive/Desktop/42.ft_ls-master/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<Build command="/usr/bin/make -j4 -f &quot;/Users/lgunship/Desktop/CLion_Work_Dir/ft_ls/cmake-build-debug/Makefile&quot;  VERBOSE=1 rebuild_cache"/>
+					<CompileFile command="/usr/bin/make -j4 -f &quot;/Users/lgunship/Desktop/CLion_Work_Dir/ft_ls/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j4 -f &quot;/Users/lgunship/Desktop/CLion_Work_Dir/ft_ls/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j4 -f &quot;/Users/lgunship/Desktop/CLion_Work_Dir/ft_ls/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
 				</MakeCommands>
 			</Target>
 			<Target title="edit_cache">
-				<Option working_dir="/mnt/c/Users/n.kats/OneDrive/Desktop/42.ft_ls-master/cmake-build-debug"/>
+				<Option working_dir="/Users/lgunship/Desktop/CLion_Work_Dir/ft_ls/cmake-build-debug"/>
 				<Option type="4"/>
 				<MakeCommands>
-					<Build command="/usr/bin/make -j8 -f &quot;/mnt/c/Users/n.kats/OneDrive/Desktop/42.ft_ls-master/cmake-build-debug/Makefile&quot;  VERBOSE=1 edit_cache"/>
-					<CompileFile command="/usr/bin/make -j8 -f &quot;/mnt/c/Users/n.kats/OneDrive/Desktop/42.ft_ls-master/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
-					<Clean command="/usr/bin/make -j8 -f &quot;/mnt/c/Users/n.kats/OneDrive/Desktop/42.ft_ls-master/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
-					<DistClean command="/usr/bin/make -j8 -f &quot;/mnt/c/Users/n.kats/OneDrive/Desktop/42.ft_ls-master/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<Build command="/usr/bin/make -j4 -f &quot;/Users/lgunship/Desktop/CLion_Work_Dir/ft_ls/cmake-build-debug/Makefile&quot;  VERBOSE=1 edit_cache"/>
+					<CompileFile command="/usr/bin/make -j4 -f &quot;/Users/lgunship/Desktop/CLion_Work_Dir/ft_ls/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j4 -f &quot;/Users/lgunship/Desktop/CLion_Work_Dir/ft_ls/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j4 -f &quot;/Users/lgunship/Desktop/CLion_Work_Dir/ft_ls/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="42_ft_ls_master">
+				<Option output="/Users/lgunship/Desktop/CLion_Work_Dir/ft_ls/cmake-build-debug/42_ft_ls_master" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/Users/lgunship/Desktop/CLion_Work_Dir/ft_ls/cmake-build-debug"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="/Users/lgunship/Desktop/CLion_Work_Dir/ft_ls/includes"/>
+					<Add directory="/Users/lgunship/Desktop/CLion_Work_Dir/ft_ls/libft/ft_printf"/>
+					<Add directory="/Users/lgunship/Desktop/CLion_Work_Dir/ft_ls/libft/inc"/>
+					<Add directory="/usr/local/include"/>
+					<Add directory="/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/clang/9.0.0/include"/>
+					<Add directory="/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/include"/>
+					<Add directory="/usr/include"/>
+					<Add directory="/System/Library/Frameworks"/>
+					<Add directory="/Library/Frameworks"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j4 -f &quot;/Users/lgunship/Desktop/CLion_Work_Dir/ft_ls/cmake-build-debug/Makefile&quot;  VERBOSE=1 42_ft_ls_master"/>
+					<CompileFile command="/usr/bin/make -j4 -f &quot;/Users/lgunship/Desktop/CLion_Work_Dir/ft_ls/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j4 -f &quot;/Users/lgunship/Desktop/CLion_Work_Dir/ft_ls/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j4 -f &quot;/Users/lgunship/Desktop/CLion_Work_Dir/ft_ls/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="42_ft_ls_master/fast">
+				<Option output="/Users/lgunship/Desktop/CLion_Work_Dir/ft_ls/cmake-build-debug/42_ft_ls_master" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/Users/lgunship/Desktop/CLion_Work_Dir/ft_ls/cmake-build-debug"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="/Users/lgunship/Desktop/CLion_Work_Dir/ft_ls/includes"/>
+					<Add directory="/Users/lgunship/Desktop/CLion_Work_Dir/ft_ls/libft/ft_printf"/>
+					<Add directory="/Users/lgunship/Desktop/CLion_Work_Dir/ft_ls/libft/inc"/>
+					<Add directory="/usr/local/include"/>
+					<Add directory="/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/clang/9.0.0/include"/>
+					<Add directory="/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/include"/>
+					<Add directory="/usr/include"/>
+					<Add directory="/System/Library/Frameworks"/>
+					<Add directory="/Library/Frameworks"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j4 -f &quot;/Users/lgunship/Desktop/CLion_Work_Dir/ft_ls/cmake-build-debug/Makefile&quot;  VERBOSE=1 42_ft_ls_master/fast"/>
+					<CompileFile command="/usr/bin/make -j4 -f &quot;/Users/lgunship/Desktop/CLion_Work_Dir/ft_ls/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j4 -f &quot;/Users/lgunship/Desktop/CLion_Work_Dir/ft_ls/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j4 -f &quot;/Users/lgunship/Desktop/CLion_Work_Dir/ft_ls/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
 				</MakeCommands>
 			</Target>
 		</Build>
-		<Unit filename="/mnt/c/Users/n.kats/OneDrive/Desktop/42.ft_ls-master/includes/ft_ls.h">
+		<Unit filename="/Users/lgunship/Desktop/CLion_Work_Dir/ft_ls/includes/ft_ls.h">
 			<Option target="42_ft_ls_master"/>
 		</Unit>
-		<Unit filename="/mnt/c/Users/n.kats/OneDrive/Desktop/42.ft_ls-master/includes/t_file.h">
+		<Unit filename="/Users/lgunship/Desktop/CLion_Work_Dir/ft_ls/includes/t_file.h">
 			<Option target="42_ft_ls_master"/>
 		</Unit>
-		<Unit filename="/mnt/c/Users/n.kats/OneDrive/Desktop/42.ft_ls-master/includes/t_path.h">
+		<Unit filename="/Users/lgunship/Desktop/CLion_Work_Dir/ft_ls/includes/t_path.h">
 			<Option target="42_ft_ls_master"/>
 		</Unit>
-		<Unit filename="/mnt/c/Users/n.kats/OneDrive/Desktop/42.ft_ls-master/libft/ft_printf/ft_printf.c">
+		<Unit filename="/Users/lgunship/Desktop/CLion_Work_Dir/ft_ls/libft/ft_printf/ft_printf.c">
 			<Option target="42_ft_ls_master"/>
 		</Unit>
-		<Unit filename="/mnt/c/Users/n.kats/OneDrive/Desktop/42.ft_ls-master/libft/ft_printf/ft_printf.h">
+		<Unit filename="/Users/lgunship/Desktop/CLion_Work_Dir/ft_ls/libft/ft_printf/ft_printf.h">
 			<Option target="42_ft_ls_master"/>
 		</Unit>
-		<Unit filename="/mnt/c/Users/n.kats/OneDrive/Desktop/42.ft_ls-master/libft/ft_printf/pf_base.c">
+		<Unit filename="/Users/lgunship/Desktop/CLion_Work_Dir/ft_ls/libft/ft_printf/pf_base.c">
 			<Option target="42_ft_ls_master"/>
 		</Unit>
-		<Unit filename="/mnt/c/Users/n.kats/OneDrive/Desktop/42.ft_ls-master/libft/ft_printf/pf_ftoa.c">
+		<Unit filename="/Users/lgunship/Desktop/CLion_Work_Dir/ft_ls/libft/ft_printf/pf_ftoa.c">
 			<Option target="42_ft_ls_master"/>
 		</Unit>
-		<Unit filename="/mnt/c/Users/n.kats/OneDrive/Desktop/42.ft_ls-master/libft/ft_printf/pf_len.c">
+		<Unit filename="/Users/lgunship/Desktop/CLion_Work_Dir/ft_ls/libft/ft_printf/pf_len.c">
 			<Option target="42_ft_ls_master"/>
 		</Unit>
-		<Unit filename="/mnt/c/Users/n.kats/OneDrive/Desktop/42.ft_ls-master/libft/ft_printf/pf_options.c">
+		<Unit filename="/Users/lgunship/Desktop/CLion_Work_Dir/ft_ls/libft/ft_printf/pf_options.c">
 			<Option target="42_ft_ls_master"/>
 		</Unit>
-		<Unit filename="/mnt/c/Users/n.kats/OneDrive/Desktop/42.ft_ls-master/libft/ft_printf/pf_parsing.c">
+		<Unit filename="/Users/lgunship/Desktop/CLion_Work_Dir/ft_ls/libft/ft_printf/pf_parsing.c">
 			<Option target="42_ft_ls_master"/>
 		</Unit>
-		<Unit filename="/mnt/c/Users/n.kats/OneDrive/Desktop/42.ft_ls-master/libft/ft_printf/pf_put.c">
+		<Unit filename="/Users/lgunship/Desktop/CLion_Work_Dir/ft_ls/libft/ft_printf/pf_put.c">
 			<Option target="42_ft_ls_master"/>
 		</Unit>
-		<Unit filename="/mnt/c/Users/n.kats/OneDrive/Desktop/42.ft_ls-master/libft/ft_printf/pf_router.c">
+		<Unit filename="/Users/lgunship/Desktop/CLion_Work_Dir/ft_ls/libft/ft_printf/pf_router.c">
 			<Option target="42_ft_ls_master"/>
 		</Unit>
-		<Unit filename="/mnt/c/Users/n.kats/OneDrive/Desktop/42.ft_ls-master/libft/ft_printf/pf_struct.c">
+		<Unit filename="/Users/lgunship/Desktop/CLion_Work_Dir/ft_ls/libft/ft_printf/pf_struct.c">
 			<Option target="42_ft_ls_master"/>
 		</Unit>
-		<Unit filename="/mnt/c/Users/n.kats/OneDrive/Desktop/42.ft_ls-master/libft/ft_printf/pf_utils.c">
+		<Unit filename="/Users/lgunship/Desktop/CLion_Work_Dir/ft_ls/libft/ft_printf/pf_utils.c">
 			<Option target="42_ft_ls_master"/>
 		</Unit>
-		<Unit filename="/mnt/c/Users/n.kats/OneDrive/Desktop/42.ft_ls-master/libft/inc/get_next_line.h">
+		<Unit filename="/Users/lgunship/Desktop/CLion_Work_Dir/ft_ls/libft/inc/get_next_line.h">
 			<Option target="42_ft_ls_master"/>
 		</Unit>
-		<Unit filename="/mnt/c/Users/n.kats/OneDrive/Desktop/42.ft_ls-master/libft/inc/libft.h">
+		<Unit filename="/Users/lgunship/Desktop/CLion_Work_Dir/ft_ls/libft/inc/libft.h">
 			<Option target="42_ft_ls_master"/>
 		</Unit>
-		<Unit filename="/mnt/c/Users/n.kats/OneDrive/Desktop/42.ft_ls-master/libft/src/char/ft_isalnum.c">
+		<Unit filename="/Users/lgunship/Desktop/CLion_Work_Dir/ft_ls/libft/src/char/ft_isalnum.c">
 			<Option target="42_ft_ls_master"/>
 		</Unit>
-		<Unit filename="/mnt/c/Users/n.kats/OneDrive/Desktop/42.ft_ls-master/libft/src/char/ft_isalpha.c">
+		<Unit filename="/Users/lgunship/Desktop/CLion_Work_Dir/ft_ls/libft/src/char/ft_isalpha.c">
 			<Option target="42_ft_ls_master"/>
 		</Unit>
-		<Unit filename="/mnt/c/Users/n.kats/OneDrive/Desktop/42.ft_ls-master/libft/src/char/ft_isascii.c">
+		<Unit filename="/Users/lgunship/Desktop/CLion_Work_Dir/ft_ls/libft/src/char/ft_isascii.c">
 			<Option target="42_ft_ls_master"/>
 		</Unit>
-		<Unit filename="/mnt/c/Users/n.kats/OneDrive/Desktop/42.ft_ls-master/libft/src/char/ft_isdigit.c">
+		<Unit filename="/Users/lgunship/Desktop/CLion_Work_Dir/ft_ls/libft/src/char/ft_isdigit.c">
 			<Option target="42_ft_ls_master"/>
 		</Unit>
-		<Unit filename="/mnt/c/Users/n.kats/OneDrive/Desktop/42.ft_ls-master/libft/src/char/ft_isprint.c">
+		<Unit filename="/Users/lgunship/Desktop/CLion_Work_Dir/ft_ls/libft/src/char/ft_isprint.c">
 			<Option target="42_ft_ls_master"/>
 		</Unit>
-		<Unit filename="/mnt/c/Users/n.kats/OneDrive/Desktop/42.ft_ls-master/libft/src/char/ft_tolower.c">
+		<Unit filename="/Users/lgunship/Desktop/CLion_Work_Dir/ft_ls/libft/src/char/ft_tolower.c">
 			<Option target="42_ft_ls_master"/>
 		</Unit>
-		<Unit filename="/mnt/c/Users/n.kats/OneDrive/Desktop/42.ft_ls-master/libft/src/char/ft_toupper.c">
+		<Unit filename="/Users/lgunship/Desktop/CLion_Work_Dir/ft_ls/libft/src/char/ft_toupper.c">
 			<Option target="42_ft_ls_master"/>
 		</Unit>
-		<Unit filename="/mnt/c/Users/n.kats/OneDrive/Desktop/42.ft_ls-master/libft/src/conv/ft_atoi.c">
+		<Unit filename="/Users/lgunship/Desktop/CLion_Work_Dir/ft_ls/libft/src/conv/ft_atoi.c">
 			<Option target="42_ft_ls_master"/>
 		</Unit>
-		<Unit filename="/mnt/c/Users/n.kats/OneDrive/Desktop/42.ft_ls-master/libft/src/conv/ft_itoa.c">
+		<Unit filename="/Users/lgunship/Desktop/CLion_Work_Dir/ft_ls/libft/src/conv/ft_itoa.c">
 			<Option target="42_ft_ls_master"/>
 		</Unit>
-		<Unit filename="/mnt/c/Users/n.kats/OneDrive/Desktop/42.ft_ls-master/libft/src/conv/ft_swap.c">
+		<Unit filename="/Users/lgunship/Desktop/CLion_Work_Dir/ft_ls/libft/src/conv/ft_swap.c">
 			<Option target="42_ft_ls_master"/>
 		</Unit>
-		<Unit filename="/mnt/c/Users/n.kats/OneDrive/Desktop/42.ft_ls-master/libft/src/lines/ft_count_word.c">
+		<Unit filename="/Users/lgunship/Desktop/CLion_Work_Dir/ft_ls/libft/src/lines/ft_count_word.c">
 			<Option target="42_ft_ls_master"/>
 		</Unit>
-		<Unit filename="/mnt/c/Users/n.kats/OneDrive/Desktop/42.ft_ls-master/libft/src/lines/ft_getlines.c">
+		<Unit filename="/Users/lgunship/Desktop/CLion_Work_Dir/ft_ls/libft/src/lines/ft_getlines.c">
 			<Option target="42_ft_ls_master"/>
 		</Unit>
-		<Unit filename="/mnt/c/Users/n.kats/OneDrive/Desktop/42.ft_ls-master/libft/src/lines/get_next_line.c">
+		<Unit filename="/Users/lgunship/Desktop/CLion_Work_Dir/ft_ls/libft/src/lines/get_next_line.c">
 			<Option target="42_ft_ls_master"/>
 		</Unit>
-		<Unit filename="/mnt/c/Users/n.kats/OneDrive/Desktop/42.ft_ls-master/libft/src/lst/ft_lstadd.c">
+		<Unit filename="/Users/lgunship/Desktop/CLion_Work_Dir/ft_ls/libft/src/lst/ft_lstadd.c">
 			<Option target="42_ft_ls_master"/>
 		</Unit>
-		<Unit filename="/mnt/c/Users/n.kats/OneDrive/Desktop/42.ft_ls-master/libft/src/lst/ft_lstdel.c">
+		<Unit filename="/Users/lgunship/Desktop/CLion_Work_Dir/ft_ls/libft/src/lst/ft_lstdel.c">
 			<Option target="42_ft_ls_master"/>
 		</Unit>
-		<Unit filename="/mnt/c/Users/n.kats/OneDrive/Desktop/42.ft_ls-master/libft/src/lst/ft_lstdelone.c">
+		<Unit filename="/Users/lgunship/Desktop/CLion_Work_Dir/ft_ls/libft/src/lst/ft_lstdelone.c">
 			<Option target="42_ft_ls_master"/>
 		</Unit>
-		<Unit filename="/mnt/c/Users/n.kats/OneDrive/Desktop/42.ft_ls-master/libft/src/lst/ft_lstiter.c">
+		<Unit filename="/Users/lgunship/Desktop/CLion_Work_Dir/ft_ls/libft/src/lst/ft_lstiter.c">
 			<Option target="42_ft_ls_master"/>
 		</Unit>
-		<Unit filename="/mnt/c/Users/n.kats/OneDrive/Desktop/42.ft_ls-master/libft/src/lst/ft_lstmap.c">
+		<Unit filename="/Users/lgunship/Desktop/CLion_Work_Dir/ft_ls/libft/src/lst/ft_lstmap.c">
 			<Option target="42_ft_ls_master"/>
 		</Unit>
-		<Unit filename="/mnt/c/Users/n.kats/OneDrive/Desktop/42.ft_ls-master/libft/src/lst/ft_lstnew.c">
+		<Unit filename="/Users/lgunship/Desktop/CLion_Work_Dir/ft_ls/libft/src/lst/ft_lstnew.c">
 			<Option target="42_ft_ls_master"/>
 		</Unit>
-		<Unit filename="/mnt/c/Users/n.kats/OneDrive/Desktop/42.ft_ls-master/libft/src/lst/ft_lstrev.c">
+		<Unit filename="/Users/lgunship/Desktop/CLion_Work_Dir/ft_ls/libft/src/lst/ft_lstrev.c">
 			<Option target="42_ft_ls_master"/>
 		</Unit>
-		<Unit filename="/mnt/c/Users/n.kats/OneDrive/Desktop/42.ft_ls-master/libft/src/math/ft_clamp.c">
+		<Unit filename="/Users/lgunship/Desktop/CLion_Work_Dir/ft_ls/libft/src/math/ft_clamp.c">
 			<Option target="42_ft_ls_master"/>
 		</Unit>
-		<Unit filename="/mnt/c/Users/n.kats/OneDrive/Desktop/42.ft_ls-master/libft/src/math/ft_isprime.c">
+		<Unit filename="/Users/lgunship/Desktop/CLion_Work_Dir/ft_ls/libft/src/math/ft_isprime.c">
 			<Option target="42_ft_ls_master"/>
 		</Unit>
-		<Unit filename="/mnt/c/Users/n.kats/OneDrive/Desktop/42.ft_ls-master/libft/src/math/ft_iterative_power.c">
+		<Unit filename="/Users/lgunship/Desktop/CLion_Work_Dir/ft_ls/libft/src/math/ft_iterative_power.c">
 			<Option target="42_ft_ls_master"/>
 		</Unit>
-		<Unit filename="/mnt/c/Users/n.kats/OneDrive/Desktop/42.ft_ls-master/libft/src/math/ft_sqrt.c">
+		<Unit filename="/Users/lgunship/Desktop/CLion_Work_Dir/ft_ls/libft/src/math/ft_sqrt.c">
 			<Option target="42_ft_ls_master"/>
 		</Unit>
-		<Unit filename="/mnt/c/Users/n.kats/OneDrive/Desktop/42.ft_ls-master/libft/src/mem/ft_bzero.c">
+		<Unit filename="/Users/lgunship/Desktop/CLion_Work_Dir/ft_ls/libft/src/mem/ft_bzero.c">
 			<Option target="42_ft_ls_master"/>
 		</Unit>
-		<Unit filename="/mnt/c/Users/n.kats/OneDrive/Desktop/42.ft_ls-master/libft/src/mem/ft_memalloc.c">
+		<Unit filename="/Users/lgunship/Desktop/CLion_Work_Dir/ft_ls/libft/src/mem/ft_memalloc.c">
 			<Option target="42_ft_ls_master"/>
 		</Unit>
-		<Unit filename="/mnt/c/Users/n.kats/OneDrive/Desktop/42.ft_ls-master/libft/src/mem/ft_memccpy.c">
+		<Unit filename="/Users/lgunship/Desktop/CLion_Work_Dir/ft_ls/libft/src/mem/ft_memccpy.c">
 			<Option target="42_ft_ls_master"/>
 		</Unit>
-		<Unit filename="/mnt/c/Users/n.kats/OneDrive/Desktop/42.ft_ls-master/libft/src/mem/ft_memchr.c">
+		<Unit filename="/Users/lgunship/Desktop/CLion_Work_Dir/ft_ls/libft/src/mem/ft_memchr.c">
 			<Option target="42_ft_ls_master"/>
 		</Unit>
-		<Unit filename="/mnt/c/Users/n.kats/OneDrive/Desktop/42.ft_ls-master/libft/src/mem/ft_memcmp.c">
+		<Unit filename="/Users/lgunship/Desktop/CLion_Work_Dir/ft_ls/libft/src/mem/ft_memcmp.c">
 			<Option target="42_ft_ls_master"/>
 		</Unit>
-		<Unit filename="/mnt/c/Users/n.kats/OneDrive/Desktop/42.ft_ls-master/libft/src/mem/ft_memcpy.c">
+		<Unit filename="/Users/lgunship/Desktop/CLion_Work_Dir/ft_ls/libft/src/mem/ft_memcpy.c">
 			<Option target="42_ft_ls_master"/>
 		</Unit>
-		<Unit filename="/mnt/c/Users/n.kats/OneDrive/Desktop/42.ft_ls-master/libft/src/mem/ft_memdel.c">
+		<Unit filename="/Users/lgunship/Desktop/CLion_Work_Dir/ft_ls/libft/src/mem/ft_memdel.c">
 			<Option target="42_ft_ls_master"/>
 		</Unit>
-		<Unit filename="/mnt/c/Users/n.kats/OneDrive/Desktop/42.ft_ls-master/libft/src/mem/ft_memmove.c">
+		<Unit filename="/Users/lgunship/Desktop/CLion_Work_Dir/ft_ls/libft/src/mem/ft_memmove.c">
 			<Option target="42_ft_ls_master"/>
 		</Unit>
-		<Unit filename="/mnt/c/Users/n.kats/OneDrive/Desktop/42.ft_ls-master/libft/src/mem/ft_memrchr.c">
+		<Unit filename="/Users/lgunship/Desktop/CLion_Work_Dir/ft_ls/libft/src/mem/ft_memrchr.c">
 			<Option target="42_ft_ls_master"/>
 		</Unit>
-		<Unit filename="/mnt/c/Users/n.kats/OneDrive/Desktop/42.ft_ls-master/libft/src/mem/ft_memset.c">
+		<Unit filename="/Users/lgunship/Desktop/CLion_Work_Dir/ft_ls/libft/src/mem/ft_memset.c">
 			<Option target="42_ft_ls_master"/>
 		</Unit>
-		<Unit filename="/mnt/c/Users/n.kats/OneDrive/Desktop/42.ft_ls-master/libft/src/put/ft_lprintf.c">
+		<Unit filename="/Users/lgunship/Desktop/CLion_Work_Dir/ft_ls/libft/src/put/ft_lprintf.c">
 			<Option target="42_ft_ls_master"/>
 		</Unit>
-		<Unit filename="/mnt/c/Users/n.kats/OneDrive/Desktop/42.ft_ls-master/libft/src/put/ft_put2str.c">
+		<Unit filename="/Users/lgunship/Desktop/CLion_Work_Dir/ft_ls/libft/src/put/ft_putchar.c">
 			<Option target="42_ft_ls_master"/>
 		</Unit>
-		<Unit filename="/mnt/c/Users/n.kats/OneDrive/Desktop/42.ft_ls-master/libft/src/put/ft_putchar.c">
+		<Unit filename="/Users/lgunship/Desktop/CLion_Work_Dir/ft_ls/libft/src/put/ft_putchar_fd.c">
 			<Option target="42_ft_ls_master"/>
 		</Unit>
-		<Unit filename="/mnt/c/Users/n.kats/OneDrive/Desktop/42.ft_ls-master/libft/src/put/ft_putchar_fd.c">
+		<Unit filename="/Users/lgunship/Desktop/CLion_Work_Dir/ft_ls/libft/src/put/ft_putendl.c">
 			<Option target="42_ft_ls_master"/>
 		</Unit>
-		<Unit filename="/mnt/c/Users/n.kats/OneDrive/Desktop/42.ft_ls-master/libft/src/put/ft_putendl.c">
+		<Unit filename="/Users/lgunship/Desktop/CLion_Work_Dir/ft_ls/libft/src/put/ft_putendl_fd.c">
 			<Option target="42_ft_ls_master"/>
 		</Unit>
-		<Unit filename="/mnt/c/Users/n.kats/OneDrive/Desktop/42.ft_ls-master/libft/src/put/ft_putendl_fd.c">
+		<Unit filename="/Users/lgunship/Desktop/CLion_Work_Dir/ft_ls/libft/src/put/ft_putnbr.c">
 			<Option target="42_ft_ls_master"/>
 		</Unit>
-		<Unit filename="/mnt/c/Users/n.kats/OneDrive/Desktop/42.ft_ls-master/libft/src/put/ft_putnbr.c">
+		<Unit filename="/Users/lgunship/Desktop/CLion_Work_Dir/ft_ls/libft/src/put/ft_putnbr_fd.c">
 			<Option target="42_ft_ls_master"/>
 		</Unit>
-		<Unit filename="/mnt/c/Users/n.kats/OneDrive/Desktop/42.ft_ls-master/libft/src/put/ft_putnbr_fd.c">
+		<Unit filename="/Users/lgunship/Desktop/CLion_Work_Dir/ft_ls/libft/src/put/ft_putstr.c">
 			<Option target="42_ft_ls_master"/>
 		</Unit>
-		<Unit filename="/mnt/c/Users/n.kats/OneDrive/Desktop/42.ft_ls-master/libft/src/put/ft_putstr.c">
+		<Unit filename="/Users/lgunship/Desktop/CLion_Work_Dir/ft_ls/libft/src/put/ft_putstr_fd.c">
 			<Option target="42_ft_ls_master"/>
 		</Unit>
-		<Unit filename="/mnt/c/Users/n.kats/OneDrive/Desktop/42.ft_ls-master/libft/src/put/ft_putstr_fd.c">
+		<Unit filename="/Users/lgunship/Desktop/CLion_Work_Dir/ft_ls/libft/src/str/ft_findchr.c">
 			<Option target="42_ft_ls_master"/>
 		</Unit>
-		<Unit filename="/mnt/c/Users/n.kats/OneDrive/Desktop/42.ft_ls-master/libft/src/str/ft_findchr.c">
+		<Unit filename="/Users/lgunship/Desktop/CLion_Work_Dir/ft_ls/libft/src/str/ft_strcat.c">
 			<Option target="42_ft_ls_master"/>
 		</Unit>
-		<Unit filename="/mnt/c/Users/n.kats/OneDrive/Desktop/42.ft_ls-master/libft/src/str/ft_strcat.c">
+		<Unit filename="/Users/lgunship/Desktop/CLion_Work_Dir/ft_ls/libft/src/str/ft_strchr.c">
 			<Option target="42_ft_ls_master"/>
 		</Unit>
-		<Unit filename="/mnt/c/Users/n.kats/OneDrive/Desktop/42.ft_ls-master/libft/src/str/ft_strchr.c">
+		<Unit filename="/Users/lgunship/Desktop/CLion_Work_Dir/ft_ls/libft/src/str/ft_strclr.c">
 			<Option target="42_ft_ls_master"/>
 		</Unit>
-		<Unit filename="/mnt/c/Users/n.kats/OneDrive/Desktop/42.ft_ls-master/libft/src/str/ft_strclr.c">
+		<Unit filename="/Users/lgunship/Desktop/CLion_Work_Dir/ft_ls/libft/src/str/ft_strcmp.c">
 			<Option target="42_ft_ls_master"/>
 		</Unit>
-		<Unit filename="/mnt/c/Users/n.kats/OneDrive/Desktop/42.ft_ls-master/libft/src/str/ft_strcmp.c">
+		<Unit filename="/Users/lgunship/Desktop/CLion_Work_Dir/ft_ls/libft/src/str/ft_strcpy.c">
 			<Option target="42_ft_ls_master"/>
 		</Unit>
-		<Unit filename="/mnt/c/Users/n.kats/OneDrive/Desktop/42.ft_ls-master/libft/src/str/ft_strcpy.c">
+		<Unit filename="/Users/lgunship/Desktop/CLion_Work_Dir/ft_ls/libft/src/str/ft_strdel.c">
 			<Option target="42_ft_ls_master"/>
 		</Unit>
-		<Unit filename="/mnt/c/Users/n.kats/OneDrive/Desktop/42.ft_ls-master/libft/src/str/ft_strdel.c">
+		<Unit filename="/Users/lgunship/Desktop/CLion_Work_Dir/ft_ls/libft/src/str/ft_strdup.c">
 			<Option target="42_ft_ls_master"/>
 		</Unit>
-		<Unit filename="/mnt/c/Users/n.kats/OneDrive/Desktop/42.ft_ls-master/libft/src/str/ft_strdup.c">
+		<Unit filename="/Users/lgunship/Desktop/CLion_Work_Dir/ft_ls/libft/src/str/ft_strequ.c">
 			<Option target="42_ft_ls_master"/>
 		</Unit>
-		<Unit filename="/mnt/c/Users/n.kats/OneDrive/Desktop/42.ft_ls-master/libft/src/str/ft_strequ.c">
+		<Unit filename="/Users/lgunship/Desktop/CLion_Work_Dir/ft_ls/libft/src/str/ft_striter.c">
 			<Option target="42_ft_ls_master"/>
 		</Unit>
-		<Unit filename="/mnt/c/Users/n.kats/OneDrive/Desktop/42.ft_ls-master/libft/src/str/ft_striter.c">
+		<Unit filename="/Users/lgunship/Desktop/CLion_Work_Dir/ft_ls/libft/src/str/ft_striteri.c">
 			<Option target="42_ft_ls_master"/>
 		</Unit>
-		<Unit filename="/mnt/c/Users/n.kats/OneDrive/Desktop/42.ft_ls-master/libft/src/str/ft_striteri.c">
+		<Unit filename="/Users/lgunship/Desktop/CLion_Work_Dir/ft_ls/libft/src/str/ft_strjoin.c">
 			<Option target="42_ft_ls_master"/>
 		</Unit>
-		<Unit filename="/mnt/c/Users/n.kats/OneDrive/Desktop/42.ft_ls-master/libft/src/str/ft_strjoin.c">
+		<Unit filename="/Users/lgunship/Desktop/CLion_Work_Dir/ft_ls/libft/src/str/ft_strlcat.c">
 			<Option target="42_ft_ls_master"/>
 		</Unit>
-		<Unit filename="/mnt/c/Users/n.kats/OneDrive/Desktop/42.ft_ls-master/libft/src/str/ft_strlcat.c">
+		<Unit filename="/Users/lgunship/Desktop/CLion_Work_Dir/ft_ls/libft/src/str/ft_strlen.c">
 			<Option target="42_ft_ls_master"/>
 		</Unit>
-		<Unit filename="/mnt/c/Users/n.kats/OneDrive/Desktop/42.ft_ls-master/libft/src/str/ft_strlen.c">
+		<Unit filename="/Users/lgunship/Desktop/CLion_Work_Dir/ft_ls/libft/src/str/ft_strlower.c">
 			<Option target="42_ft_ls_master"/>
 		</Unit>
-		<Unit filename="/mnt/c/Users/n.kats/OneDrive/Desktop/42.ft_ls-master/libft/src/str/ft_strlower.c">
+		<Unit filename="/Users/lgunship/Desktop/CLion_Work_Dir/ft_ls/libft/src/str/ft_strmap.c">
 			<Option target="42_ft_ls_master"/>
 		</Unit>
-		<Unit filename="/mnt/c/Users/n.kats/OneDrive/Desktop/42.ft_ls-master/libft/src/str/ft_strmap.c">
+		<Unit filename="/Users/lgunship/Desktop/CLion_Work_Dir/ft_ls/libft/src/str/ft_strmapi.c">
 			<Option target="42_ft_ls_master"/>
 		</Unit>
-		<Unit filename="/mnt/c/Users/n.kats/OneDrive/Desktop/42.ft_ls-master/libft/src/str/ft_strmapi.c">
+		<Unit filename="/Users/lgunship/Desktop/CLion_Work_Dir/ft_ls/libft/src/str/ft_strncat.c">
 			<Option target="42_ft_ls_master"/>
 		</Unit>
-		<Unit filename="/mnt/c/Users/n.kats/OneDrive/Desktop/42.ft_ls-master/libft/src/str/ft_strncat.c">
+		<Unit filename="/Users/lgunship/Desktop/CLion_Work_Dir/ft_ls/libft/src/str/ft_strncmp.c">
 			<Option target="42_ft_ls_master"/>
 		</Unit>
-		<Unit filename="/mnt/c/Users/n.kats/OneDrive/Desktop/42.ft_ls-master/libft/src/str/ft_strncmp.c">
+		<Unit filename="/Users/lgunship/Desktop/CLion_Work_Dir/ft_ls/libft/src/str/ft_strncpy.c">
 			<Option target="42_ft_ls_master"/>
 		</Unit>
-		<Unit filename="/mnt/c/Users/n.kats/OneDrive/Desktop/42.ft_ls-master/libft/src/str/ft_strncpy.c">
+		<Unit filename="/Users/lgunship/Desktop/CLion_Work_Dir/ft_ls/libft/src/str/ft_strndup.c">
 			<Option target="42_ft_ls_master"/>
 		</Unit>
-		<Unit filename="/mnt/c/Users/n.kats/OneDrive/Desktop/42.ft_ls-master/libft/src/str/ft_strndup.c">
+		<Unit filename="/Users/lgunship/Desktop/CLion_Work_Dir/ft_ls/libft/src/str/ft_strnequ.c">
 			<Option target="42_ft_ls_master"/>
 		</Unit>
-		<Unit filename="/mnt/c/Users/n.kats/OneDrive/Desktop/42.ft_ls-master/libft/src/str/ft_strnequ.c">
+		<Unit filename="/Users/lgunship/Desktop/CLion_Work_Dir/ft_ls/libft/src/str/ft_strnew.c">
 			<Option target="42_ft_ls_master"/>
 		</Unit>
-		<Unit filename="/mnt/c/Users/n.kats/OneDrive/Desktop/42.ft_ls-master/libft/src/str/ft_strnew.c">
+		<Unit filename="/Users/lgunship/Desktop/CLion_Work_Dir/ft_ls/libft/src/str/ft_strnstr.c">
 			<Option target="42_ft_ls_master"/>
 		</Unit>
-		<Unit filename="/mnt/c/Users/n.kats/OneDrive/Desktop/42.ft_ls-master/libft/src/str/ft_strnstr.c">
+		<Unit filename="/Users/lgunship/Desktop/CLion_Work_Dir/ft_ls/libft/src/str/ft_strrchr.c">
 			<Option target="42_ft_ls_master"/>
 		</Unit>
-		<Unit filename="/mnt/c/Users/n.kats/OneDrive/Desktop/42.ft_ls-master/libft/src/str/ft_strrchr.c">
+		<Unit filename="/Users/lgunship/Desktop/CLion_Work_Dir/ft_ls/libft/src/str/ft_strsplit.c">
 			<Option target="42_ft_ls_master"/>
 		</Unit>
-		<Unit filename="/mnt/c/Users/n.kats/OneDrive/Desktop/42.ft_ls-master/libft/src/str/ft_strsplit.c">
+		<Unit filename="/Users/lgunship/Desktop/CLion_Work_Dir/ft_ls/libft/src/str/ft_strstr.c">
 			<Option target="42_ft_ls_master"/>
 		</Unit>
-		<Unit filename="/mnt/c/Users/n.kats/OneDrive/Desktop/42.ft_ls-master/libft/src/str/ft_strstr.c">
+		<Unit filename="/Users/lgunship/Desktop/CLion_Work_Dir/ft_ls/libft/src/str/ft_strsub.c">
 			<Option target="42_ft_ls_master"/>
 		</Unit>
-		<Unit filename="/mnt/c/Users/n.kats/OneDrive/Desktop/42.ft_ls-master/libft/src/str/ft_strsub.c">
+		<Unit filename="/Users/lgunship/Desktop/CLion_Work_Dir/ft_ls/libft/src/str/ft_strtrim.c">
 			<Option target="42_ft_ls_master"/>
 		</Unit>
-		<Unit filename="/mnt/c/Users/n.kats/OneDrive/Desktop/42.ft_ls-master/libft/src/str/ft_strtrim.c">
+		<Unit filename="/Users/lgunship/Desktop/CLion_Work_Dir/ft_ls/src/ft_ls.c">
 			<Option target="42_ft_ls_master"/>
 		</Unit>
-		<Unit filename="/mnt/c/Users/n.kats/OneDrive/Desktop/42.ft_ls-master/src/ft_ls.c">
+		<Unit filename="/Users/lgunship/Desktop/CLion_Work_Dir/ft_ls/src/main.c">
 			<Option target="42_ft_ls_master"/>
 		</Unit>
-		<Unit filename="/mnt/c/Users/n.kats/OneDrive/Desktop/42.ft_ls-master/src/main.c">
+		<Unit filename="/Users/lgunship/Desktop/CLion_Work_Dir/ft_ls/src/t_file/file_add.c">
 			<Option target="42_ft_ls_master"/>
 		</Unit>
-		<Unit filename="/mnt/c/Users/n.kats/OneDrive/Desktop/42.ft_ls-master/src/t_file/file_add.c">
+		<Unit filename="/Users/lgunship/Desktop/CLion_Work_Dir/ft_ls/src/t_file/file_del.c">
 			<Option target="42_ft_ls_master"/>
 		</Unit>
-		<Unit filename="/mnt/c/Users/n.kats/OneDrive/Desktop/42.ft_ls-master/src/t_file/file_del.c">
+		<Unit filename="/Users/lgunship/Desktop/CLion_Work_Dir/ft_ls/src/t_file/file_dir.c">
 			<Option target="42_ft_ls_master"/>
 		</Unit>
-		<Unit filename="/mnt/c/Users/n.kats/OneDrive/Desktop/42.ft_ls-master/src/t_file/file_dir.c">
+		<Unit filename="/Users/lgunship/Desktop/CLion_Work_Dir/ft_ls/src/t_file/file_ini.c">
 			<Option target="42_ft_ls_master"/>
 		</Unit>
-		<Unit filename="/mnt/c/Users/n.kats/OneDrive/Desktop/42.ft_ls-master/src/t_file/file_ini.c">
+		<Unit filename="/Users/lgunship/Desktop/CLion_Work_Dir/ft_ls/src/t_file/file_len.c">
 			<Option target="42_ft_ls_master"/>
 		</Unit>
-		<Unit filename="/mnt/c/Users/n.kats/OneDrive/Desktop/42.ft_ls-master/src/t_file/file_len.c">
+		<Unit filename="/Users/lgunship/Desktop/CLion_Work_Dir/ft_ls/src/t_file/file_srt.c">
 			<Option target="42_ft_ls_master"/>
 		</Unit>
-		<Unit filename="/mnt/c/Users/n.kats/OneDrive/Desktop/42.ft_ls-master/src/t_file/file_srt.c">
+		<Unit filename="/Users/lgunship/Desktop/CLion_Work_Dir/ft_ls/src/t_file/file_swp.c">
 			<Option target="42_ft_ls_master"/>
 		</Unit>
-		<Unit filename="/mnt/c/Users/n.kats/OneDrive/Desktop/42.ft_ls-master/src/t_file/file_swp.c">
+		<Unit filename="/Users/lgunship/Desktop/CLion_Work_Dir/ft_ls/src/t_path/path_add.c">
 			<Option target="42_ft_ls_master"/>
 		</Unit>
-		<Unit filename="/mnt/c/Users/n.kats/OneDrive/Desktop/42.ft_ls-master/src/t_path/path_add.c">
+		<Unit filename="/Users/lgunship/Desktop/CLion_Work_Dir/ft_ls/src/t_path/path_del.c">
 			<Option target="42_ft_ls_master"/>
 		</Unit>
-		<Unit filename="/mnt/c/Users/n.kats/OneDrive/Desktop/42.ft_ls-master/src/t_path/path_del.c">
+		<Unit filename="/Users/lgunship/Desktop/CLion_Work_Dir/ft_ls/src/t_path/path_len.c">
 			<Option target="42_ft_ls_master"/>
 		</Unit>
-		<Unit filename="/mnt/c/Users/n.kats/OneDrive/Desktop/42.ft_ls-master/src/t_path/path_len.c">
+		<Unit filename="/Users/lgunship/Desktop/CLion_Work_Dir/ft_ls/src/t_path/path_srt.c">
 			<Option target="42_ft_ls_master"/>
 		</Unit>
-		<Unit filename="/mnt/c/Users/n.kats/OneDrive/Desktop/42.ft_ls-master/src/t_path/path_srt.c">
+		<Unit filename="/Users/lgunship/Desktop/CLion_Work_Dir/ft_ls/src/t_path/path_swp.c">
 			<Option target="42_ft_ls_master"/>
 		</Unit>
-		<Unit filename="/mnt/c/Users/n.kats/OneDrive/Desktop/42.ft_ls-master/src/t_path/path_swp.c">
+		<Unit filename="/Users/lgunship/Desktop/CLion_Work_Dir/ft_ls/src/utils/cmp_ts_n.c">
 			<Option target="42_ft_ls_master"/>
 		</Unit>
-		<Unit filename="/mnt/c/Users/n.kats/OneDrive/Desktop/42.ft_ls-master/src/utils/cmp_ts_n.c">
+		<Unit filename="/Users/lgunship/Desktop/CLion_Work_Dir/ft_ls/src/utils/create_file.c">
 			<Option target="42_ft_ls_master"/>
 		</Unit>
-		<Unit filename="/mnt/c/Users/n.kats/OneDrive/Desktop/42.ft_ls-master/src/utils/create_file.c">
+		<Unit filename="/Users/lgunship/Desktop/CLion_Work_Dir/ft_ls/src/utils/delete_files.c">
 			<Option target="42_ft_ls_master"/>
 		</Unit>
-		<Unit filename="/mnt/c/Users/n.kats/OneDrive/Desktop/42.ft_ls-master/src/utils/delete_files.c">
+		<Unit filename="/Users/lgunship/Desktop/CLion_Work_Dir/ft_ls/src/utils/print/print_date.c">
 			<Option target="42_ft_ls_master"/>
 		</Unit>
-		<Unit filename="/mnt/c/Users/n.kats/OneDrive/Desktop/42.ft_ls-master/src/utils/print/print_date.c">
+		<Unit filename="/Users/lgunship/Desktop/CLion_Work_Dir/ft_ls/src/utils/print/print_entry.c">
 			<Option target="42_ft_ls_master"/>
 		</Unit>
-		<Unit filename="/mnt/c/Users/n.kats/OneDrive/Desktop/42.ft_ls-master/src/utils/print/print_entry.c">
+		<Unit filename="/Users/lgunship/Desktop/CLion_Work_Dir/ft_ls/src/utils/print/print_list.c">
 			<Option target="42_ft_ls_master"/>
 		</Unit>
-		<Unit filename="/mnt/c/Users/n.kats/OneDrive/Desktop/42.ft_ls-master/src/utils/print/print_list.c">
+		<Unit filename="/Users/lgunship/Desktop/CLion_Work_Dir/ft_ls/src/utils/print/print_name.c">
 			<Option target="42_ft_ls_master"/>
 		</Unit>
-		<Unit filename="/mnt/c/Users/n.kats/OneDrive/Desktop/42.ft_ls-master/src/utils/print/print_name.c">
+		<Unit filename="/Users/lgunship/Desktop/CLion_Work_Dir/ft_ls/src/utils/print/print_perm.c">
 			<Option target="42_ft_ls_master"/>
 		</Unit>
-		<Unit filename="/mnt/c/Users/n.kats/OneDrive/Desktop/42.ft_ls-master/src/utils/print/print_perm.c">
+		<Unit filename="/Users/lgunship/Desktop/CLion_Work_Dir/ft_ls/src/utils/print/print_type.c">
 			<Option target="42_ft_ls_master"/>
 		</Unit>
-		<Unit filename="/mnt/c/Users/n.kats/OneDrive/Desktop/42.ft_ls-master/src/utils/print/print_type.c">
-			<Option target="42_ft_ls_master"/>
-		</Unit>
-		<Unit filename="/mnt/c/Users/n.kats/OneDrive/Desktop/42.ft_ls-master/CMakeLists.txt">
+		<Unit filename="/Users/lgunship/Desktop/CLion_Work_Dir/ft_ls/CMakeLists.txt">
 			<Option virtualFolder="CMake Files\"/>
 		</Unit>
 	</Project>

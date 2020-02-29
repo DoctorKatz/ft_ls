@@ -58,7 +58,6 @@ add_executable(42_ft_ls_master
         libft/src/mem/ft_memmove.c
         libft/src/mem/ft_memrchr.c
         libft/src/mem/ft_memset.c
-        libft/src/put/ft_put2str.c
         libft/src/put/ft_putchar.c
         libft/src/put/ft_putchar_fd.c
         libft/src/put/ft_putendl.c

@@ -1,3 +1,3 @@
-/mnt/c/Users/n.kats/OneDrive/Desktop/42.ft_ls-master/cmake-build-debug/CMakeFiles/rebuild_cache.dir
-/mnt/c/Users/n.kats/OneDrive/Desktop/42.ft_ls-master/cmake-build-debug/CMakeFiles/42_ft_ls_master.dir
-/mnt/c/Users/n.kats/OneDrive/Desktop/42.ft_ls-master/cmake-build-debug/CMakeFiles/edit_cache.dir
+/Users/lgunship/Desktop/CLion_Work_Dir/ft_ls/cmake-build-debug/CMakeFiles/rebuild_cache.dir
+/Users/lgunship/Desktop/CLion_Work_Dir/ft_ls/cmake-build-debug/CMakeFiles/edit_cache.dir
+/Users/lgunship/Desktop/CLion_Work_Dir/ft_ls/cmake-build-debug/CMakeFiles/42_ft_ls_master.dir

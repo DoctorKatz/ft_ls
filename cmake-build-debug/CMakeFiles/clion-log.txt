@@ -1,4 +1,4 @@
-/usr/bin/cmake -DCMAKE_BUILD_TYPE=Debug -G "CodeBlocks - Unix Makefiles" /mnt/c/Users/n.kats/OneDrive/Desktop/42.ft_ls-master
+/Users/lgunship/Desktop/CLion.app/Contents/bin/cmake/mac/bin/cmake -DCMAKE_BUILD_TYPE=Debug -G "CodeBlocks - Unix Makefiles" /Users/lgunship/Desktop/CLion_Work_Dir/ft_ls
 -- Configuring done
 -- Generating done
--- Build files have been written to: /mnt/c/Users/n.kats/OneDrive/Desktop/42.ft_ls-master/cmake-build-debug
+-- Build files have been written to: /Users/lgunship/Desktop/CLion_Work_Dir/ft_ls/cmake-build-debug

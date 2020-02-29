@@ -6,7 +6,7 @@
 /*   By: lgunship <lgunship@42.fr>                  +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2019/09/03 21:22:10 by lgunship          #+#    #+#             */
-/*   Updated: 2020/02/26 17:19:13 by null             ###   ########.fr       */
+/*   Updated: 2020/03/01 01:56:49 by lgunship         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -15,12 +15,11 @@
 # define LIBFT_H
 # define TRUE 1
 # define FALSE 0
-# define ISSP(X) (X == ' ' || X == '\n' || X == '\t')
 
 # include <string.h>
 # include <stdlib.h>
 # include <unistd.h>
-#include "ft_printf.h"
+# include "ft_printf.h"
 
 typedef int			t_bool;
 
@@ -30,6 +29,13 @@ typedef struct		s_list
 	size_t			content_size;
 	struct s_list	*next;
 }					t_list;
+
+typedef struct		s_print
+{
+	int				d;
+	char			s[256];
+	char			*c;
+}					t_print;
 
 t_list				*ft_lstnew(void const *content, size_t content_size);
 t_list				*ft_lstmap(t_list *lst, t_list *(*f)(t_list *elem));
@@ -111,7 +117,5 @@ void				print_table(int d, char *str);
 int					ft_printf(const char *s, ...);
 int					ft_dprintf(int fd, const char *format, ...);
 char				*ft_zprintf(const char *format, ...);
-
-
 
 #endif

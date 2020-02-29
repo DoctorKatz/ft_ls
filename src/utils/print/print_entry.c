@@ -6,7 +6,7 @@
 /*   By: lgunship <lgunship@student.42.fr>          +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2020/02/20 00:12:39 by lgunship          #+#    #+#             */
-/*   Updated: 2020/02/26 21:43:12 by null             ###   ########.fr       */
+/*   Updated: 2020/03/01 02:13:05 by lgunship         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -41,7 +41,7 @@ void			print_entry(t_file *file, char *path, char *opt, int type)
 	int			i;
 
 	i = 0;
-	file->entry[i++] = ft_zprintf("%u", file->stat.st_nlink);
+	file->entry[i++] = ft_zlprintf("%d", file->stat.st_nlink);
 	if (!ft_findchr(opt, 'g') && getpwuid(file->stat.st_uid))
 		file->entry[i++] = ft_zprintf("%s",
 			getpwuid(file->stat.st_uid)->pw_name);

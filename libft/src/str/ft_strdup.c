@@ -40,7 +40,7 @@ static char		*ft_strcpy(const char *dest, const char *src)
 
 char			*ft_strdup(char *src)
 {
-	char *temp = 0;
+	char *temp;
 
 	if ((temp = (char*)malloc(ft_strlen(src) * sizeof(char) + 1)) == NULL)
 		return (NULL);
