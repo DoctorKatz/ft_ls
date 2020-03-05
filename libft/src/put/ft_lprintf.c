@@ -6,11 +6,13 @@
 /*   By: lgunship <lgunship@student.42.fr>          +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2020/03/01 01:54:29 by lgunship          #+#    #+#             */
-/*   Updated: 2020/03/01 01:55:41 by lgunship         ###   ########.fr       */
+/*   Updated: 2020/03/05 21:23:19 by null             ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
 #include "libft.h"
+
+extern t_mnode		*g_memlst;
 
 char				*check_flags(int d, char *s, char *c, va_list factor)
 {
@@ -64,7 +66,7 @@ void				print_table(int d, char *str)
 	int	temp;
 
 	temp = d - ft_strlen(str);
-	while (--temp > 0)
+	while (--temp)
 		ft_putchar(' ');
 	ft_putstr(str);
 }
@@ -78,6 +80,7 @@ char				*zcheck_flags(int d, char *s, char *c, va_list factor)
 	{
 		d = va_arg(factor, int);
 		temp = ft_itoa(d);
+		ft_push_ptr(&g_memlst, temp);
 		return (temp);
 	}
 	else if (*c == 's')
@@ -92,26 +95,30 @@ char				*ft_zlprintf(char *format, ...)
 {
 	t_print			t_values;
 	va_list			factor;
-	static char		str[256];
 	int				i;
+	char 			*str;
 
+	str = (char*)malloc(sizeof(char) * 256);
+	*str = '\0';
+	ft_push_ptr(&g_memlst, str);
 	va_start(factor, format);
 	t_values.c = format;
-	ft_strclr(str);
+	ft_strclr(t_values.str);
 	while (*(t_values.c))
 	{
-		i = ft_strlen(str);
+		i = ft_strlen(t_values.str);
 		if (*(t_values.c) != '%')
 		{
-			str[i] = *(t_values.c);
-			str[++i] = '\0';
+			t_values.str[i] = *(t_values.c);
+			t_values.str[++i] = '\0';
 			t_values.c++;
 			continue;
 		}
-		ft_strcat(str, zcheck_flags(t_values.d,\
+		ft_strcat(t_values.str, zcheck_flags(t_values.d,\
 			t_values.s, t_values.c, factor));
 		t_values.c += 2;
 	}
+	ft_strcat(str, t_values.str);
 	va_end(factor);
 	return (str);
 }

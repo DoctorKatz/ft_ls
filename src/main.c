@@ -6,7 +6,7 @@
 /*   By: jaleman <jaleman@student.42.us.org>        +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2019/02/15 18:18:00 by jaleman           #+#    #+#             */
-/*   Updated: 2019/02/15 18:18:01 by jaleman          ###   ########.fr       */
+/*   Updated: 2020/03/05 22:16:51 by null             ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -17,6 +17,8 @@
 ** Print usage message and exit program if a flag is not valid.
 ** Returns : N/A | EXIT(FLG_ERR)
 */
+
+t_mnode			*g_memlst;
 
 static void		validate_flag(char *bin, char *s, char *opt)
 {
@@ -74,7 +76,11 @@ int				main(int argc, char *argv[])
 {
 	t_path		*path;
 	char		*opt;
+	char		*pnull;
 
+	g_memlst = NULL;
+	pnull = NULL;
+	ft_push_ptr(&g_memlst, pnull);
 	opt = ft_strnew(ft_strlen(OPT_FLGS));
 	if (opt)
 	{
@@ -86,5 +92,6 @@ int				main(int argc, char *argv[])
 		path_del(path);
 		ft_strdel(&opt);
 	}
+	ft_memlstdelete(&g_memlst);
 	return (!opt ? MEM_ERR : 0);
 }

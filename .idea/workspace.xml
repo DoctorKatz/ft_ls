@@ -12,17 +12,12 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="4feee3db-1b26-4a2d-bdd2-e84f7fd1a485" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/libft/src/lst/ft_push_ptr.c" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/CMakeLists.txt" beforeDir="false" afterPath="$PROJECT_DIR$/CMakeLists.txt" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/cmake-build-debug/42_ft_ls_master" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/42_ft_ls_master" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/cmake-build-debug/42_ft_ls_master.cbp" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/42_ft_ls_master.cbp" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeCache.txt" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeCache.txt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/3.10.2/CMakeCCompiler.cmake" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/3.10.2/CMakeDetermineCompilerABI_C.bin" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/3.10.2/CMakeSystem.cmake" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/3.10.2/CompilerIdC/CMakeCCompilerId.c" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/3.10.2/CompilerIdC/a.out" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/42_ft_ls_master.dir/C.includecache" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/42_ft_ls_master.dir/C.includecache" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/42_ft_ls_master.dir/DependInfo.cmake" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/42_ft_ls_master.dir/DependInfo.cmake" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/42_ft_ls_master.dir/build.make" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/42_ft_ls_master.dir/build.make" afterDir="false" />
@@ -75,7 +70,6 @@
       <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/42_ft_ls_master.dir/libft/src/mem/ft_memrchr.c.o" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/42_ft_ls_master.dir/libft/src/mem/ft_memrchr.c.o" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/42_ft_ls_master.dir/libft/src/mem/ft_memset.c.o" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/42_ft_ls_master.dir/libft/src/mem/ft_memset.c.o" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/42_ft_ls_master.dir/libft/src/put/ft_lprintf.c.o" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/42_ft_ls_master.dir/libft/src/put/ft_lprintf.c.o" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/42_ft_ls_master.dir/libft/src/put/ft_put2str.c.o" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/42_ft_ls_master.dir/libft/src/put/ft_putchar.c.o" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/42_ft_ls_master.dir/libft/src/put/ft_putchar.c.o" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/42_ft_ls_master.dir/libft/src/put/ft_putchar_fd.c.o" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/42_ft_ls_master.dir/libft/src/put/ft_putchar_fd.c.o" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/42_ft_ls_master.dir/libft/src/put/ft_putendl.c.o" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/42_ft_ls_master.dir/libft/src/put/ft_putendl.c.o" afterDir="false" />
@@ -145,21 +139,18 @@
       <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/TargetDirectories.txt" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/TargetDirectories.txt" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/clion-environment.txt" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/clion-environment.txt" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/clion-log.txt" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/clion-log.txt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/feature_tests.bin" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/feature_tests.c" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/cmake-build-debug/Makefile" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/Makefile" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/cmake-build-debug/cmake_install.cmake" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/cmake_install.cmake" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/libft/inc/get_next_line.h" beforeDir="false" afterPath="$PROJECT_DIR$/libft/inc/get_next_line.h" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/libft/ft_printf/ft_printf.h" beforeDir="false" afterPath="$PROJECT_DIR$/libft/ft_printf/ft_printf.h" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/libft/inc/libft.h" beforeDir="false" afterPath="$PROJECT_DIR$/libft/inc/libft.h" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/libft/src/lines/get_next_line.c" beforeDir="false" afterPath="$PROJECT_DIR$/libft/src/lines/get_next_line.c" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/libft/src/conv/ft_itoa.c" beforeDir="false" afterPath="$PROJECT_DIR$/libft/src/conv/ft_itoa.c" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/libft/src/put/ft_lprintf.c" beforeDir="false" afterPath="$PROJECT_DIR$/libft/src/put/ft_lprintf.c" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/libft/src/put/ft_put2str.c" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/libft/src/str/ft_strdup.c" beforeDir="false" afterPath="$PROJECT_DIR$/libft/src/str/ft_strdup.c" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/libft/src/str/ft_strndup.c" beforeDir="false" afterPath="$PROJECT_DIR$/libft/src/str/ft_strndup.c" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/libft/src/str/ft_strdel.c" beforeDir="false" afterPath="$PROJECT_DIR$/libft/src/str/ft_strdel.c" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main.c" beforeDir="false" afterPath="$PROJECT_DIR$/src/main.c" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/utils/print/print_entry.c" beforeDir="false" afterPath="$PROJECT_DIR$/src/utils/print/print_entry.c" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/utils/print/print_list.c" beforeDir="false" afterPath="$PROJECT_DIR$/src/utils/print/print_list.c" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/utils/print/print_perm.c" beforeDir="false" afterPath="$PROJECT_DIR$/src/utils/print/print_perm.c" afterDir="false" />
     </list>
-    <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -170,12 +161,19 @@
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
   <component name="ProjectId" id="1YLVXpc9rgRBRqIc9JWYT177hjl" />
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showExcludedFiles" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
   <component name="PropertiesComponent">
     <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
     <property name="WebServerToolWindowFactoryState" value="true" />
+    <property name="cf.advertisement.text.has.clang-format" value="true" />
     <property name="cf.advertisement.text.overridden" value="true" />
-    <property name="last_opened_file_path" value="$USER_HOME$/CLionProjects/ft_lprintf" />
-    <property name="settings.editor.selected.configurable" value="com.jetbrains.cidr.embedded.config" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
+    <property name="restartRequiresConfirmation" value="false" />
+    <property name="settings.editor.selected.configurable" value="preferences.externalTools" />
   </component>
   <component name="RecentsManager">
     <key name="MoveFile.RECENT_KEYS">
@@ -184,18 +182,6 @@
     <key name="CopyFile.RECENT_KEYS">
       <recent name="C:\Users\n.kats\OneDrive\Desktop\42.ft_ls-master" />
     </key>
-  </component>
-  <component name="RunDashboard">
-    <option name="ruleStates">
-      <list>
-        <RuleState>
-          <option name="name" value="ConfigurationTypeDashboardGroupingRule" />
-        </RuleState>
-        <RuleState>
-          <option name="name" value="StatusDashboardGroupingRule" />
-        </RuleState>
-      </list>
-    </option>
   </component>
   <component name="RunManager">
     <configuration name="42_ft_ls_master" type="CMakeRunConfiguration" factoryName="Application" PROGRAM_PARAMS="-l" PASS_PARENT_ENVS_2="true" PROJECT_NAME="42_ft_ls_master" TARGET_NAME="42_ft_ls_master" CONFIG_NAME="Debug" RUN_TARGET_PROJECT_NAME="42_ft_ls_master" RUN_TARGET_NAME="42_ft_ls_master">
@@ -220,6 +206,8 @@
       <workItem from="1582798429903" duration="2905000" />
       <workItem from="1582808506956" duration="1241000" />
       <workItem from="1583016901177" duration="1374000" />
+      <workItem from="1583175392628" duration="5559000" />
+      <workItem from="1583429586185" duration="7203000" />
     </task>
     <servers />
   </component>
@@ -239,6 +227,68 @@
       </map>
     </option>
   </component>
+  <component name="WindowStateProjectService">
+    <state x="414" y="275" key="#com.intellij.execution.impl.EditConfigurationsDialog" timestamp="1583433618288">
+      <screen x="0" y="40" width="1920" height="1160" />
+    </state>
+    <state x="414" y="275" key="#com.intellij.execution.impl.EditConfigurationsDialog/0.40.1920.1160/-1920.49.1920.1160@0.40.1920.1160" timestamp="1583433618288" />
+    <state x="785" y="429" key="#com.intellij.tools.ToolEditorDialog" timestamp="1583226016334">
+      <screen x="0" y="40" width="1920" height="1160" />
+    </state>
+    <state x="785" y="429" key="#com.intellij.tools.ToolEditorDialog/0.40.1920.1160/-1920.49.1920.1160@0.40.1920.1160" timestamp="1583226016334" />
+    <state x="543" y="213" key="CommitChangelistDialog2" timestamp="1583430692016">
+      <screen x="0" y="40" width="1920" height="1160" />
+    </state>
+    <state x="543" y="213" key="CommitChangelistDialog2/0.40.1920.1160/-1920.49.1920.1160@0.40.1920.1160" timestamp="1583430692016" />
+    <state x="740" y="375" key="FileChooserDialogImpl" timestamp="1583176239162">
+      <screen x="0" y="40" width="1920" height="1160" />
+    </state>
+    <state x="740" y="375" key="FileChooserDialogImpl/0.40.1920.1160/-1920.49.1920.1160@0.40.1920.1160" timestamp="1583176239162" />
+    <state width="1877" height="396" key="GridCell.Tab.0.bottom" timestamp="1583436762504">
+      <screen x="0" y="40" width="1920" height="1160" />
+    </state>
+    <state width="1877" height="396" key="GridCell.Tab.0.bottom/0.40.1920.1160/-1920.49.1920.1160@0.40.1920.1160" timestamp="1583436762504" />
+    <state width="1877" height="396" key="GridCell.Tab.0.center" timestamp="1583436762504">
+      <screen x="0" y="40" width="1920" height="1160" />
+    </state>
+    <state width="1877" height="396" key="GridCell.Tab.0.center/0.40.1920.1160/-1920.49.1920.1160@0.40.1920.1160" timestamp="1583436762504" />
+    <state width="1877" height="396" key="GridCell.Tab.0.left" timestamp="1583436762504">
+      <screen x="0" y="40" width="1920" height="1160" />
+    </state>
+    <state width="1877" height="396" key="GridCell.Tab.0.left/0.40.1920.1160/-1920.49.1920.1160@0.40.1920.1160" timestamp="1583436762504" />
+    <state width="1877" height="396" key="GridCell.Tab.0.right" timestamp="1583436762504">
+      <screen x="0" y="40" width="1920" height="1160" />
+    </state>
+    <state width="1877" height="396" key="GridCell.Tab.0.right/0.40.1920.1160/-1920.49.1920.1160@0.40.1920.1160" timestamp="1583436762504" />
+    <state width="1877" height="396" key="GridCell.Tab.1.bottom" timestamp="1583436763646">
+      <screen x="0" y="40" width="1920" height="1160" />
+    </state>
+    <state width="1877" height="396" key="GridCell.Tab.1.bottom/0.40.1920.1160/-1920.49.1920.1160@0.40.1920.1160" timestamp="1583436763646" />
+    <state width="1877" height="396" key="GridCell.Tab.1.center" timestamp="1583436763646">
+      <screen x="0" y="40" width="1920" height="1160" />
+    </state>
+    <state width="1877" height="396" key="GridCell.Tab.1.center/0.40.1920.1160/-1920.49.1920.1160@0.40.1920.1160" timestamp="1583436763646" />
+    <state width="1877" height="396" key="GridCell.Tab.1.left" timestamp="1583436763646">
+      <screen x="0" y="40" width="1920" height="1160" />
+    </state>
+    <state width="1877" height="396" key="GridCell.Tab.1.left/0.40.1920.1160/-1920.49.1920.1160@0.40.1920.1160" timestamp="1583436763646" />
+    <state width="1877" height="396" key="GridCell.Tab.1.right" timestamp="1583436763646">
+      <screen x="0" y="40" width="1920" height="1160" />
+    </state>
+    <state width="1877" height="396" key="GridCell.Tab.1.right/0.40.1920.1160/-1920.49.1920.1160@0.40.1920.1160" timestamp="1583436763646" />
+    <state x="518" y="241" key="SettingsEditor" timestamp="1583226019203">
+      <screen x="0" y="40" width="1920" height="1160" />
+    </state>
+    <state x="518" y="241" key="SettingsEditor/0.40.1920.1160/-1920.49.1920.1160@0.40.1920.1160" timestamp="1583226019203" />
+    <state x="656" y="444" key="com.intellij.ide.util.TipDialog" timestamp="1583175402452">
+      <screen x="0" y="40" width="1920" height="1160" />
+    </state>
+    <state x="656" y="444" key="com.intellij.ide.util.TipDialog/0.40.1920.1160/-1920.49.1920.1160@0.40.1920.1160" timestamp="1583175402452" />
+    <state x="-1709" y="185" width="1615" height="880" key="dock-window-1" timestamp="1583432187089">
+      <screen x="-1920" y="49" width="1920" height="1160" />
+    </state>
+    <state x="-1709" y="185" width="1615" height="880" key="dock-window-1/0.40.1920.1160/-1920.49.1920.1160@0.40.1920.1160" timestamp="1583432187089" />
+  </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
       <breakpoints>
@@ -248,16 +298,26 @@
           <option name="timeStamp" value="11" />
         </line-breakpoint>
         <line-breakpoint enabled="true" type="com.jetbrains.cidr.execution.debugger.OCBreakpointType">
-          <url>file://$PROJECT_DIR$/src/utils/print/print_list.c</url>
-          <line>57</line>
-          <option name="timeStamp" value="14" />
+          <url>file://$PROJECT_DIR$/src/main.c</url>
+          <line>94</line>
+          <option name="timeStamp" value="23" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="com.jetbrains.cidr.execution.debugger.OCBreakpointType">
+          <url>file://$PROJECT_DIR$/libft/src/lst/ft_push_ptr.c</url>
+          <line>55</line>
+          <option name="timeStamp" value="26" />
         </line-breakpoint>
       </breakpoints>
     </breakpoint-manager>
     <watches-manager>
       <configuration name="CMakeRunConfiguration">
         <watch expression="len[i]" language="ObjectiveC" />
-        <watch expression="file-&gt;entry[i]" language="ObjectiveC" />
+        <watch expression="file-&gt;entry[i++]" language="ObjectiveC" />
+        <watch expression="len[count]" language="ObjectiveC" />
+        <watch expression="tmp-&gt;entry[count]" language="ObjectiveC" />
+        <watch expression="g_memlst" language="ObjectiveC" />
+        <watch expression="(*head)-&gt;memptr" language="ObjectiveC" />
+        <watch expression="g_memlst-&gt;memptr" language="ObjectiveC" />
       </configuration>
     </watches-manager>
   </component>

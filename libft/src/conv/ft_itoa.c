@@ -11,42 +11,46 @@
 /* ************************************************************************** */
 
 #include "libft.h"
-#include <stdlib.h>
+#include <string.h>
 
-static void		itoa_is_negative(int *n, int *negative)
+static size_t	digit_count(long n)
 {
-	if (*n < 0)
+	size_t i;
+
+	i = 1;
+	if (n < 0)
+		n = -n;
+	while (n >= 10)
 	{
-		*n *= -1;
-		*negative = 1;
+		i++;
+		n /= 10;
 	}
+	return (i);
 }
 
 char			*ft_itoa(int n)
 {
-	int		tempn;
-	int		len;
-	int		negative;
+	long	v;
+	size_t	count;
 	char	*str;
+	char	neg;
 
-	if (n == -2147483648)
-		return (ft_strdup("-2147483648"));
-	tempn = n;
-	len = 2;
-	negative = 0;
-	itoa_is_negative(&n, &negative);
-	while (tempn /= 10)
-		len++;
-	len += negative;
-	if ((str = (char*)malloc(sizeof(char) * len)) == NULL)
+	v = n;
+	neg = (v < 0 ? 1 : 0);
+	count = digit_count(v);
+	str = ft_strnew(count + neg);
+	if (str == NULL)
 		return (NULL);
-	str[--len] = '\0';
-	while (len--)
+	if (neg)
 	{
-		str[len] = n % 10 + '0';
-		n = n / 10;
-	}
-	if (negative)
+		v = -v;
 		str[0] = '-';
+	}
+	while (count > 0)
+	{
+		str[count + neg - 1] = (v % 10) + '0';
+		count--;
+		v /= 10;
+	}
 	return (str);
 }

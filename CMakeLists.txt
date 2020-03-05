@@ -117,4 +117,4 @@ add_executable(42_ft_ls_master
         src/utils/create_file.c
         src/utils/delete_files.c
         src/ft_ls.c
-        src/main.c libft/src/put/ft_lprintf.c)
+        src/main.c libft/src/put/ft_lprintf.c libft/src/lst/ft_push_ptr.c)

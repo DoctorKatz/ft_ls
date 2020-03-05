@@ -6,7 +6,7 @@
 /*   By: lgunship <lgunship@student.42.fr>          +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2020/02/22 00:01:38 by lgunship          #+#    #+#             */
-/*   Updated: 2020/03/01 02:09:50 by lgunship         ###   ########.fr       */
+/*   Updated: 2020/03/02 22:09:52 by null             ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -41,5 +41,5 @@ void	print_perm(t_file *file, char *path)
 	else
 		ft_putchar((file->stat.st_mode & S_IXOTH) ? 'x' : '-');
 	t = ft_zlprintf("%s/%s", path, file->name);
-	ft_putchar(((l = listxattr(t, buf, sizeof(buf) - 1, 0)) > 0) ? '@' : ' ');
+	ft_putchar(((l = listxattr(t, buf, sizeof(buf) - 1)) > 0) ? '@' : ' ');
 }
