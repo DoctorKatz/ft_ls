@@ -44,10 +44,11 @@ int			ft_lstpop(t_mnode **head)
 void		ft_memlstdelete(t_mnode **head)
 {
 	t_mnode* prev = NULL;
-
+int i = 0;
 	while ((*head)->next)
 	{
-		if (((*head)->memptr != NULL) && (ft_strlen((*head)->memptr) != 0))
+		i++;
+		if ((*head)->memptr != NULL)
 			free((*head)->memptr);
 		prev = (*head);
 		(*head) = (*head)->next;

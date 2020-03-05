@@ -27,7 +27,11 @@ t_file		*file_del(t_file *file)
 	{
 		ft_strdel(&(file->name));
 		while (file->entry[++i])
+		{
 			ft_strdel(&(file->entry[i]));
+			file->entry[i] = NULL;
+		}
+
 		free(file);
 		file = NULL;
 	}

@@ -45,13 +45,13 @@ static void		ls(char *path, int type, char *opt, int count)
 		{
 			ft_lprintf("\n");
 			if (!ft_strcmp("/", path))
-				ls(ft_zprintf("%s%s", path, file->name), 1, opt, count + 1);
+				ls(ft_zlprintf("%s%s", path, file->name), 1, opt, count + 1);
 			else
-				ls(ft_zprintf("%s/%s", path, file->name), 1, opt, count + 1);
+				ls(ft_zlprintf("%s/%s", path, file->name), 1, opt, count + 1);
 		}
 		file = file_del(file);
 	}
-	delete_files(file);
+	//delete_files(file);
 	ft_strdel(&path);
 	return ;
 }

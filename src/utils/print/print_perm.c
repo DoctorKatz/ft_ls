@@ -41,5 +41,5 @@ void	print_perm(t_file *file, char *path)
 	else
 		ft_putchar((file->stat.st_mode & S_IXOTH) ? 'x' : '-');
 	t = ft_zlprintf("%s/%s", path, file->name);
-	ft_putchar(((l = listxattr(t, buf, sizeof(buf) - 1)) > 0) ? '@' : ' ');
+	ft_putchar(((l = listxattr(t, buf, sizeof(buf) - 1, 0)) > 0) ? '@' : ' ');
 }

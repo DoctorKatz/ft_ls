@@ -12,12 +12,15 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="4feee3db-1b26-4a2d-bdd2-e84f7fd1a485" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/libft/src/lst/ft_push_ptr.c" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/CMakeLists.txt" beforeDir="false" afterPath="$PROJECT_DIR$/CMakeLists.txt" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/cmake-build-debug/42_ft_ls_master" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/42_ft_ls_master" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/cmake-build-debug/42_ft_ls_master.cbp" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/42_ft_ls_master.cbp" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeCache.txt" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeCache.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/3.10.2/CMakeCCompiler.cmake" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/3.10.2/CMakeDetermineCompilerABI_C.bin" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/3.10.2/CMakeSystem.cmake" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/3.10.2/CompilerIdC/CMakeCCompilerId.c" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/3.10.2/CompilerIdC/a.out" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/42_ft_ls_master.dir/C.includecache" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/42_ft_ls_master.dir/C.includecache" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/42_ft_ls_master.dir/DependInfo.cmake" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/42_ft_ls_master.dir/DependInfo.cmake" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/42_ft_ls_master.dir/build.make" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/42_ft_ls_master.dir/build.make" afterDir="false" />
@@ -55,6 +58,7 @@
       <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/42_ft_ls_master.dir/libft/src/lst/ft_lstmap.c.o" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/42_ft_ls_master.dir/libft/src/lst/ft_lstmap.c.o" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/42_ft_ls_master.dir/libft/src/lst/ft_lstnew.c.o" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/42_ft_ls_master.dir/libft/src/lst/ft_lstnew.c.o" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/42_ft_ls_master.dir/libft/src/lst/ft_lstrev.c.o" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/42_ft_ls_master.dir/libft/src/lst/ft_lstrev.c.o" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/42_ft_ls_master.dir/libft/src/lst/ft_push_ptr.c.o" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/42_ft_ls_master.dir/libft/src/lst/ft_push_ptr.c.o" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/42_ft_ls_master.dir/libft/src/math/ft_clamp.c.o" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/42_ft_ls_master.dir/libft/src/math/ft_clamp.c.o" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/42_ft_ls_master.dir/libft/src/math/ft_isprime.c.o" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/42_ft_ls_master.dir/libft/src/math/ft_isprime.c.o" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/42_ft_ls_master.dir/libft/src/math/ft_iterative_power.c.o" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/42_ft_ls_master.dir/libft/src/math/ft_iterative_power.c.o" afterDir="false" />
@@ -108,7 +112,6 @@
       <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/42_ft_ls_master.dir/libft/src/str/ft_strsub.c.o" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/42_ft_ls_master.dir/libft/src/str/ft_strsub.c.o" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/42_ft_ls_master.dir/libft/src/str/ft_strtrim.c.o" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/42_ft_ls_master.dir/libft/src/str/ft_strtrim.c.o" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/42_ft_ls_master.dir/link.txt" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/42_ft_ls_master.dir/link.txt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/42_ft_ls_master.dir/progress.make" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/42_ft_ls_master.dir/progress.make" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/42_ft_ls_master.dir/src/ft_ls.c.o" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/42_ft_ls_master.dir/src/ft_ls.c.o" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/42_ft_ls_master.dir/src/main.c.o" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/42_ft_ls_master.dir/src/main.c.o" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/42_ft_ls_master.dir/src/t_file/file_add.c.o" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/42_ft_ls_master.dir/src/t_file/file_add.c.o" afterDir="false" />
@@ -139,18 +142,22 @@
       <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/TargetDirectories.txt" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/TargetDirectories.txt" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/clion-environment.txt" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/clion-environment.txt" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/clion-log.txt" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/clion-log.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/feature_tests.bin" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/feature_tests.c" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/cmake-build-debug/Makefile" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/Makefile" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/cmake-build-debug/cmake_install.cmake" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/cmake_install.cmake" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/libft/ft_printf/ft_printf.h" beforeDir="false" afterPath="$PROJECT_DIR$/libft/ft_printf/ft_printf.h" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/libft/inc/libft.h" beforeDir="false" afterPath="$PROJECT_DIR$/libft/inc/libft.h" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/libft/src/conv/ft_itoa.c" beforeDir="false" afterPath="$PROJECT_DIR$/libft/src/conv/ft_itoa.c" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/libft/src/lst/ft_push_ptr.c" beforeDir="false" afterPath="$PROJECT_DIR$/libft/src/lst/ft_push_ptr.c" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/libft/src/put/ft_lprintf.c" beforeDir="false" afterPath="$PROJECT_DIR$/libft/src/put/ft_lprintf.c" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/libft/src/str/ft_strdel.c" beforeDir="false" afterPath="$PROJECT_DIR$/libft/src/str/ft_strdel.c" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main.c" beforeDir="false" afterPath="$PROJECT_DIR$/src/main.c" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/utils/print/print_entry.c" beforeDir="false" afterPath="$PROJECT_DIR$/src/utils/print/print_entry.c" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/utils/print/print_list.c" beforeDir="false" afterPath="$PROJECT_DIR$/src/utils/print/print_list.c" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/ft_ls.c" beforeDir="false" afterPath="$PROJECT_DIR$/src/ft_ls.c" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/t_file/file_add.c" beforeDir="false" afterPath="$PROJECT_DIR$/src/t_file/file_add.c" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/t_file/file_del.c" beforeDir="false" afterPath="$PROJECT_DIR$/src/t_file/file_del.c" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/t_path/path_del.c" beforeDir="false" afterPath="$PROJECT_DIR$/src/t_path/path_del.c" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/utils/delete_files.c" beforeDir="false" afterPath="$PROJECT_DIR$/src/utils/delete_files.c" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/utils/print/print_date.c" beforeDir="false" afterPath="$PROJECT_DIR$/src/utils/print/print_date.c" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/utils/print/print_perm.c" beforeDir="false" afterPath="$PROJECT_DIR$/src/utils/print/print_perm.c" afterDir="false" />
     </list>
+    <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -183,8 +190,20 @@
       <recent name="C:\Users\n.kats\OneDrive\Desktop\42.ft_ls-master" />
     </key>
   </component>
+  <component name="RunDashboard">
+    <option name="ruleStates">
+      <list>
+        <RuleState>
+          <option name="name" value="ConfigurationTypeDashboardGroupingRule" />
+        </RuleState>
+        <RuleState>
+          <option name="name" value="StatusDashboardGroupingRule" />
+        </RuleState>
+      </list>
+    </option>
+  </component>
   <component name="RunManager">
-    <configuration name="42_ft_ls_master" type="CMakeRunConfiguration" factoryName="Application" PROGRAM_PARAMS="-l" PASS_PARENT_ENVS_2="true" PROJECT_NAME="42_ft_ls_master" TARGET_NAME="42_ft_ls_master" CONFIG_NAME="Debug" RUN_TARGET_PROJECT_NAME="42_ft_ls_master" RUN_TARGET_NAME="42_ft_ls_master">
+    <configuration name="42_ft_ls_master" type="CMakeRunConfiguration" factoryName="Application" PROGRAM_PARAMS="-lt" PASS_PARENT_ENVS_2="true" PROJECT_NAME="42_ft_ls_master" TARGET_NAME="42_ft_ls_master" CONFIG_NAME="Debug" RUN_TARGET_PROJECT_NAME="42_ft_ls_master" RUN_TARGET_NAME="42_ft_ls_master">
       <method v="2">
         <option name="com.jetbrains.cidr.execution.CidrBuildBeforeRunTaskProvider$BuildBeforeRunTask" enabled="true" />
       </method>
@@ -208,6 +227,8 @@
       <workItem from="1583016901177" duration="1374000" />
       <workItem from="1583175392628" duration="5559000" />
       <workItem from="1583429586185" duration="7203000" />
+      <workItem from="1583441851977" duration="55000" />
+      <workItem from="1583441974900" duration="4537000" />
     </task>
     <servers />
   </component>
@@ -293,19 +314,14 @@
     <breakpoint-manager>
       <breakpoints>
         <line-breakpoint enabled="true" type="com.jetbrains.cidr.execution.debugger.OCBreakpointType">
-          <url>file://$PROJECT_DIR$/src/utils/print/print_date.c</url>
-          <line>61</line>
-          <option name="timeStamp" value="11" />
-        </line-breakpoint>
-        <line-breakpoint enabled="true" type="com.jetbrains.cidr.execution.debugger.OCBreakpointType">
           <url>file://$PROJECT_DIR$/src/main.c</url>
           <line>94</line>
           <option name="timeStamp" value="23" />
         </line-breakpoint>
         <line-breakpoint enabled="true" type="com.jetbrains.cidr.execution.debugger.OCBreakpointType">
-          <url>file://$PROJECT_DIR$/libft/src/lst/ft_push_ptr.c</url>
-          <line>55</line>
-          <option name="timeStamp" value="26" />
+          <url>file://$PROJECT_DIR$/src/utils/print/print_date.c</url>
+          <line>61</line>
+          <option name="timeStamp" value="30" />
         </line-breakpoint>
       </breakpoints>
     </breakpoint-manager>

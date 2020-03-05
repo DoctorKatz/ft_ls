@@ -88,6 +88,13 @@ char				*zcheck_flags(int d, char *s, char *c, va_list factor)
 		s = va_arg(factor, char *);
 		return (s);
 	}
+	else if (*c == 'm')
+	{
+		s = va_arg(factor, char *);
+		temp = ft_strrchr(s, ':');
+		*temp = '\0';
+		return (s);
+	}
 	return (c);
 }
 

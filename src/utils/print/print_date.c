@@ -59,15 +59,15 @@ void			print_date(t_file *file, char *opt, int *count)
 	if (get_diff(tme, opt, file) > SIX_MONTHS || get_diff(tme, opt, file) > tme)
 	{
 		if (!ft_findchr(opt, 'T'))
-			file->entry[(*count)++] = ft_zprintf("%.6s  %.4s", tm + 4, tm + 20);
+			file->entry[(*count)++] = ft_zlprintf("%.6s  %.4s", tm + 4, tm + 20);
 		else
-			file->entry[(*count)++] = ft_zprintf("%s", tm + 4);
+			file->entry[(*count)++] = ft_zlprintf("%s", tm + 4);
 	}
 	else
 	{
 		if (!ft_findchr(opt, 'T'))
-			file->entry[(*count)++] = ft_zprintf("%.12s", tm + 4);
+			file->entry[(*count)++] = ft_zlprintf("%m", tm + 4);
 		else
-			file->entry[(*count)++] = ft_zprintf("%s", tm + 4);
+			file->entry[(*count)++] = ft_zlprintf("%s", tm + 4);
 	}
 }
