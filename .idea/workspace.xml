@@ -13,14 +13,11 @@
   <component name="ChangeListManager">
     <list default="true" id="4feee3db-1b26-4a2d-bdd2-e84f7fd1a485" name="Default Changelist" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/CMakeLists.txt" beforeDir="false" afterPath="$PROJECT_DIR$/CMakeLists.txt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Makefile" beforeDir="false" afterPath="$PROJECT_DIR$/Makefile" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/cmake-build-debug/42_ft_ls_master" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/42_ft_ls_master" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/42_ft_ls_master.dir/C.includecache" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/42_ft_ls_master.dir/C.includecache" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/42_ft_ls_master.dir/libft/src/lst/ft_push_ptr.c.o" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/42_ft_ls_master.dir/libft/src/lst/ft_push_ptr.c.o" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/42_ft_ls_master.dir/libft/src/put/ft_lprintf.c.o" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/42_ft_ls_master.dir/libft/src/put/ft_lprintf.c.o" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/42_ft_ls_master.dir/src/main.c.o" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/42_ft_ls_master.dir/src/main.c.o" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/includes/ft_ls.h" beforeDir="false" afterPath="$PROJECT_DIR$/includes/ft_ls.h" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/libft/Makefile" beforeDir="false" afterPath="$PROJECT_DIR$/libft/Makefile" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/libft/inc/libft.h" beforeDir="false" afterPath="$PROJECT_DIR$/libft/inc/libft.h" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/libft/src/lst/ft_push_ptr.c" beforeDir="false" afterPath="$PROJECT_DIR$/libft/src/lst/ft_push_ptr.c" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/libft/src/put/ft_lprintf.c" beforeDir="false" afterPath="$PROJECT_DIR$/libft/src/put/ft_lprintf.c" afterDir="false" />
     </list>
@@ -71,7 +68,7 @@
     </option>
   </component>
   <component name="RunManager">
-    <configuration name="42_ft_ls_master" type="CMakeRunConfiguration" factoryName="Application" PROGRAM_PARAMS="-lt" PASS_PARENT_ENVS_2="true" PROJECT_NAME="42_ft_ls_master" TARGET_NAME="42_ft_ls_master" CONFIG_NAME="Debug" RUN_TARGET_PROJECT_NAME="42_ft_ls_master" RUN_TARGET_NAME="42_ft_ls_master">
+    <configuration name="42_ft_ls_master" type="CMakeRunConfiguration" factoryName="Application" PROGRAM_PARAMS="-lc" PASS_PARENT_ENVS_2="true" PROJECT_NAME="42_ft_ls_master" TARGET_NAME="42_ft_ls_master" CONFIG_NAME="Debug" RUN_TARGET_PROJECT_NAME="42_ft_ls_master" RUN_TARGET_NAME="42_ft_ls_master">
       <method v="2">
         <option name="com.jetbrains.cidr.execution.CidrBuildBeforeRunTaskProvider$BuildBeforeRunTask" enabled="true" />
       </method>
@@ -97,7 +94,7 @@
       <workItem from="1583429586185" duration="7203000" />
       <workItem from="1583441851977" duration="55000" />
       <workItem from="1583441974900" duration="10796000" />
-      <workItem from="1583789475804" duration="4169000" />
+      <workItem from="1583789475804" duration="6988000" />
     </task>
     <task id="LOCAL-00001" summary="-t not working&#10;-R refree error">
       <created>1583446865079</created>
@@ -113,7 +110,14 @@
       <option name="project" value="LOCAL" />
       <updated>1583792193590</updated>
     </task>
-    <option name="localTasksCounter" value="3" />
+    <task id="LOCAL-00003" summary="normmm">
+      <created>1583793879888</created>
+      <option name="number" value="00003" />
+      <option name="presentableId" value="LOCAL-00003" />
+      <option name="project" value="LOCAL" />
+      <updated>1583793879888</updated>
+    </task>
+    <option name="localTasksCounter" value="4" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
