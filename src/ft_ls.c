@@ -51,8 +51,6 @@ static void		ls(char *path, int type, char *opt, int count)
 		}
 		file = file_del(file);
 	}
-	//delete_files(file);
-	ft_strdel(&path);
 	return ;
 }
 

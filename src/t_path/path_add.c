@@ -12,6 +12,7 @@
 
 #include "ft_ls.h"
 
+extern t_mnode	*g_memlst;
 /*
 ** Checks if a path is a directory.
 */
@@ -49,7 +50,7 @@ static int		check_dir(char *path, char *opt)
 		}
 	}
 	if (ret == -1)
-		ft_dprintf(2, "ls: %s: %s\n", path, strerror(errno));
+		ft_lprintf("ls: %s: %s\n", path, strerror(errno));
 	return (!ret ? SYM_PATH : ret);
 }
 
@@ -66,6 +67,7 @@ t_path			*path_add(t_path *path, char *dir, char *opt)
 		return (NULL);
 	last->type = check_dir(dir, opt);
 	last->name = ft_strdup(dir);
+	ft_push_ptr(&g_memlst,last->name);
 	last->next = NULL;
 	if (!path)
 		return (last);

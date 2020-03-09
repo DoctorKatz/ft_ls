@@ -11,12 +11,15 @@
 /* ************************************************************************** */
 
 #include "ft_ls.h"
+#include "libft.h"
+
+extern t_mnode	*g_memlst;
 
 /*
 ** Delete an entry from the file list.
 */
 
-t_file		*file_del(t_file *file)
+t_file			*file_del(t_file *file)
 {
 	int		i;
 	t_file	*tmp;
@@ -25,15 +28,10 @@ t_file		*file_del(t_file *file)
 	tmp = (!file ? NULL : file->next);
 	if (file || file->next)
 	{
-		ft_strdel(&(file->name));
 		while (file->entry[++i])
 		{
-			ft_strdel(&(file->entry[i]));
 			file->entry[i] = NULL;
 		}
-
-		free(file);
-		file = NULL;
 	}
 	return (tmp);
 }
