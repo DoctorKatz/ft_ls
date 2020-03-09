@@ -6,7 +6,7 @@
 /*   By: lgunship <lgunship@student.42.fr>          +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2020/03/01 01:54:29 by lgunship          #+#    #+#             */
-/*   Updated: 2020/03/05 21:23:19 by null             ###   ########.fr       */
+/*   Updated: 2020/03/10 01:14:57 by lgunship         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -100,32 +100,29 @@ char				*zcheck_flags(int d, char *s, char *c, va_list factor)
 
 char				*ft_zlprintf(char *format, ...)
 {
-	t_print			t_values;
+	t_print			t_val;
 	va_list			factor;
 	int				i;
-	char 			*str;
 
-	str = (char*)malloc(sizeof(char) * 256);
-	*str = '\0';
-	ft_push_ptr(&g_memlst, str);
+	t_val.pstr = ft_strnewnull(t_val.pstr);
+	ft_push_ptr(&g_memlst, t_val.pstr);
 	va_start(factor, format);
-	t_values.c = format;
-	ft_strclr(t_values.str);
-	while (*(t_values.c))
+	t_val.c = format;
+	ft_strclr(t_val.str);
+	while (*(t_val.c))
 	{
-		i = ft_strlen(t_values.str);
-		if (*(t_values.c) != '%')
+		i = ft_strlen(t_val.str);
+		if (*(t_val.c) != '%')
 		{
-			t_values.str[i] = *(t_values.c);
-			t_values.str[++i] = '\0';
-			t_values.c++;
+			t_val.str[i] = *(t_val.c);
+			t_val.str[++i] = '\0';
+			t_val.c++;
 			continue;
 		}
-		ft_strcat(t_values.str, zcheck_flags(t_values.d,\
-			t_values.s, t_values.c, factor));
-		t_values.c += 2;
+		ft_strcat(t_val.str, zcheck_flags(t_val.d, t_val.s, t_val.c, factor));
+		t_val.c += 2;
 	}
-	ft_strcat(str, t_values.str);
+	ft_strcat(t_val.pstr, t_val.str);
 	va_end(factor);
-	return (str);
+	return (t_val.pstr);
 }

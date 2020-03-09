@@ -3,10 +3,10 @@
 /*                                                        :::      ::::::::   */
 /*   file_dir.c                                         :+:      :+:    :+:   */
 /*                                                    +:+ +:+         +:+     */
-/*   By: jaleman <jaleman@student.42.us.org>        +#+  +:+       +#+        */
+/*   By: lgunship <lgunship@student.42.fr>          +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
-/*   Created: 2019/02/15 18:18:00 by jaleman           #+#    #+#             */
-/*   Updated: 2019/02/15 18:18:01 by jaleman          ###   ########.fr       */
+/*   Created: 2020/02/20 00:12:39 by lgunship          #+#    #+#             */
+/*   Updated: 2020/03/10 00:44:00 by lgunship         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -32,10 +32,9 @@ static t_file		*file_dir_create(DIR *ptr, char *path, char *opt)
 		if ((!ft_strcmp(".", ret->d_name) || !ft_strcmp("..", ret->d_name)) \
 				&& ft_findchr(opt, 'A'))
 			continue;
-		cpath = ft_zprintf("%s/%s", path, ret->d_name);
+		cpath = ft_zlprintf("%s/%s", path, ret->d_name);
 		lstat(cpath, &vstat);
 		dir = file_add(dir, ret->d_name, vstat, ret->d_type);
-		ft_strdel(&cpath);
 	}
 	if (ret)
 		free(ret);
@@ -59,6 +58,6 @@ t_file				*file_dir(char *path, char *opt)
 		closedir(ptr);
 	}
 	else
-		ft_dprintf(2, "ls: %s: %s\n", path, strerror(errno));
+		ft_lprintf("ls: %s: %s\n", path, strerror(errno));
 	return (dir);
 }

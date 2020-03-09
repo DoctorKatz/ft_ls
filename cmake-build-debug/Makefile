@@ -39,19 +39,19 @@ cmake_force:
 SHELL = /bin/sh
 
 # The CMake executable.
-CMAKE_COMMAND = /Users/n.kats/Desktop/CLion.app/Contents/bin/cmake/mac/bin/cmake
+CMAKE_COMMAND = /Users/lgunship/Desktop/CLion.app/Contents/bin/cmake/mac/bin/cmake
 
 # The command to remove a file.
-RM = /Users/n.kats/Desktop/CLion.app/Contents/bin/cmake/mac/bin/cmake -E remove -f
+RM = /Users/lgunship/Desktop/CLion.app/Contents/bin/cmake/mac/bin/cmake -E remove -f
 
 # Escaping for special characters.
 EQUALS = =
 
 # The top-level source directory on which CMake was run.
-CMAKE_SOURCE_DIR = /Users/n.kats/CLionProjects/ft_ls
+CMAKE_SOURCE_DIR = /Users/lgunship/Desktop/CLion_Work_Dir/ft_ls1
 
 # The top-level build directory on which CMake was run.
-CMAKE_BINARY_DIR = /Users/n.kats/CLionProjects/ft_ls/cmake-build-debug
+CMAKE_BINARY_DIR = /Users/lgunship/Desktop/CLion_Work_Dir/ft_ls1/cmake-build-debug
 
 #=============================================================================
 # Targets provided globally by CMake.
@@ -59,7 +59,7 @@ CMAKE_BINARY_DIR = /Users/n.kats/CLionProjects/ft_ls/cmake-build-debug
 # Special rule for the target rebuild_cache
 rebuild_cache:
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --cyan "Running CMake to regenerate build system..."
-	/Users/n.kats/Desktop/CLion.app/Contents/bin/cmake/mac/bin/cmake -S$(CMAKE_SOURCE_DIR) -B$(CMAKE_BINARY_DIR)
+	/Users/lgunship/Desktop/CLion.app/Contents/bin/cmake/mac/bin/cmake -S$(CMAKE_SOURCE_DIR) -B$(CMAKE_BINARY_DIR)
 .PHONY : rebuild_cache
 
 # Special rule for the target rebuild_cache
@@ -70,7 +70,7 @@ rebuild_cache/fast: rebuild_cache
 # Special rule for the target edit_cache
 edit_cache:
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --cyan "No interactive CMake dialog available..."
-	/Users/n.kats/Desktop/CLion.app/Contents/bin/cmake/mac/bin/cmake -E echo No\ interactive\ CMake\ dialog\ available.
+	/Users/lgunship/Desktop/CLion.app/Contents/bin/cmake/mac/bin/cmake -E echo No\ interactive\ CMake\ dialog\ available.
 .PHONY : edit_cache
 
 # Special rule for the target edit_cache
@@ -80,9 +80,9 @@ edit_cache/fast: edit_cache
 
 # The main all target
 all: cmake_check_build_system
-	$(CMAKE_COMMAND) -E cmake_progress_start /Users/n.kats/CLionProjects/ft_ls/cmake-build-debug/CMakeFiles /Users/n.kats/CLionProjects/ft_ls/cmake-build-debug/CMakeFiles/progress.marks
+	$(CMAKE_COMMAND) -E cmake_progress_start /Users/lgunship/Desktop/CLion_Work_Dir/ft_ls1/cmake-build-debug/CMakeFiles /Users/lgunship/Desktop/CLion_Work_Dir/ft_ls1/cmake-build-debug/CMakeFiles/progress.marks
 	$(MAKE) -f CMakeFiles/Makefile2 all
-	$(CMAKE_COMMAND) -E cmake_progress_start /Users/n.kats/CLionProjects/ft_ls/cmake-build-debug/CMakeFiles 0
+	$(CMAKE_COMMAND) -E cmake_progress_start /Users/lgunship/Desktop/CLion_Work_Dir/ft_ls1/cmake-build-debug/CMakeFiles 0
 .PHONY : all
 
 # The main clean target
@@ -122,276 +122,6 @@ depend:
 42_ft_ls_master/fast:
 	$(MAKE) -f CMakeFiles/42_ft_ls_master.dir/build.make CMakeFiles/42_ft_ls_master.dir/build
 .PHONY : 42_ft_ls_master/fast
-
-libft/ft_printf/ft_printf.o: libft/ft_printf/ft_printf.c.o
-
-.PHONY : libft/ft_printf/ft_printf.o
-
-# target to build an object file
-libft/ft_printf/ft_printf.c.o:
-	$(MAKE) -f CMakeFiles/42_ft_ls_master.dir/build.make CMakeFiles/42_ft_ls_master.dir/libft/ft_printf/ft_printf.c.o
-.PHONY : libft/ft_printf/ft_printf.c.o
-
-libft/ft_printf/ft_printf.i: libft/ft_printf/ft_printf.c.i
-
-.PHONY : libft/ft_printf/ft_printf.i
-
-# target to preprocess a source file
-libft/ft_printf/ft_printf.c.i:
-	$(MAKE) -f CMakeFiles/42_ft_ls_master.dir/build.make CMakeFiles/42_ft_ls_master.dir/libft/ft_printf/ft_printf.c.i
-.PHONY : libft/ft_printf/ft_printf.c.i
-
-libft/ft_printf/ft_printf.s: libft/ft_printf/ft_printf.c.s
-
-.PHONY : libft/ft_printf/ft_printf.s
-
-# target to generate assembly for a file
-libft/ft_printf/ft_printf.c.s:
-	$(MAKE) -f CMakeFiles/42_ft_ls_master.dir/build.make CMakeFiles/42_ft_ls_master.dir/libft/ft_printf/ft_printf.c.s
-.PHONY : libft/ft_printf/ft_printf.c.s
-
-libft/ft_printf/pf_base.o: libft/ft_printf/pf_base.c.o
-
-.PHONY : libft/ft_printf/pf_base.o
-
-# target to build an object file
-libft/ft_printf/pf_base.c.o:
-	$(MAKE) -f CMakeFiles/42_ft_ls_master.dir/build.make CMakeFiles/42_ft_ls_master.dir/libft/ft_printf/pf_base.c.o
-.PHONY : libft/ft_printf/pf_base.c.o
-
-libft/ft_printf/pf_base.i: libft/ft_printf/pf_base.c.i
-
-.PHONY : libft/ft_printf/pf_base.i
-
-# target to preprocess a source file
-libft/ft_printf/pf_base.c.i:
-	$(MAKE) -f CMakeFiles/42_ft_ls_master.dir/build.make CMakeFiles/42_ft_ls_master.dir/libft/ft_printf/pf_base.c.i
-.PHONY : libft/ft_printf/pf_base.c.i
-
-libft/ft_printf/pf_base.s: libft/ft_printf/pf_base.c.s
-
-.PHONY : libft/ft_printf/pf_base.s
-
-# target to generate assembly for a file
-libft/ft_printf/pf_base.c.s:
-	$(MAKE) -f CMakeFiles/42_ft_ls_master.dir/build.make CMakeFiles/42_ft_ls_master.dir/libft/ft_printf/pf_base.c.s
-.PHONY : libft/ft_printf/pf_base.c.s
-
-libft/ft_printf/pf_ftoa.o: libft/ft_printf/pf_ftoa.c.o
-
-.PHONY : libft/ft_printf/pf_ftoa.o
-
-# target to build an object file
-libft/ft_printf/pf_ftoa.c.o:
-	$(MAKE) -f CMakeFiles/42_ft_ls_master.dir/build.make CMakeFiles/42_ft_ls_master.dir/libft/ft_printf/pf_ftoa.c.o
-.PHONY : libft/ft_printf/pf_ftoa.c.o
-
-libft/ft_printf/pf_ftoa.i: libft/ft_printf/pf_ftoa.c.i
-
-.PHONY : libft/ft_printf/pf_ftoa.i
-
-# target to preprocess a source file
-libft/ft_printf/pf_ftoa.c.i:
-	$(MAKE) -f CMakeFiles/42_ft_ls_master.dir/build.make CMakeFiles/42_ft_ls_master.dir/libft/ft_printf/pf_ftoa.c.i
-.PHONY : libft/ft_printf/pf_ftoa.c.i
-
-libft/ft_printf/pf_ftoa.s: libft/ft_printf/pf_ftoa.c.s
-
-.PHONY : libft/ft_printf/pf_ftoa.s
-
-# target to generate assembly for a file
-libft/ft_printf/pf_ftoa.c.s:
-	$(MAKE) -f CMakeFiles/42_ft_ls_master.dir/build.make CMakeFiles/42_ft_ls_master.dir/libft/ft_printf/pf_ftoa.c.s
-.PHONY : libft/ft_printf/pf_ftoa.c.s
-
-libft/ft_printf/pf_len.o: libft/ft_printf/pf_len.c.o
-
-.PHONY : libft/ft_printf/pf_len.o
-
-# target to build an object file
-libft/ft_printf/pf_len.c.o:
-	$(MAKE) -f CMakeFiles/42_ft_ls_master.dir/build.make CMakeFiles/42_ft_ls_master.dir/libft/ft_printf/pf_len.c.o
-.PHONY : libft/ft_printf/pf_len.c.o
-
-libft/ft_printf/pf_len.i: libft/ft_printf/pf_len.c.i
-
-.PHONY : libft/ft_printf/pf_len.i
-
-# target to preprocess a source file
-libft/ft_printf/pf_len.c.i:
-	$(MAKE) -f CMakeFiles/42_ft_ls_master.dir/build.make CMakeFiles/42_ft_ls_master.dir/libft/ft_printf/pf_len.c.i
-.PHONY : libft/ft_printf/pf_len.c.i
-
-libft/ft_printf/pf_len.s: libft/ft_printf/pf_len.c.s
-
-.PHONY : libft/ft_printf/pf_len.s
-
-# target to generate assembly for a file
-libft/ft_printf/pf_len.c.s:
-	$(MAKE) -f CMakeFiles/42_ft_ls_master.dir/build.make CMakeFiles/42_ft_ls_master.dir/libft/ft_printf/pf_len.c.s
-.PHONY : libft/ft_printf/pf_len.c.s
-
-libft/ft_printf/pf_options.o: libft/ft_printf/pf_options.c.o
-
-.PHONY : libft/ft_printf/pf_options.o
-
-# target to build an object file
-libft/ft_printf/pf_options.c.o:
-	$(MAKE) -f CMakeFiles/42_ft_ls_master.dir/build.make CMakeFiles/42_ft_ls_master.dir/libft/ft_printf/pf_options.c.o
-.PHONY : libft/ft_printf/pf_options.c.o
-
-libft/ft_printf/pf_options.i: libft/ft_printf/pf_options.c.i
-
-.PHONY : libft/ft_printf/pf_options.i
-
-# target to preprocess a source file
-libft/ft_printf/pf_options.c.i:
-	$(MAKE) -f CMakeFiles/42_ft_ls_master.dir/build.make CMakeFiles/42_ft_ls_master.dir/libft/ft_printf/pf_options.c.i
-.PHONY : libft/ft_printf/pf_options.c.i
-
-libft/ft_printf/pf_options.s: libft/ft_printf/pf_options.c.s
-
-.PHONY : libft/ft_printf/pf_options.s
-
-# target to generate assembly for a file
-libft/ft_printf/pf_options.c.s:
-	$(MAKE) -f CMakeFiles/42_ft_ls_master.dir/build.make CMakeFiles/42_ft_ls_master.dir/libft/ft_printf/pf_options.c.s
-.PHONY : libft/ft_printf/pf_options.c.s
-
-libft/ft_printf/pf_parsing.o: libft/ft_printf/pf_parsing.c.o
-
-.PHONY : libft/ft_printf/pf_parsing.o
-
-# target to build an object file
-libft/ft_printf/pf_parsing.c.o:
-	$(MAKE) -f CMakeFiles/42_ft_ls_master.dir/build.make CMakeFiles/42_ft_ls_master.dir/libft/ft_printf/pf_parsing.c.o
-.PHONY : libft/ft_printf/pf_parsing.c.o
-
-libft/ft_printf/pf_parsing.i: libft/ft_printf/pf_parsing.c.i
-
-.PHONY : libft/ft_printf/pf_parsing.i
-
-# target to preprocess a source file
-libft/ft_printf/pf_parsing.c.i:
-	$(MAKE) -f CMakeFiles/42_ft_ls_master.dir/build.make CMakeFiles/42_ft_ls_master.dir/libft/ft_printf/pf_parsing.c.i
-.PHONY : libft/ft_printf/pf_parsing.c.i
-
-libft/ft_printf/pf_parsing.s: libft/ft_printf/pf_parsing.c.s
-
-.PHONY : libft/ft_printf/pf_parsing.s
-
-# target to generate assembly for a file
-libft/ft_printf/pf_parsing.c.s:
-	$(MAKE) -f CMakeFiles/42_ft_ls_master.dir/build.make CMakeFiles/42_ft_ls_master.dir/libft/ft_printf/pf_parsing.c.s
-.PHONY : libft/ft_printf/pf_parsing.c.s
-
-libft/ft_printf/pf_put.o: libft/ft_printf/pf_put.c.o
-
-.PHONY : libft/ft_printf/pf_put.o
-
-# target to build an object file
-libft/ft_printf/pf_put.c.o:
-	$(MAKE) -f CMakeFiles/42_ft_ls_master.dir/build.make CMakeFiles/42_ft_ls_master.dir/libft/ft_printf/pf_put.c.o
-.PHONY : libft/ft_printf/pf_put.c.o
-
-libft/ft_printf/pf_put.i: libft/ft_printf/pf_put.c.i
-
-.PHONY : libft/ft_printf/pf_put.i
-
-# target to preprocess a source file
-libft/ft_printf/pf_put.c.i:
-	$(MAKE) -f CMakeFiles/42_ft_ls_master.dir/build.make CMakeFiles/42_ft_ls_master.dir/libft/ft_printf/pf_put.c.i
-.PHONY : libft/ft_printf/pf_put.c.i
-
-libft/ft_printf/pf_put.s: libft/ft_printf/pf_put.c.s
-
-.PHONY : libft/ft_printf/pf_put.s
-
-# target to generate assembly for a file
-libft/ft_printf/pf_put.c.s:
-	$(MAKE) -f CMakeFiles/42_ft_ls_master.dir/build.make CMakeFiles/42_ft_ls_master.dir/libft/ft_printf/pf_put.c.s
-.PHONY : libft/ft_printf/pf_put.c.s
-
-libft/ft_printf/pf_router.o: libft/ft_printf/pf_router.c.o
-
-.PHONY : libft/ft_printf/pf_router.o
-
-# target to build an object file
-libft/ft_printf/pf_router.c.o:
-	$(MAKE) -f CMakeFiles/42_ft_ls_master.dir/build.make CMakeFiles/42_ft_ls_master.dir/libft/ft_printf/pf_router.c.o
-.PHONY : libft/ft_printf/pf_router.c.o
-
-libft/ft_printf/pf_router.i: libft/ft_printf/pf_router.c.i
-
-.PHONY : libft/ft_printf/pf_router.i
-
-# target to preprocess a source file
-libft/ft_printf/pf_router.c.i:
-	$(MAKE) -f CMakeFiles/42_ft_ls_master.dir/build.make CMakeFiles/42_ft_ls_master.dir/libft/ft_printf/pf_router.c.i
-.PHONY : libft/ft_printf/pf_router.c.i
-
-libft/ft_printf/pf_router.s: libft/ft_printf/pf_router.c.s
-
-.PHONY : libft/ft_printf/pf_router.s
-
-# target to generate assembly for a file
-libft/ft_printf/pf_router.c.s:
-	$(MAKE) -f CMakeFiles/42_ft_ls_master.dir/build.make CMakeFiles/42_ft_ls_master.dir/libft/ft_printf/pf_router.c.s
-.PHONY : libft/ft_printf/pf_router.c.s
-
-libft/ft_printf/pf_struct.o: libft/ft_printf/pf_struct.c.o
-
-.PHONY : libft/ft_printf/pf_struct.o
-
-# target to build an object file
-libft/ft_printf/pf_struct.c.o:
-	$(MAKE) -f CMakeFiles/42_ft_ls_master.dir/build.make CMakeFiles/42_ft_ls_master.dir/libft/ft_printf/pf_struct.c.o
-.PHONY : libft/ft_printf/pf_struct.c.o
-
-libft/ft_printf/pf_struct.i: libft/ft_printf/pf_struct.c.i
-
-.PHONY : libft/ft_printf/pf_struct.i
-
-# target to preprocess a source file
-libft/ft_printf/pf_struct.c.i:
-	$(MAKE) -f CMakeFiles/42_ft_ls_master.dir/build.make CMakeFiles/42_ft_ls_master.dir/libft/ft_printf/pf_struct.c.i
-.PHONY : libft/ft_printf/pf_struct.c.i
-
-libft/ft_printf/pf_struct.s: libft/ft_printf/pf_struct.c.s
-
-.PHONY : libft/ft_printf/pf_struct.s
-
-# target to generate assembly for a file
-libft/ft_printf/pf_struct.c.s:
-	$(MAKE) -f CMakeFiles/42_ft_ls_master.dir/build.make CMakeFiles/42_ft_ls_master.dir/libft/ft_printf/pf_struct.c.s
-.PHONY : libft/ft_printf/pf_struct.c.s
-
-libft/ft_printf/pf_utils.o: libft/ft_printf/pf_utils.c.o
-
-.PHONY : libft/ft_printf/pf_utils.o
-
-# target to build an object file
-libft/ft_printf/pf_utils.c.o:
-	$(MAKE) -f CMakeFiles/42_ft_ls_master.dir/build.make CMakeFiles/42_ft_ls_master.dir/libft/ft_printf/pf_utils.c.o
-.PHONY : libft/ft_printf/pf_utils.c.o
-
-libft/ft_printf/pf_utils.i: libft/ft_printf/pf_utils.c.i
-
-.PHONY : libft/ft_printf/pf_utils.i
-
-# target to preprocess a source file
-libft/ft_printf/pf_utils.c.i:
-	$(MAKE) -f CMakeFiles/42_ft_ls_master.dir/build.make CMakeFiles/42_ft_ls_master.dir/libft/ft_printf/pf_utils.c.i
-.PHONY : libft/ft_printf/pf_utils.c.i
-
-libft/ft_printf/pf_utils.s: libft/ft_printf/pf_utils.c.s
-
-.PHONY : libft/ft_printf/pf_utils.s
-
-# target to generate assembly for a file
-libft/ft_printf/pf_utils.c.s:
-	$(MAKE) -f CMakeFiles/42_ft_ls_master.dir/build.make CMakeFiles/42_ft_ls_master.dir/libft/ft_printf/pf_utils.c.s
-.PHONY : libft/ft_printf/pf_utils.c.s
 
 libft/src/char/ft_isalnum.o: libft/src/char/ft_isalnum.c.o
 
@@ -959,6 +689,33 @@ libft/src/lst/ft_push_ptr.s: libft/src/lst/ft_push_ptr.c.s
 libft/src/lst/ft_push_ptr.c.s:
 	$(MAKE) -f CMakeFiles/42_ft_ls_master.dir/build.make CMakeFiles/42_ft_ls_master.dir/libft/src/lst/ft_push_ptr.c.s
 .PHONY : libft/src/lst/ft_push_ptr.c.s
+
+libft/src/lst/ft_strnewnull.o: libft/src/lst/ft_strnewnull.c.o
+
+.PHONY : libft/src/lst/ft_strnewnull.o
+
+# target to build an object file
+libft/src/lst/ft_strnewnull.c.o:
+	$(MAKE) -f CMakeFiles/42_ft_ls_master.dir/build.make CMakeFiles/42_ft_ls_master.dir/libft/src/lst/ft_strnewnull.c.o
+.PHONY : libft/src/lst/ft_strnewnull.c.o
+
+libft/src/lst/ft_strnewnull.i: libft/src/lst/ft_strnewnull.c.i
+
+.PHONY : libft/src/lst/ft_strnewnull.i
+
+# target to preprocess a source file
+libft/src/lst/ft_strnewnull.c.i:
+	$(MAKE) -f CMakeFiles/42_ft_ls_master.dir/build.make CMakeFiles/42_ft_ls_master.dir/libft/src/lst/ft_strnewnull.c.i
+.PHONY : libft/src/lst/ft_strnewnull.c.i
+
+libft/src/lst/ft_strnewnull.s: libft/src/lst/ft_strnewnull.c.s
+
+.PHONY : libft/src/lst/ft_strnewnull.s
+
+# target to generate assembly for a file
+libft/src/lst/ft_strnewnull.c.s:
+	$(MAKE) -f CMakeFiles/42_ft_ls_master.dir/build.make CMakeFiles/42_ft_ls_master.dir/libft/src/lst/ft_strnewnull.c.s
+.PHONY : libft/src/lst/ft_strnewnull.c.s
 
 libft/src/math/ft_clamp.o: libft/src/math/ft_clamp.c.o
 
@@ -2994,36 +2751,6 @@ help:
 	@echo "... rebuild_cache"
 	@echo "... edit_cache"
 	@echo "... 42_ft_ls_master"
-	@echo "... libft/ft_printf/ft_printf.o"
-	@echo "... libft/ft_printf/ft_printf.i"
-	@echo "... libft/ft_printf/ft_printf.s"
-	@echo "... libft/ft_printf/pf_base.o"
-	@echo "... libft/ft_printf/pf_base.i"
-	@echo "... libft/ft_printf/pf_base.s"
-	@echo "... libft/ft_printf/pf_ftoa.o"
-	@echo "... libft/ft_printf/pf_ftoa.i"
-	@echo "... libft/ft_printf/pf_ftoa.s"
-	@echo "... libft/ft_printf/pf_len.o"
-	@echo "... libft/ft_printf/pf_len.i"
-	@echo "... libft/ft_printf/pf_len.s"
-	@echo "... libft/ft_printf/pf_options.o"
-	@echo "... libft/ft_printf/pf_options.i"
-	@echo "... libft/ft_printf/pf_options.s"
-	@echo "... libft/ft_printf/pf_parsing.o"
-	@echo "... libft/ft_printf/pf_parsing.i"
-	@echo "... libft/ft_printf/pf_parsing.s"
-	@echo "... libft/ft_printf/pf_put.o"
-	@echo "... libft/ft_printf/pf_put.i"
-	@echo "... libft/ft_printf/pf_put.s"
-	@echo "... libft/ft_printf/pf_router.o"
-	@echo "... libft/ft_printf/pf_router.i"
-	@echo "... libft/ft_printf/pf_router.s"
-	@echo "... libft/ft_printf/pf_struct.o"
-	@echo "... libft/ft_printf/pf_struct.i"
-	@echo "... libft/ft_printf/pf_struct.s"
-	@echo "... libft/ft_printf/pf_utils.o"
-	@echo "... libft/ft_printf/pf_utils.i"
-	@echo "... libft/ft_printf/pf_utils.s"
 	@echo "... libft/src/char/ft_isalnum.o"
 	@echo "... libft/src/char/ft_isalnum.i"
 	@echo "... libft/src/char/ft_isalnum.s"
@@ -3087,6 +2814,9 @@ help:
 	@echo "... libft/src/lst/ft_push_ptr.o"
 	@echo "... libft/src/lst/ft_push_ptr.i"
 	@echo "... libft/src/lst/ft_push_ptr.s"
+	@echo "... libft/src/lst/ft_strnewnull.o"
+	@echo "... libft/src/lst/ft_strnewnull.i"
+	@echo "... libft/src/lst/ft_strnewnull.s"
 	@echo "... libft/src/math/ft_clamp.o"
 	@echo "... libft/src/math/ft_clamp.i"
 	@echo "... libft/src/math/ft_clamp.s"

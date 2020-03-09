@@ -51,7 +51,7 @@ int				check_line(const int fd, char **line,\
 	if (str[fd][length] == '\n')
 	{
 		*line = ft_strsub(str[fd], 0, length);
-		temp  = ft_strdup(str[fd] + length + 1);
+		temp = ft_strdup(str[fd] + length + 1);
 		free(str[fd]);
 		str[fd] = temp;
 		if (*str[fd] == '\0')

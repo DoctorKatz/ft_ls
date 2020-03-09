@@ -11,17 +11,6 @@ add_executable(42_ft_ls_master
         includes/ft_ls.h
         includes/t_file.h
         includes/t_path.h
-        libft/ft_printf/ft_printf.c
-        libft/ft_printf/ft_printf.h
-        libft/ft_printf/pf_base.c
-        libft/ft_printf/pf_ftoa.c
-        libft/ft_printf/pf_len.c
-        libft/ft_printf/pf_options.c
-        libft/ft_printf/pf_parsing.c
-        libft/ft_printf/pf_put.c
-        libft/ft_printf/pf_router.c
-        libft/ft_printf/pf_struct.c
-        libft/ft_printf/pf_utils.c
         libft/inc/get_next_line.h
         libft/inc/libft.h
         libft/src/char/ft_isalnum.c
@@ -117,4 +106,4 @@ add_executable(42_ft_ls_master
         src/utils/create_file.c
         src/utils/delete_files.c
         src/ft_ls.c
-        src/main.c libft/src/put/ft_lprintf.c libft/src/lst/ft_push_ptr.c)
+        src/main.c libft/src/put/ft_lprintf.c libft/src/lst/ft_push_ptr.c libft/src/lst/ft_strnewnull.c)

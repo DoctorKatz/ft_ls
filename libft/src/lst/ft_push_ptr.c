@@ -6,7 +6,7 @@
 /*   By: null <null@student.42.fr>                  +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2020/03/05 20:51:11 by null              #+#    #+#             */
-/*   Updated: 2020/03/05 22:22:39 by null             ###   ########.fr       */
+/*   Updated: 2020/03/10 00:53:51 by lgunship         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -22,29 +22,13 @@ void		ft_push_ptr(t_mnode **head, char *ptr)
 	(*head) = tmp;
 }
 
-
-int			ft_lstpop(t_mnode **head)
-{
-	t_mnode*	prev;
-	int		val;
-
-	prev = NULL;
-	if (head == NULL)
-	{
-		exit(-1);
-	}
-	prev = (*head);
-	val = prev->value;
-	(*head) = (*head)->next;
-	free(prev);
-	return (val);
-}
-
-
 void		ft_memlstdelete(t_mnode **head)
 {
-	t_mnode* prev = NULL;
-int i = 0;
+	t_mnode		*prev;
+	int			i;
+
+	prev = NULL;
+	i = 0;
 	while ((*head)->next)
 	{
 		i++;
@@ -56,4 +40,3 @@ int i = 0;
 	}
 	free(*head);
 }
-

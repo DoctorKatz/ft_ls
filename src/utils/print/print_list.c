@@ -5,8 +5,8 @@
 /*                                                    +:+ +:+         +:+     */
 /*   By: lgunship <lgunship@student.42.fr>          +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
-/*   Created: 2020/02/20 00:18:52 by lgunship          #+#    #+#             */
-/*   Updated: 2020/03/02 22:15:42 by null             ###   ########.fr       */
+/*   Created: 2020/03/10 00:32:51 by lgunship          #+#    #+#             */
+/*   Updated: 2020/03/10 00:35:38 by lgunship         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -55,7 +55,7 @@ void			print_list(t_file *file, char *path, char *keys, int type)
 		print_perm(file, path);
 		i = -1;
 		while (file->entry[++i + 1])
-			print_table(len[i] + 2, file->entry[i]);//TODO: %*s!!!
+			print_table(len[i] + 2, file->entry[i]);
 		ft_lprintf(" %s\n", file->entry[i]);
 		file = file->next;
 	}

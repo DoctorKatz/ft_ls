@@ -1,4 +1,4 @@
-# Install script for directory: /Users/n.kats/CLionProjects/ft_ls
+# Install script for directory: /Users/lgunship/Desktop/CLion_Work_Dir/ft_ls1
 
 # Set the install prefix
 if(NOT DEFINED CMAKE_INSTALL_PREFIX)
@@ -40,5 +40,5 @@ endif()
 
 string(REPLACE ";" "\n" CMAKE_INSTALL_MANIFEST_CONTENT
        "${CMAKE_INSTALL_MANIFEST_FILES}")
-file(WRITE "/Users/n.kats/CLionProjects/ft_ls/cmake-build-debug/${CMAKE_INSTALL_MANIFEST}"
+file(WRITE "/Users/lgunship/Desktop/CLion_Work_Dir/ft_ls1/cmake-build-debug/${CMAKE_INSTALL_MANIFEST}"
      "${CMAKE_INSTALL_MANIFEST_CONTENT}")

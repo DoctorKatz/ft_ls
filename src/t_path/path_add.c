@@ -3,10 +3,10 @@
 /*                                                        :::      ::::::::   */
 /*   path_add.c                                         :+:      :+:    :+:   */
 /*                                                    +:+ +:+         +:+     */
-/*   By: jaleman <jaleman@student.42.us.org>        +#+  +:+       +#+        */
+/*   By: lgunship <lgunship@student.42.fr>          +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
-/*   Created: 2019/02/15 18:18:00 by jaleman           #+#    #+#             */
-/*   Updated: 2019/02/15 18:18:01 by jaleman          ###   ########.fr       */
+/*   Created: 2020/02/20 00:12:39 by lgunship          #+#    #+#             */
+/*   Updated: 2020/03/10 00:35:38 by lgunship         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -67,7 +67,7 @@ t_path			*path_add(t_path *path, char *dir, char *opt)
 		return (NULL);
 	last->type = check_dir(dir, opt);
 	last->name = ft_strdup(dir);
-	ft_push_ptr(&g_memlst,last->name);
+	ft_push_ptr(&g_memlst, last->name);
 	last->next = NULL;
 	if (!path)
 		return (last);

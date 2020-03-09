@@ -6,7 +6,7 @@
 /*   By: lgunship <lgunship@42.fr>                  +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2019/09/03 21:22:10 by lgunship          #+#    #+#             */
-/*   Updated: 2020/03/05 21:20:25 by null             ###   ########.fr       */
+/*   Updated: 2020/03/10 01:12:45 by lgunship         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -19,7 +19,7 @@
 # include <string.h>
 # include <stdlib.h>
 # include <unistd.h>
-# include "ft_printf.h"
+# include <stdarg.h>
 
 typedef int			t_bool;
 
@@ -30,23 +30,23 @@ typedef struct		s_list
 	struct s_list	*next;
 }					t_list;
 
-
 typedef struct		s_lst
 {
 	int				value;
-	char 			*memptr;
+	char			*memptr;
 	struct t_mnode	*next;
-} 					t_mnode;
+}					t_mnode;
 
 typedef struct		s_print
 {
 	int				d;
 	char			s[256];
 	char			*c;
-	char str[256];
+	char			str[256];
+	char			*pstr;
 }					t_print;
 
-typedef struct 		s_mem
+typedef struct		s_mem
 {
 	char			*mem;
 	char			*next;
@@ -130,9 +130,6 @@ char				*ft_zlprintf(char *format, ...);
 void				print_table(int d, char *str);
 void				ft_push_ptr(t_mnode **head, char *ptr);
 void				ft_memlstdelete(t_mnode **head);
-
-int					ft_printf(const char *s, ...);
-int					ft_dprintf(int fd, const char *format, ...);
-char				*ft_zprintf(const char *format, ...);
+char				*ft_strnewnull(char *newp);
 
 #endif

@@ -1,31 +1,20 @@
 /* ************************************************************************** */
 /*                                                                            */
 /*                                                        :::      ::::::::   */
-/*   path_swp.c                                         :+:      :+:    :+:   */
+/*   ft_strnewnull.c                                    :+:      :+:    :+:   */
 /*                                                    +:+ +:+         +:+     */
 /*   By: lgunship <lgunship@student.42.fr>          +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
-/*   Created: 2020/02/20 00:12:39 by lgunship          #+#    #+#             */
-/*   Updated: 2020/03/02 22:23:25 by lgunship         ###   ########.fr       */
+/*   Created: 2020/03/10 01:10:24 by lgunship          #+#    #+#             */
+/*   Updated: 2020/03/10 01:12:09 by lgunship         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
-#include "ft_ls.h"
+#include "libc.h"
 
-/*
-** Swap entries between two path lists.
-*/
-
-void		path_swp(t_path *a, t_path *b)
+char	*ft_strnewnull(char *newp)
 {
-	char	*name;
-	int		type;
-
-	name = a->name;
-	type = a->type;
-	a->name = b->name;
-	a->type = b->type;
-	b->name = name;
-	b->type = type;
-	return ;
+	newp = (char*)malloc(sizeof(char) * 256);
+	*newp = '\0';
+	return (newp);
 }

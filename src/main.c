@@ -3,20 +3,14 @@
 /*                                                        :::      ::::::::   */
 /*   main.c                                             :+:      :+:    :+:   */
 /*                                                    +:+ +:+         +:+     */
-/*   By: jaleman <jaleman@student.42.us.org>        +#+  +:+       +#+        */
+/*   By: lgunship <lgunship@student.42.fr>          +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
-/*   Created: 2019/02/15 18:18:00 by jaleman           #+#    #+#             */
-/*   Updated: 2020/03/05 22:16:51 by null             ###   ########.fr       */
+/*   Created: 2020/03/10 00:32:51 by lgunship          #+#    #+#             */
+/*   Updated: 2020/03/10 00:35:38 by lgunship         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
 #include "ft_ls.h"
-
-/*
-** Validate a flag.
-** Print usage message and exit program if a flag is not valid.
-** Returns : N/A | EXIT(FLG_ERR)
-*/
 
 t_mnode			*g_memlst;
 
@@ -40,11 +34,6 @@ static void		validate_flag(char *bin, char *s, char *opt)
 	return ;
 }
 
-/*
-** Parse the option flags.
-** Returns : A path structure with valid option flags.
-*/
-
 static t_path	*parse_opt(char *opt, char *flags[], int total)
 {
 	int			i;
@@ -67,10 +56,6 @@ static t_path	*parse_opt(char *opt, char *flags[], int total)
 		path = path_add(path, flags[i - 1], opt);
 	return (path);
 }
-
-/*
-** Main program function.
-*/
 
 int				main(int argc, char *argv[])
 {

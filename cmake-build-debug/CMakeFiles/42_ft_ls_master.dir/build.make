@@ -34,19 +34,19 @@ cmake_force:
 SHELL = /bin/sh
 
 # The CMake executable.
-CMAKE_COMMAND = /Users/n.kats/Desktop/CLion.app/Contents/bin/cmake/mac/bin/cmake
+CMAKE_COMMAND = /Users/lgunship/Desktop/CLion.app/Contents/bin/cmake/mac/bin/cmake
 
 # The command to remove a file.
-RM = /Users/n.kats/Desktop/CLion.app/Contents/bin/cmake/mac/bin/cmake -E remove -f
+RM = /Users/lgunship/Desktop/CLion.app/Contents/bin/cmake/mac/bin/cmake -E remove -f
 
 # Escaping for special characters.
 EQUALS = =
 
 # The top-level source directory on which CMake was run.
-CMAKE_SOURCE_DIR = /Users/n.kats/CLionProjects/ft_ls
+CMAKE_SOURCE_DIR = /Users/lgunship/Desktop/CLion_Work_Dir/ft_ls1
 
 # The top-level build directory on which CMake was run.
-CMAKE_BINARY_DIR = /Users/n.kats/CLionProjects/ft_ls/cmake-build-debug
+CMAKE_BINARY_DIR = /Users/lgunship/Desktop/CLion_Work_Dir/ft_ls1/cmake-build-debug
 
 # Include any dependencies generated for this target.
 include CMakeFiles/42_ft_ls_master.dir/depend.make
@@ -57,1396 +57,1269 @@ include CMakeFiles/42_ft_ls_master.dir/progress.make
 # Include the compile flags for this target's objects.
 include CMakeFiles/42_ft_ls_master.dir/flags.make
 
-CMakeFiles/42_ft_ls_master.dir/libft/ft_printf/ft_printf.c.o: CMakeFiles/42_ft_ls_master.dir/flags.make
-CMakeFiles/42_ft_ls_master.dir/libft/ft_printf/ft_printf.c.o: ../libft/ft_printf/ft_printf.c
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/n.kats/CLionProjects/ft_ls/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Building C object CMakeFiles/42_ft_ls_master.dir/libft/ft_printf/ft_printf.c.o"
-	/Library/Developer/CommandLineTools/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/42_ft_ls_master.dir/libft/ft_printf/ft_printf.c.o   -c /Users/n.kats/CLionProjects/ft_ls/libft/ft_printf/ft_printf.c
-
-CMakeFiles/42_ft_ls_master.dir/libft/ft_printf/ft_printf.c.i: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/42_ft_ls_master.dir/libft/ft_printf/ft_printf.c.i"
-	/Library/Developer/CommandLineTools/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /Users/n.kats/CLionProjects/ft_ls/libft/ft_printf/ft_printf.c > CMakeFiles/42_ft_ls_master.dir/libft/ft_printf/ft_printf.c.i
-
-CMakeFiles/42_ft_ls_master.dir/libft/ft_printf/ft_printf.c.s: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/42_ft_ls_master.dir/libft/ft_printf/ft_printf.c.s"
-	/Library/Developer/CommandLineTools/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /Users/n.kats/CLionProjects/ft_ls/libft/ft_printf/ft_printf.c -o CMakeFiles/42_ft_ls_master.dir/libft/ft_printf/ft_printf.c.s
-
-CMakeFiles/42_ft_ls_master.dir/libft/ft_printf/pf_base.c.o: CMakeFiles/42_ft_ls_master.dir/flags.make
-CMakeFiles/42_ft_ls_master.dir/libft/ft_printf/pf_base.c.o: ../libft/ft_printf/pf_base.c
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/n.kats/CLionProjects/ft_ls/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Building C object CMakeFiles/42_ft_ls_master.dir/libft/ft_printf/pf_base.c.o"
-	/Library/Developer/CommandLineTools/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/42_ft_ls_master.dir/libft/ft_printf/pf_base.c.o   -c /Users/n.kats/CLionProjects/ft_ls/libft/ft_printf/pf_base.c
-
-CMakeFiles/42_ft_ls_master.dir/libft/ft_printf/pf_base.c.i: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/42_ft_ls_master.dir/libft/ft_printf/pf_base.c.i"
-	/Library/Developer/CommandLineTools/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /Users/n.kats/CLionProjects/ft_ls/libft/ft_printf/pf_base.c > CMakeFiles/42_ft_ls_master.dir/libft/ft_printf/pf_base.c.i
-
-CMakeFiles/42_ft_ls_master.dir/libft/ft_printf/pf_base.c.s: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/42_ft_ls_master.dir/libft/ft_printf/pf_base.c.s"
-	/Library/Developer/CommandLineTools/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /Users/n.kats/CLionProjects/ft_ls/libft/ft_printf/pf_base.c -o CMakeFiles/42_ft_ls_master.dir/libft/ft_printf/pf_base.c.s
-
-CMakeFiles/42_ft_ls_master.dir/libft/ft_printf/pf_ftoa.c.o: CMakeFiles/42_ft_ls_master.dir/flags.make
-CMakeFiles/42_ft_ls_master.dir/libft/ft_printf/pf_ftoa.c.o: ../libft/ft_printf/pf_ftoa.c
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/n.kats/CLionProjects/ft_ls/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_3) "Building C object CMakeFiles/42_ft_ls_master.dir/libft/ft_printf/pf_ftoa.c.o"
-	/Library/Developer/CommandLineTools/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/42_ft_ls_master.dir/libft/ft_printf/pf_ftoa.c.o   -c /Users/n.kats/CLionProjects/ft_ls/libft/ft_printf/pf_ftoa.c
-
-CMakeFiles/42_ft_ls_master.dir/libft/ft_printf/pf_ftoa.c.i: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/42_ft_ls_master.dir/libft/ft_printf/pf_ftoa.c.i"
-	/Library/Developer/CommandLineTools/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /Users/n.kats/CLionProjects/ft_ls/libft/ft_printf/pf_ftoa.c > CMakeFiles/42_ft_ls_master.dir/libft/ft_printf/pf_ftoa.c.i
-
-CMakeFiles/42_ft_ls_master.dir/libft/ft_printf/pf_ftoa.c.s: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/42_ft_ls_master.dir/libft/ft_printf/pf_ftoa.c.s"
-	/Library/Developer/CommandLineTools/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /Users/n.kats/CLionProjects/ft_ls/libft/ft_printf/pf_ftoa.c -o CMakeFiles/42_ft_ls_master.dir/libft/ft_printf/pf_ftoa.c.s
-
-CMakeFiles/42_ft_ls_master.dir/libft/ft_printf/pf_len.c.o: CMakeFiles/42_ft_ls_master.dir/flags.make
-CMakeFiles/42_ft_ls_master.dir/libft/ft_printf/pf_len.c.o: ../libft/ft_printf/pf_len.c
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/n.kats/CLionProjects/ft_ls/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_4) "Building C object CMakeFiles/42_ft_ls_master.dir/libft/ft_printf/pf_len.c.o"
-	/Library/Developer/CommandLineTools/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/42_ft_ls_master.dir/libft/ft_printf/pf_len.c.o   -c /Users/n.kats/CLionProjects/ft_ls/libft/ft_printf/pf_len.c
-
-CMakeFiles/42_ft_ls_master.dir/libft/ft_printf/pf_len.c.i: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/42_ft_ls_master.dir/libft/ft_printf/pf_len.c.i"
-	/Library/Developer/CommandLineTools/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /Users/n.kats/CLionProjects/ft_ls/libft/ft_printf/pf_len.c > CMakeFiles/42_ft_ls_master.dir/libft/ft_printf/pf_len.c.i
-
-CMakeFiles/42_ft_ls_master.dir/libft/ft_printf/pf_len.c.s: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/42_ft_ls_master.dir/libft/ft_printf/pf_len.c.s"
-	/Library/Developer/CommandLineTools/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /Users/n.kats/CLionProjects/ft_ls/libft/ft_printf/pf_len.c -o CMakeFiles/42_ft_ls_master.dir/libft/ft_printf/pf_len.c.s
-
-CMakeFiles/42_ft_ls_master.dir/libft/ft_printf/pf_options.c.o: CMakeFiles/42_ft_ls_master.dir/flags.make
-CMakeFiles/42_ft_ls_master.dir/libft/ft_printf/pf_options.c.o: ../libft/ft_printf/pf_options.c
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/n.kats/CLionProjects/ft_ls/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_5) "Building C object CMakeFiles/42_ft_ls_master.dir/libft/ft_printf/pf_options.c.o"
-	/Library/Developer/CommandLineTools/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/42_ft_ls_master.dir/libft/ft_printf/pf_options.c.o   -c /Users/n.kats/CLionProjects/ft_ls/libft/ft_printf/pf_options.c
-
-CMakeFiles/42_ft_ls_master.dir/libft/ft_printf/pf_options.c.i: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/42_ft_ls_master.dir/libft/ft_printf/pf_options.c.i"
-	/Library/Developer/CommandLineTools/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /Users/n.kats/CLionProjects/ft_ls/libft/ft_printf/pf_options.c > CMakeFiles/42_ft_ls_master.dir/libft/ft_printf/pf_options.c.i
-
-CMakeFiles/42_ft_ls_master.dir/libft/ft_printf/pf_options.c.s: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/42_ft_ls_master.dir/libft/ft_printf/pf_options.c.s"
-	/Library/Developer/CommandLineTools/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /Users/n.kats/CLionProjects/ft_ls/libft/ft_printf/pf_options.c -o CMakeFiles/42_ft_ls_master.dir/libft/ft_printf/pf_options.c.s
-
-CMakeFiles/42_ft_ls_master.dir/libft/ft_printf/pf_parsing.c.o: CMakeFiles/42_ft_ls_master.dir/flags.make
-CMakeFiles/42_ft_ls_master.dir/libft/ft_printf/pf_parsing.c.o: ../libft/ft_printf/pf_parsing.c
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/n.kats/CLionProjects/ft_ls/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_6) "Building C object CMakeFiles/42_ft_ls_master.dir/libft/ft_printf/pf_parsing.c.o"
-	/Library/Developer/CommandLineTools/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/42_ft_ls_master.dir/libft/ft_printf/pf_parsing.c.o   -c /Users/n.kats/CLionProjects/ft_ls/libft/ft_printf/pf_parsing.c
-
-CMakeFiles/42_ft_ls_master.dir/libft/ft_printf/pf_parsing.c.i: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/42_ft_ls_master.dir/libft/ft_printf/pf_parsing.c.i"
-	/Library/Developer/CommandLineTools/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /Users/n.kats/CLionProjects/ft_ls/libft/ft_printf/pf_parsing.c > CMakeFiles/42_ft_ls_master.dir/libft/ft_printf/pf_parsing.c.i
-
-CMakeFiles/42_ft_ls_master.dir/libft/ft_printf/pf_parsing.c.s: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/42_ft_ls_master.dir/libft/ft_printf/pf_parsing.c.s"
-	/Library/Developer/CommandLineTools/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /Users/n.kats/CLionProjects/ft_ls/libft/ft_printf/pf_parsing.c -o CMakeFiles/42_ft_ls_master.dir/libft/ft_printf/pf_parsing.c.s
-
-CMakeFiles/42_ft_ls_master.dir/libft/ft_printf/pf_put.c.o: CMakeFiles/42_ft_ls_master.dir/flags.make
-CMakeFiles/42_ft_ls_master.dir/libft/ft_printf/pf_put.c.o: ../libft/ft_printf/pf_put.c
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/n.kats/CLionProjects/ft_ls/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_7) "Building C object CMakeFiles/42_ft_ls_master.dir/libft/ft_printf/pf_put.c.o"
-	/Library/Developer/CommandLineTools/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/42_ft_ls_master.dir/libft/ft_printf/pf_put.c.o   -c /Users/n.kats/CLionProjects/ft_ls/libft/ft_printf/pf_put.c
-
-CMakeFiles/42_ft_ls_master.dir/libft/ft_printf/pf_put.c.i: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/42_ft_ls_master.dir/libft/ft_printf/pf_put.c.i"
-	/Library/Developer/CommandLineTools/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /Users/n.kats/CLionProjects/ft_ls/libft/ft_printf/pf_put.c > CMakeFiles/42_ft_ls_master.dir/libft/ft_printf/pf_put.c.i
-
-CMakeFiles/42_ft_ls_master.dir/libft/ft_printf/pf_put.c.s: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/42_ft_ls_master.dir/libft/ft_printf/pf_put.c.s"
-	/Library/Developer/CommandLineTools/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /Users/n.kats/CLionProjects/ft_ls/libft/ft_printf/pf_put.c -o CMakeFiles/42_ft_ls_master.dir/libft/ft_printf/pf_put.c.s
-
-CMakeFiles/42_ft_ls_master.dir/libft/ft_printf/pf_router.c.o: CMakeFiles/42_ft_ls_master.dir/flags.make
-CMakeFiles/42_ft_ls_master.dir/libft/ft_printf/pf_router.c.o: ../libft/ft_printf/pf_router.c
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/n.kats/CLionProjects/ft_ls/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_8) "Building C object CMakeFiles/42_ft_ls_master.dir/libft/ft_printf/pf_router.c.o"
-	/Library/Developer/CommandLineTools/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/42_ft_ls_master.dir/libft/ft_printf/pf_router.c.o   -c /Users/n.kats/CLionProjects/ft_ls/libft/ft_printf/pf_router.c
-
-CMakeFiles/42_ft_ls_master.dir/libft/ft_printf/pf_router.c.i: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/42_ft_ls_master.dir/libft/ft_printf/pf_router.c.i"
-	/Library/Developer/CommandLineTools/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /Users/n.kats/CLionProjects/ft_ls/libft/ft_printf/pf_router.c > CMakeFiles/42_ft_ls_master.dir/libft/ft_printf/pf_router.c.i
-
-CMakeFiles/42_ft_ls_master.dir/libft/ft_printf/pf_router.c.s: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/42_ft_ls_master.dir/libft/ft_printf/pf_router.c.s"
-	/Library/Developer/CommandLineTools/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /Users/n.kats/CLionProjects/ft_ls/libft/ft_printf/pf_router.c -o CMakeFiles/42_ft_ls_master.dir/libft/ft_printf/pf_router.c.s
-
-CMakeFiles/42_ft_ls_master.dir/libft/ft_printf/pf_struct.c.o: CMakeFiles/42_ft_ls_master.dir/flags.make
-CMakeFiles/42_ft_ls_master.dir/libft/ft_printf/pf_struct.c.o: ../libft/ft_printf/pf_struct.c
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/n.kats/CLionProjects/ft_ls/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_9) "Building C object CMakeFiles/42_ft_ls_master.dir/libft/ft_printf/pf_struct.c.o"
-	/Library/Developer/CommandLineTools/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/42_ft_ls_master.dir/libft/ft_printf/pf_struct.c.o   -c /Users/n.kats/CLionProjects/ft_ls/libft/ft_printf/pf_struct.c
-
-CMakeFiles/42_ft_ls_master.dir/libft/ft_printf/pf_struct.c.i: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/42_ft_ls_master.dir/libft/ft_printf/pf_struct.c.i"
-	/Library/Developer/CommandLineTools/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /Users/n.kats/CLionProjects/ft_ls/libft/ft_printf/pf_struct.c > CMakeFiles/42_ft_ls_master.dir/libft/ft_printf/pf_struct.c.i
-
-CMakeFiles/42_ft_ls_master.dir/libft/ft_printf/pf_struct.c.s: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/42_ft_ls_master.dir/libft/ft_printf/pf_struct.c.s"
-	/Library/Developer/CommandLineTools/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /Users/n.kats/CLionProjects/ft_ls/libft/ft_printf/pf_struct.c -o CMakeFiles/42_ft_ls_master.dir/libft/ft_printf/pf_struct.c.s
-
-CMakeFiles/42_ft_ls_master.dir/libft/ft_printf/pf_utils.c.o: CMakeFiles/42_ft_ls_master.dir/flags.make
-CMakeFiles/42_ft_ls_master.dir/libft/ft_printf/pf_utils.c.o: ../libft/ft_printf/pf_utils.c
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/n.kats/CLionProjects/ft_ls/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_10) "Building C object CMakeFiles/42_ft_ls_master.dir/libft/ft_printf/pf_utils.c.o"
-	/Library/Developer/CommandLineTools/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/42_ft_ls_master.dir/libft/ft_printf/pf_utils.c.o   -c /Users/n.kats/CLionProjects/ft_ls/libft/ft_printf/pf_utils.c
-
-CMakeFiles/42_ft_ls_master.dir/libft/ft_printf/pf_utils.c.i: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/42_ft_ls_master.dir/libft/ft_printf/pf_utils.c.i"
-	/Library/Developer/CommandLineTools/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /Users/n.kats/CLionProjects/ft_ls/libft/ft_printf/pf_utils.c > CMakeFiles/42_ft_ls_master.dir/libft/ft_printf/pf_utils.c.i
-
-CMakeFiles/42_ft_ls_master.dir/libft/ft_printf/pf_utils.c.s: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/42_ft_ls_master.dir/libft/ft_printf/pf_utils.c.s"
-	/Library/Developer/CommandLineTools/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /Users/n.kats/CLionProjects/ft_ls/libft/ft_printf/pf_utils.c -o CMakeFiles/42_ft_ls_master.dir/libft/ft_printf/pf_utils.c.s
-
 CMakeFiles/42_ft_ls_master.dir/libft/src/char/ft_isalnum.c.o: CMakeFiles/42_ft_ls_master.dir/flags.make
 CMakeFiles/42_ft_ls_master.dir/libft/src/char/ft_isalnum.c.o: ../libft/src/char/ft_isalnum.c
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/n.kats/CLionProjects/ft_ls/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_11) "Building C object CMakeFiles/42_ft_ls_master.dir/libft/src/char/ft_isalnum.c.o"
-	/Library/Developer/CommandLineTools/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/42_ft_ls_master.dir/libft/src/char/ft_isalnum.c.o   -c /Users/n.kats/CLionProjects/ft_ls/libft/src/char/ft_isalnum.c
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/lgunship/Desktop/CLion_Work_Dir/ft_ls1/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Building C object CMakeFiles/42_ft_ls_master.dir/libft/src/char/ft_isalnum.c.o"
+	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/42_ft_ls_master.dir/libft/src/char/ft_isalnum.c.o   -c /Users/lgunship/Desktop/CLion_Work_Dir/ft_ls1/libft/src/char/ft_isalnum.c
 
 CMakeFiles/42_ft_ls_master.dir/libft/src/char/ft_isalnum.c.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/42_ft_ls_master.dir/libft/src/char/ft_isalnum.c.i"
-	/Library/Developer/CommandLineTools/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /Users/n.kats/CLionProjects/ft_ls/libft/src/char/ft_isalnum.c > CMakeFiles/42_ft_ls_master.dir/libft/src/char/ft_isalnum.c.i
+	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /Users/lgunship/Desktop/CLion_Work_Dir/ft_ls1/libft/src/char/ft_isalnum.c > CMakeFiles/42_ft_ls_master.dir/libft/src/char/ft_isalnum.c.i
 
 CMakeFiles/42_ft_ls_master.dir/libft/src/char/ft_isalnum.c.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/42_ft_ls_master.dir/libft/src/char/ft_isalnum.c.s"
-	/Library/Developer/CommandLineTools/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /Users/n.kats/CLionProjects/ft_ls/libft/src/char/ft_isalnum.c -o CMakeFiles/42_ft_ls_master.dir/libft/src/char/ft_isalnum.c.s
+	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /Users/lgunship/Desktop/CLion_Work_Dir/ft_ls1/libft/src/char/ft_isalnum.c -o CMakeFiles/42_ft_ls_master.dir/libft/src/char/ft_isalnum.c.s
 
 CMakeFiles/42_ft_ls_master.dir/libft/src/char/ft_isalpha.c.o: CMakeFiles/42_ft_ls_master.dir/flags.make
 CMakeFiles/42_ft_ls_master.dir/libft/src/char/ft_isalpha.c.o: ../libft/src/char/ft_isalpha.c
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/n.kats/CLionProjects/ft_ls/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_12) "Building C object CMakeFiles/42_ft_ls_master.dir/libft/src/char/ft_isalpha.c.o"
-	/Library/Developer/CommandLineTools/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/42_ft_ls_master.dir/libft/src/char/ft_isalpha.c.o   -c /Users/n.kats/CLionProjects/ft_ls/libft/src/char/ft_isalpha.c
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/lgunship/Desktop/CLion_Work_Dir/ft_ls1/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Building C object CMakeFiles/42_ft_ls_master.dir/libft/src/char/ft_isalpha.c.o"
+	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/42_ft_ls_master.dir/libft/src/char/ft_isalpha.c.o   -c /Users/lgunship/Desktop/CLion_Work_Dir/ft_ls1/libft/src/char/ft_isalpha.c
 
 CMakeFiles/42_ft_ls_master.dir/libft/src/char/ft_isalpha.c.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/42_ft_ls_master.dir/libft/src/char/ft_isalpha.c.i"
-	/Library/Developer/CommandLineTools/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /Users/n.kats/CLionProjects/ft_ls/libft/src/char/ft_isalpha.c > CMakeFiles/42_ft_ls_master.dir/libft/src/char/ft_isalpha.c.i
+	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /Users/lgunship/Desktop/CLion_Work_Dir/ft_ls1/libft/src/char/ft_isalpha.c > CMakeFiles/42_ft_ls_master.dir/libft/src/char/ft_isalpha.c.i
 
 CMakeFiles/42_ft_ls_master.dir/libft/src/char/ft_isalpha.c.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/42_ft_ls_master.dir/libft/src/char/ft_isalpha.c.s"
-	/Library/Developer/CommandLineTools/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /Users/n.kats/CLionProjects/ft_ls/libft/src/char/ft_isalpha.c -o CMakeFiles/42_ft_ls_master.dir/libft/src/char/ft_isalpha.c.s
+	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /Users/lgunship/Desktop/CLion_Work_Dir/ft_ls1/libft/src/char/ft_isalpha.c -o CMakeFiles/42_ft_ls_master.dir/libft/src/char/ft_isalpha.c.s
 
 CMakeFiles/42_ft_ls_master.dir/libft/src/char/ft_isascii.c.o: CMakeFiles/42_ft_ls_master.dir/flags.make
 CMakeFiles/42_ft_ls_master.dir/libft/src/char/ft_isascii.c.o: ../libft/src/char/ft_isascii.c
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/n.kats/CLionProjects/ft_ls/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_13) "Building C object CMakeFiles/42_ft_ls_master.dir/libft/src/char/ft_isascii.c.o"
-	/Library/Developer/CommandLineTools/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/42_ft_ls_master.dir/libft/src/char/ft_isascii.c.o   -c /Users/n.kats/CLionProjects/ft_ls/libft/src/char/ft_isascii.c
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/lgunship/Desktop/CLion_Work_Dir/ft_ls1/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_3) "Building C object CMakeFiles/42_ft_ls_master.dir/libft/src/char/ft_isascii.c.o"
+	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/42_ft_ls_master.dir/libft/src/char/ft_isascii.c.o   -c /Users/lgunship/Desktop/CLion_Work_Dir/ft_ls1/libft/src/char/ft_isascii.c
 
 CMakeFiles/42_ft_ls_master.dir/libft/src/char/ft_isascii.c.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/42_ft_ls_master.dir/libft/src/char/ft_isascii.c.i"
-	/Library/Developer/CommandLineTools/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /Users/n.kats/CLionProjects/ft_ls/libft/src/char/ft_isascii.c > CMakeFiles/42_ft_ls_master.dir/libft/src/char/ft_isascii.c.i
+	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /Users/lgunship/Desktop/CLion_Work_Dir/ft_ls1/libft/src/char/ft_isascii.c > CMakeFiles/42_ft_ls_master.dir/libft/src/char/ft_isascii.c.i
 
 CMakeFiles/42_ft_ls_master.dir/libft/src/char/ft_isascii.c.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/42_ft_ls_master.dir/libft/src/char/ft_isascii.c.s"
-	/Library/Developer/CommandLineTools/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /Users/n.kats/CLionProjects/ft_ls/libft/src/char/ft_isascii.c -o CMakeFiles/42_ft_ls_master.dir/libft/src/char/ft_isascii.c.s
+	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /Users/lgunship/Desktop/CLion_Work_Dir/ft_ls1/libft/src/char/ft_isascii.c -o CMakeFiles/42_ft_ls_master.dir/libft/src/char/ft_isascii.c.s
 
 CMakeFiles/42_ft_ls_master.dir/libft/src/char/ft_isdigit.c.o: CMakeFiles/42_ft_ls_master.dir/flags.make
 CMakeFiles/42_ft_ls_master.dir/libft/src/char/ft_isdigit.c.o: ../libft/src/char/ft_isdigit.c
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/n.kats/CLionProjects/ft_ls/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_14) "Building C object CMakeFiles/42_ft_ls_master.dir/libft/src/char/ft_isdigit.c.o"
-	/Library/Developer/CommandLineTools/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/42_ft_ls_master.dir/libft/src/char/ft_isdigit.c.o   -c /Users/n.kats/CLionProjects/ft_ls/libft/src/char/ft_isdigit.c
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/lgunship/Desktop/CLion_Work_Dir/ft_ls1/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_4) "Building C object CMakeFiles/42_ft_ls_master.dir/libft/src/char/ft_isdigit.c.o"
+	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/42_ft_ls_master.dir/libft/src/char/ft_isdigit.c.o   -c /Users/lgunship/Desktop/CLion_Work_Dir/ft_ls1/libft/src/char/ft_isdigit.c
 
 CMakeFiles/42_ft_ls_master.dir/libft/src/char/ft_isdigit.c.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/42_ft_ls_master.dir/libft/src/char/ft_isdigit.c.i"
-	/Library/Developer/CommandLineTools/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /Users/n.kats/CLionProjects/ft_ls/libft/src/char/ft_isdigit.c > CMakeFiles/42_ft_ls_master.dir/libft/src/char/ft_isdigit.c.i
+	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /Users/lgunship/Desktop/CLion_Work_Dir/ft_ls1/libft/src/char/ft_isdigit.c > CMakeFiles/42_ft_ls_master.dir/libft/src/char/ft_isdigit.c.i
 
 CMakeFiles/42_ft_ls_master.dir/libft/src/char/ft_isdigit.c.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/42_ft_ls_master.dir/libft/src/char/ft_isdigit.c.s"
-	/Library/Developer/CommandLineTools/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /Users/n.kats/CLionProjects/ft_ls/libft/src/char/ft_isdigit.c -o CMakeFiles/42_ft_ls_master.dir/libft/src/char/ft_isdigit.c.s
+	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /Users/lgunship/Desktop/CLion_Work_Dir/ft_ls1/libft/src/char/ft_isdigit.c -o CMakeFiles/42_ft_ls_master.dir/libft/src/char/ft_isdigit.c.s
 
 CMakeFiles/42_ft_ls_master.dir/libft/src/char/ft_isprint.c.o: CMakeFiles/42_ft_ls_master.dir/flags.make
 CMakeFiles/42_ft_ls_master.dir/libft/src/char/ft_isprint.c.o: ../libft/src/char/ft_isprint.c
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/n.kats/CLionProjects/ft_ls/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_15) "Building C object CMakeFiles/42_ft_ls_master.dir/libft/src/char/ft_isprint.c.o"
-	/Library/Developer/CommandLineTools/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/42_ft_ls_master.dir/libft/src/char/ft_isprint.c.o   -c /Users/n.kats/CLionProjects/ft_ls/libft/src/char/ft_isprint.c
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/lgunship/Desktop/CLion_Work_Dir/ft_ls1/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_5) "Building C object CMakeFiles/42_ft_ls_master.dir/libft/src/char/ft_isprint.c.o"
+	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/42_ft_ls_master.dir/libft/src/char/ft_isprint.c.o   -c /Users/lgunship/Desktop/CLion_Work_Dir/ft_ls1/libft/src/char/ft_isprint.c
 
 CMakeFiles/42_ft_ls_master.dir/libft/src/char/ft_isprint.c.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/42_ft_ls_master.dir/libft/src/char/ft_isprint.c.i"
-	/Library/Developer/CommandLineTools/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /Users/n.kats/CLionProjects/ft_ls/libft/src/char/ft_isprint.c > CMakeFiles/42_ft_ls_master.dir/libft/src/char/ft_isprint.c.i
+	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /Users/lgunship/Desktop/CLion_Work_Dir/ft_ls1/libft/src/char/ft_isprint.c > CMakeFiles/42_ft_ls_master.dir/libft/src/char/ft_isprint.c.i
 
 CMakeFiles/42_ft_ls_master.dir/libft/src/char/ft_isprint.c.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/42_ft_ls_master.dir/libft/src/char/ft_isprint.c.s"
-	/Library/Developer/CommandLineTools/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /Users/n.kats/CLionProjects/ft_ls/libft/src/char/ft_isprint.c -o CMakeFiles/42_ft_ls_master.dir/libft/src/char/ft_isprint.c.s
+	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /Users/lgunship/Desktop/CLion_Work_Dir/ft_ls1/libft/src/char/ft_isprint.c -o CMakeFiles/42_ft_ls_master.dir/libft/src/char/ft_isprint.c.s
 
 CMakeFiles/42_ft_ls_master.dir/libft/src/char/ft_tolower.c.o: CMakeFiles/42_ft_ls_master.dir/flags.make
 CMakeFiles/42_ft_ls_master.dir/libft/src/char/ft_tolower.c.o: ../libft/src/char/ft_tolower.c
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/n.kats/CLionProjects/ft_ls/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_16) "Building C object CMakeFiles/42_ft_ls_master.dir/libft/src/char/ft_tolower.c.o"
-	/Library/Developer/CommandLineTools/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/42_ft_ls_master.dir/libft/src/char/ft_tolower.c.o   -c /Users/n.kats/CLionProjects/ft_ls/libft/src/char/ft_tolower.c
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/lgunship/Desktop/CLion_Work_Dir/ft_ls1/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_6) "Building C object CMakeFiles/42_ft_ls_master.dir/libft/src/char/ft_tolower.c.o"
+	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/42_ft_ls_master.dir/libft/src/char/ft_tolower.c.o   -c /Users/lgunship/Desktop/CLion_Work_Dir/ft_ls1/libft/src/char/ft_tolower.c
 
 CMakeFiles/42_ft_ls_master.dir/libft/src/char/ft_tolower.c.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/42_ft_ls_master.dir/libft/src/char/ft_tolower.c.i"
-	/Library/Developer/CommandLineTools/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /Users/n.kats/CLionProjects/ft_ls/libft/src/char/ft_tolower.c > CMakeFiles/42_ft_ls_master.dir/libft/src/char/ft_tolower.c.i
+	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /Users/lgunship/Desktop/CLion_Work_Dir/ft_ls1/libft/src/char/ft_tolower.c > CMakeFiles/42_ft_ls_master.dir/libft/src/char/ft_tolower.c.i
 
 CMakeFiles/42_ft_ls_master.dir/libft/src/char/ft_tolower.c.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/42_ft_ls_master.dir/libft/src/char/ft_tolower.c.s"
-	/Library/Developer/CommandLineTools/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /Users/n.kats/CLionProjects/ft_ls/libft/src/char/ft_tolower.c -o CMakeFiles/42_ft_ls_master.dir/libft/src/char/ft_tolower.c.s
+	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /Users/lgunship/Desktop/CLion_Work_Dir/ft_ls1/libft/src/char/ft_tolower.c -o CMakeFiles/42_ft_ls_master.dir/libft/src/char/ft_tolower.c.s
 
 CMakeFiles/42_ft_ls_master.dir/libft/src/char/ft_toupper.c.o: CMakeFiles/42_ft_ls_master.dir/flags.make
 CMakeFiles/42_ft_ls_master.dir/libft/src/char/ft_toupper.c.o: ../libft/src/char/ft_toupper.c
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/n.kats/CLionProjects/ft_ls/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_17) "Building C object CMakeFiles/42_ft_ls_master.dir/libft/src/char/ft_toupper.c.o"
-	/Library/Developer/CommandLineTools/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/42_ft_ls_master.dir/libft/src/char/ft_toupper.c.o   -c /Users/n.kats/CLionProjects/ft_ls/libft/src/char/ft_toupper.c
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/lgunship/Desktop/CLion_Work_Dir/ft_ls1/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_7) "Building C object CMakeFiles/42_ft_ls_master.dir/libft/src/char/ft_toupper.c.o"
+	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/42_ft_ls_master.dir/libft/src/char/ft_toupper.c.o   -c /Users/lgunship/Desktop/CLion_Work_Dir/ft_ls1/libft/src/char/ft_toupper.c
 
 CMakeFiles/42_ft_ls_master.dir/libft/src/char/ft_toupper.c.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/42_ft_ls_master.dir/libft/src/char/ft_toupper.c.i"
-	/Library/Developer/CommandLineTools/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /Users/n.kats/CLionProjects/ft_ls/libft/src/char/ft_toupper.c > CMakeFiles/42_ft_ls_master.dir/libft/src/char/ft_toupper.c.i
+	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /Users/lgunship/Desktop/CLion_Work_Dir/ft_ls1/libft/src/char/ft_toupper.c > CMakeFiles/42_ft_ls_master.dir/libft/src/char/ft_toupper.c.i
 
 CMakeFiles/42_ft_ls_master.dir/libft/src/char/ft_toupper.c.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/42_ft_ls_master.dir/libft/src/char/ft_toupper.c.s"
-	/Library/Developer/CommandLineTools/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /Users/n.kats/CLionProjects/ft_ls/libft/src/char/ft_toupper.c -o CMakeFiles/42_ft_ls_master.dir/libft/src/char/ft_toupper.c.s
+	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /Users/lgunship/Desktop/CLion_Work_Dir/ft_ls1/libft/src/char/ft_toupper.c -o CMakeFiles/42_ft_ls_master.dir/libft/src/char/ft_toupper.c.s
 
 CMakeFiles/42_ft_ls_master.dir/libft/src/conv/ft_atoi.c.o: CMakeFiles/42_ft_ls_master.dir/flags.make
 CMakeFiles/42_ft_ls_master.dir/libft/src/conv/ft_atoi.c.o: ../libft/src/conv/ft_atoi.c
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/n.kats/CLionProjects/ft_ls/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_18) "Building C object CMakeFiles/42_ft_ls_master.dir/libft/src/conv/ft_atoi.c.o"
-	/Library/Developer/CommandLineTools/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/42_ft_ls_master.dir/libft/src/conv/ft_atoi.c.o   -c /Users/n.kats/CLionProjects/ft_ls/libft/src/conv/ft_atoi.c
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/lgunship/Desktop/CLion_Work_Dir/ft_ls1/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_8) "Building C object CMakeFiles/42_ft_ls_master.dir/libft/src/conv/ft_atoi.c.o"
+	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/42_ft_ls_master.dir/libft/src/conv/ft_atoi.c.o   -c /Users/lgunship/Desktop/CLion_Work_Dir/ft_ls1/libft/src/conv/ft_atoi.c
 
 CMakeFiles/42_ft_ls_master.dir/libft/src/conv/ft_atoi.c.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/42_ft_ls_master.dir/libft/src/conv/ft_atoi.c.i"
-	/Library/Developer/CommandLineTools/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /Users/n.kats/CLionProjects/ft_ls/libft/src/conv/ft_atoi.c > CMakeFiles/42_ft_ls_master.dir/libft/src/conv/ft_atoi.c.i
+	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /Users/lgunship/Desktop/CLion_Work_Dir/ft_ls1/libft/src/conv/ft_atoi.c > CMakeFiles/42_ft_ls_master.dir/libft/src/conv/ft_atoi.c.i
 
 CMakeFiles/42_ft_ls_master.dir/libft/src/conv/ft_atoi.c.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/42_ft_ls_master.dir/libft/src/conv/ft_atoi.c.s"
-	/Library/Developer/CommandLineTools/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /Users/n.kats/CLionProjects/ft_ls/libft/src/conv/ft_atoi.c -o CMakeFiles/42_ft_ls_master.dir/libft/src/conv/ft_atoi.c.s
+	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /Users/lgunship/Desktop/CLion_Work_Dir/ft_ls1/libft/src/conv/ft_atoi.c -o CMakeFiles/42_ft_ls_master.dir/libft/src/conv/ft_atoi.c.s
 
 CMakeFiles/42_ft_ls_master.dir/libft/src/conv/ft_itoa.c.o: CMakeFiles/42_ft_ls_master.dir/flags.make
 CMakeFiles/42_ft_ls_master.dir/libft/src/conv/ft_itoa.c.o: ../libft/src/conv/ft_itoa.c
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/n.kats/CLionProjects/ft_ls/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_19) "Building C object CMakeFiles/42_ft_ls_master.dir/libft/src/conv/ft_itoa.c.o"
-	/Library/Developer/CommandLineTools/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/42_ft_ls_master.dir/libft/src/conv/ft_itoa.c.o   -c /Users/n.kats/CLionProjects/ft_ls/libft/src/conv/ft_itoa.c
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/lgunship/Desktop/CLion_Work_Dir/ft_ls1/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_9) "Building C object CMakeFiles/42_ft_ls_master.dir/libft/src/conv/ft_itoa.c.o"
+	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/42_ft_ls_master.dir/libft/src/conv/ft_itoa.c.o   -c /Users/lgunship/Desktop/CLion_Work_Dir/ft_ls1/libft/src/conv/ft_itoa.c
 
 CMakeFiles/42_ft_ls_master.dir/libft/src/conv/ft_itoa.c.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/42_ft_ls_master.dir/libft/src/conv/ft_itoa.c.i"
-	/Library/Developer/CommandLineTools/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /Users/n.kats/CLionProjects/ft_ls/libft/src/conv/ft_itoa.c > CMakeFiles/42_ft_ls_master.dir/libft/src/conv/ft_itoa.c.i
+	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /Users/lgunship/Desktop/CLion_Work_Dir/ft_ls1/libft/src/conv/ft_itoa.c > CMakeFiles/42_ft_ls_master.dir/libft/src/conv/ft_itoa.c.i
 
 CMakeFiles/42_ft_ls_master.dir/libft/src/conv/ft_itoa.c.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/42_ft_ls_master.dir/libft/src/conv/ft_itoa.c.s"
-	/Library/Developer/CommandLineTools/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /Users/n.kats/CLionProjects/ft_ls/libft/src/conv/ft_itoa.c -o CMakeFiles/42_ft_ls_master.dir/libft/src/conv/ft_itoa.c.s
+	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /Users/lgunship/Desktop/CLion_Work_Dir/ft_ls1/libft/src/conv/ft_itoa.c -o CMakeFiles/42_ft_ls_master.dir/libft/src/conv/ft_itoa.c.s
 
 CMakeFiles/42_ft_ls_master.dir/libft/src/conv/ft_swap.c.o: CMakeFiles/42_ft_ls_master.dir/flags.make
 CMakeFiles/42_ft_ls_master.dir/libft/src/conv/ft_swap.c.o: ../libft/src/conv/ft_swap.c
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/n.kats/CLionProjects/ft_ls/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_20) "Building C object CMakeFiles/42_ft_ls_master.dir/libft/src/conv/ft_swap.c.o"
-	/Library/Developer/CommandLineTools/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/42_ft_ls_master.dir/libft/src/conv/ft_swap.c.o   -c /Users/n.kats/CLionProjects/ft_ls/libft/src/conv/ft_swap.c
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/lgunship/Desktop/CLion_Work_Dir/ft_ls1/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_10) "Building C object CMakeFiles/42_ft_ls_master.dir/libft/src/conv/ft_swap.c.o"
+	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/42_ft_ls_master.dir/libft/src/conv/ft_swap.c.o   -c /Users/lgunship/Desktop/CLion_Work_Dir/ft_ls1/libft/src/conv/ft_swap.c
 
 CMakeFiles/42_ft_ls_master.dir/libft/src/conv/ft_swap.c.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/42_ft_ls_master.dir/libft/src/conv/ft_swap.c.i"
-	/Library/Developer/CommandLineTools/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /Users/n.kats/CLionProjects/ft_ls/libft/src/conv/ft_swap.c > CMakeFiles/42_ft_ls_master.dir/libft/src/conv/ft_swap.c.i
+	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /Users/lgunship/Desktop/CLion_Work_Dir/ft_ls1/libft/src/conv/ft_swap.c > CMakeFiles/42_ft_ls_master.dir/libft/src/conv/ft_swap.c.i
 
 CMakeFiles/42_ft_ls_master.dir/libft/src/conv/ft_swap.c.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/42_ft_ls_master.dir/libft/src/conv/ft_swap.c.s"
-	/Library/Developer/CommandLineTools/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /Users/n.kats/CLionProjects/ft_ls/libft/src/conv/ft_swap.c -o CMakeFiles/42_ft_ls_master.dir/libft/src/conv/ft_swap.c.s
+	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /Users/lgunship/Desktop/CLion_Work_Dir/ft_ls1/libft/src/conv/ft_swap.c -o CMakeFiles/42_ft_ls_master.dir/libft/src/conv/ft_swap.c.s
 
 CMakeFiles/42_ft_ls_master.dir/libft/src/lines/ft_count_word.c.o: CMakeFiles/42_ft_ls_master.dir/flags.make
 CMakeFiles/42_ft_ls_master.dir/libft/src/lines/ft_count_word.c.o: ../libft/src/lines/ft_count_word.c
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/n.kats/CLionProjects/ft_ls/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_21) "Building C object CMakeFiles/42_ft_ls_master.dir/libft/src/lines/ft_count_word.c.o"
-	/Library/Developer/CommandLineTools/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/42_ft_ls_master.dir/libft/src/lines/ft_count_word.c.o   -c /Users/n.kats/CLionProjects/ft_ls/libft/src/lines/ft_count_word.c
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/lgunship/Desktop/CLion_Work_Dir/ft_ls1/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_11) "Building C object CMakeFiles/42_ft_ls_master.dir/libft/src/lines/ft_count_word.c.o"
+	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/42_ft_ls_master.dir/libft/src/lines/ft_count_word.c.o   -c /Users/lgunship/Desktop/CLion_Work_Dir/ft_ls1/libft/src/lines/ft_count_word.c
 
 CMakeFiles/42_ft_ls_master.dir/libft/src/lines/ft_count_word.c.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/42_ft_ls_master.dir/libft/src/lines/ft_count_word.c.i"
-	/Library/Developer/CommandLineTools/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /Users/n.kats/CLionProjects/ft_ls/libft/src/lines/ft_count_word.c > CMakeFiles/42_ft_ls_master.dir/libft/src/lines/ft_count_word.c.i
+	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /Users/lgunship/Desktop/CLion_Work_Dir/ft_ls1/libft/src/lines/ft_count_word.c > CMakeFiles/42_ft_ls_master.dir/libft/src/lines/ft_count_word.c.i
 
 CMakeFiles/42_ft_ls_master.dir/libft/src/lines/ft_count_word.c.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/42_ft_ls_master.dir/libft/src/lines/ft_count_word.c.s"
-	/Library/Developer/CommandLineTools/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /Users/n.kats/CLionProjects/ft_ls/libft/src/lines/ft_count_word.c -o CMakeFiles/42_ft_ls_master.dir/libft/src/lines/ft_count_word.c.s
+	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /Users/lgunship/Desktop/CLion_Work_Dir/ft_ls1/libft/src/lines/ft_count_word.c -o CMakeFiles/42_ft_ls_master.dir/libft/src/lines/ft_count_word.c.s
 
 CMakeFiles/42_ft_ls_master.dir/libft/src/lines/ft_getlines.c.o: CMakeFiles/42_ft_ls_master.dir/flags.make
 CMakeFiles/42_ft_ls_master.dir/libft/src/lines/ft_getlines.c.o: ../libft/src/lines/ft_getlines.c
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/n.kats/CLionProjects/ft_ls/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_22) "Building C object CMakeFiles/42_ft_ls_master.dir/libft/src/lines/ft_getlines.c.o"
-	/Library/Developer/CommandLineTools/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/42_ft_ls_master.dir/libft/src/lines/ft_getlines.c.o   -c /Users/n.kats/CLionProjects/ft_ls/libft/src/lines/ft_getlines.c
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/lgunship/Desktop/CLion_Work_Dir/ft_ls1/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_12) "Building C object CMakeFiles/42_ft_ls_master.dir/libft/src/lines/ft_getlines.c.o"
+	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/42_ft_ls_master.dir/libft/src/lines/ft_getlines.c.o   -c /Users/lgunship/Desktop/CLion_Work_Dir/ft_ls1/libft/src/lines/ft_getlines.c
 
 CMakeFiles/42_ft_ls_master.dir/libft/src/lines/ft_getlines.c.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/42_ft_ls_master.dir/libft/src/lines/ft_getlines.c.i"
-	/Library/Developer/CommandLineTools/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /Users/n.kats/CLionProjects/ft_ls/libft/src/lines/ft_getlines.c > CMakeFiles/42_ft_ls_master.dir/libft/src/lines/ft_getlines.c.i
+	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /Users/lgunship/Desktop/CLion_Work_Dir/ft_ls1/libft/src/lines/ft_getlines.c > CMakeFiles/42_ft_ls_master.dir/libft/src/lines/ft_getlines.c.i
 
 CMakeFiles/42_ft_ls_master.dir/libft/src/lines/ft_getlines.c.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/42_ft_ls_master.dir/libft/src/lines/ft_getlines.c.s"
-	/Library/Developer/CommandLineTools/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /Users/n.kats/CLionProjects/ft_ls/libft/src/lines/ft_getlines.c -o CMakeFiles/42_ft_ls_master.dir/libft/src/lines/ft_getlines.c.s
+	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /Users/lgunship/Desktop/CLion_Work_Dir/ft_ls1/libft/src/lines/ft_getlines.c -o CMakeFiles/42_ft_ls_master.dir/libft/src/lines/ft_getlines.c.s
 
 CMakeFiles/42_ft_ls_master.dir/libft/src/lines/get_next_line.c.o: CMakeFiles/42_ft_ls_master.dir/flags.make
 CMakeFiles/42_ft_ls_master.dir/libft/src/lines/get_next_line.c.o: ../libft/src/lines/get_next_line.c
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/n.kats/CLionProjects/ft_ls/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_23) "Building C object CMakeFiles/42_ft_ls_master.dir/libft/src/lines/get_next_line.c.o"
-	/Library/Developer/CommandLineTools/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/42_ft_ls_master.dir/libft/src/lines/get_next_line.c.o   -c /Users/n.kats/CLionProjects/ft_ls/libft/src/lines/get_next_line.c
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/lgunship/Desktop/CLion_Work_Dir/ft_ls1/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_13) "Building C object CMakeFiles/42_ft_ls_master.dir/libft/src/lines/get_next_line.c.o"
+	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/42_ft_ls_master.dir/libft/src/lines/get_next_line.c.o   -c /Users/lgunship/Desktop/CLion_Work_Dir/ft_ls1/libft/src/lines/get_next_line.c
 
 CMakeFiles/42_ft_ls_master.dir/libft/src/lines/get_next_line.c.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/42_ft_ls_master.dir/libft/src/lines/get_next_line.c.i"
-	/Library/Developer/CommandLineTools/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /Users/n.kats/CLionProjects/ft_ls/libft/src/lines/get_next_line.c > CMakeFiles/42_ft_ls_master.dir/libft/src/lines/get_next_line.c.i
+	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /Users/lgunship/Desktop/CLion_Work_Dir/ft_ls1/libft/src/lines/get_next_line.c > CMakeFiles/42_ft_ls_master.dir/libft/src/lines/get_next_line.c.i
 
 CMakeFiles/42_ft_ls_master.dir/libft/src/lines/get_next_line.c.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/42_ft_ls_master.dir/libft/src/lines/get_next_line.c.s"
-	/Library/Developer/CommandLineTools/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /Users/n.kats/CLionProjects/ft_ls/libft/src/lines/get_next_line.c -o CMakeFiles/42_ft_ls_master.dir/libft/src/lines/get_next_line.c.s
+	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /Users/lgunship/Desktop/CLion_Work_Dir/ft_ls1/libft/src/lines/get_next_line.c -o CMakeFiles/42_ft_ls_master.dir/libft/src/lines/get_next_line.c.s
 
 CMakeFiles/42_ft_ls_master.dir/libft/src/lst/ft_lstadd.c.o: CMakeFiles/42_ft_ls_master.dir/flags.make
 CMakeFiles/42_ft_ls_master.dir/libft/src/lst/ft_lstadd.c.o: ../libft/src/lst/ft_lstadd.c
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/n.kats/CLionProjects/ft_ls/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_24) "Building C object CMakeFiles/42_ft_ls_master.dir/libft/src/lst/ft_lstadd.c.o"
-	/Library/Developer/CommandLineTools/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/42_ft_ls_master.dir/libft/src/lst/ft_lstadd.c.o   -c /Users/n.kats/CLionProjects/ft_ls/libft/src/lst/ft_lstadd.c
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/lgunship/Desktop/CLion_Work_Dir/ft_ls1/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_14) "Building C object CMakeFiles/42_ft_ls_master.dir/libft/src/lst/ft_lstadd.c.o"
+	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/42_ft_ls_master.dir/libft/src/lst/ft_lstadd.c.o   -c /Users/lgunship/Desktop/CLion_Work_Dir/ft_ls1/libft/src/lst/ft_lstadd.c
 
 CMakeFiles/42_ft_ls_master.dir/libft/src/lst/ft_lstadd.c.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/42_ft_ls_master.dir/libft/src/lst/ft_lstadd.c.i"
-	/Library/Developer/CommandLineTools/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /Users/n.kats/CLionProjects/ft_ls/libft/src/lst/ft_lstadd.c > CMakeFiles/42_ft_ls_master.dir/libft/src/lst/ft_lstadd.c.i
+	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /Users/lgunship/Desktop/CLion_Work_Dir/ft_ls1/libft/src/lst/ft_lstadd.c > CMakeFiles/42_ft_ls_master.dir/libft/src/lst/ft_lstadd.c.i
 
 CMakeFiles/42_ft_ls_master.dir/libft/src/lst/ft_lstadd.c.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/42_ft_ls_master.dir/libft/src/lst/ft_lstadd.c.s"
-	/Library/Developer/CommandLineTools/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /Users/n.kats/CLionProjects/ft_ls/libft/src/lst/ft_lstadd.c -o CMakeFiles/42_ft_ls_master.dir/libft/src/lst/ft_lstadd.c.s
+	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /Users/lgunship/Desktop/CLion_Work_Dir/ft_ls1/libft/src/lst/ft_lstadd.c -o CMakeFiles/42_ft_ls_master.dir/libft/src/lst/ft_lstadd.c.s
 
 CMakeFiles/42_ft_ls_master.dir/libft/src/lst/ft_lstdel.c.o: CMakeFiles/42_ft_ls_master.dir/flags.make
 CMakeFiles/42_ft_ls_master.dir/libft/src/lst/ft_lstdel.c.o: ../libft/src/lst/ft_lstdel.c
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/n.kats/CLionProjects/ft_ls/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_25) "Building C object CMakeFiles/42_ft_ls_master.dir/libft/src/lst/ft_lstdel.c.o"
-	/Library/Developer/CommandLineTools/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/42_ft_ls_master.dir/libft/src/lst/ft_lstdel.c.o   -c /Users/n.kats/CLionProjects/ft_ls/libft/src/lst/ft_lstdel.c
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/lgunship/Desktop/CLion_Work_Dir/ft_ls1/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_15) "Building C object CMakeFiles/42_ft_ls_master.dir/libft/src/lst/ft_lstdel.c.o"
+	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/42_ft_ls_master.dir/libft/src/lst/ft_lstdel.c.o   -c /Users/lgunship/Desktop/CLion_Work_Dir/ft_ls1/libft/src/lst/ft_lstdel.c
 
 CMakeFiles/42_ft_ls_master.dir/libft/src/lst/ft_lstdel.c.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/42_ft_ls_master.dir/libft/src/lst/ft_lstdel.c.i"
-	/Library/Developer/CommandLineTools/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /Users/n.kats/CLionProjects/ft_ls/libft/src/lst/ft_lstdel.c > CMakeFiles/42_ft_ls_master.dir/libft/src/lst/ft_lstdel.c.i
+	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /Users/lgunship/Desktop/CLion_Work_Dir/ft_ls1/libft/src/lst/ft_lstdel.c > CMakeFiles/42_ft_ls_master.dir/libft/src/lst/ft_lstdel.c.i
 
 CMakeFiles/42_ft_ls_master.dir/libft/src/lst/ft_lstdel.c.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/42_ft_ls_master.dir/libft/src/lst/ft_lstdel.c.s"
-	/Library/Developer/CommandLineTools/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /Users/n.kats/CLionProjects/ft_ls/libft/src/lst/ft_lstdel.c -o CMakeFiles/42_ft_ls_master.dir/libft/src/lst/ft_lstdel.c.s
+	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /Users/lgunship/Desktop/CLion_Work_Dir/ft_ls1/libft/src/lst/ft_lstdel.c -o CMakeFiles/42_ft_ls_master.dir/libft/src/lst/ft_lstdel.c.s
 
 CMakeFiles/42_ft_ls_master.dir/libft/src/lst/ft_lstdelone.c.o: CMakeFiles/42_ft_ls_master.dir/flags.make
 CMakeFiles/42_ft_ls_master.dir/libft/src/lst/ft_lstdelone.c.o: ../libft/src/lst/ft_lstdelone.c
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/n.kats/CLionProjects/ft_ls/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_26) "Building C object CMakeFiles/42_ft_ls_master.dir/libft/src/lst/ft_lstdelone.c.o"
-	/Library/Developer/CommandLineTools/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/42_ft_ls_master.dir/libft/src/lst/ft_lstdelone.c.o   -c /Users/n.kats/CLionProjects/ft_ls/libft/src/lst/ft_lstdelone.c
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/lgunship/Desktop/CLion_Work_Dir/ft_ls1/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_16) "Building C object CMakeFiles/42_ft_ls_master.dir/libft/src/lst/ft_lstdelone.c.o"
+	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/42_ft_ls_master.dir/libft/src/lst/ft_lstdelone.c.o   -c /Users/lgunship/Desktop/CLion_Work_Dir/ft_ls1/libft/src/lst/ft_lstdelone.c
 
 CMakeFiles/42_ft_ls_master.dir/libft/src/lst/ft_lstdelone.c.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/42_ft_ls_master.dir/libft/src/lst/ft_lstdelone.c.i"
-	/Library/Developer/CommandLineTools/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /Users/n.kats/CLionProjects/ft_ls/libft/src/lst/ft_lstdelone.c > CMakeFiles/42_ft_ls_master.dir/libft/src/lst/ft_lstdelone.c.i
+	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /Users/lgunship/Desktop/CLion_Work_Dir/ft_ls1/libft/src/lst/ft_lstdelone.c > CMakeFiles/42_ft_ls_master.dir/libft/src/lst/ft_lstdelone.c.i
 
 CMakeFiles/42_ft_ls_master.dir/libft/src/lst/ft_lstdelone.c.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/42_ft_ls_master.dir/libft/src/lst/ft_lstdelone.c.s"
-	/Library/Developer/CommandLineTools/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /Users/n.kats/CLionProjects/ft_ls/libft/src/lst/ft_lstdelone.c -o CMakeFiles/42_ft_ls_master.dir/libft/src/lst/ft_lstdelone.c.s
+	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /Users/lgunship/Desktop/CLion_Work_Dir/ft_ls1/libft/src/lst/ft_lstdelone.c -o CMakeFiles/42_ft_ls_master.dir/libft/src/lst/ft_lstdelone.c.s
 
 CMakeFiles/42_ft_ls_master.dir/libft/src/lst/ft_lstiter.c.o: CMakeFiles/42_ft_ls_master.dir/flags.make
 CMakeFiles/42_ft_ls_master.dir/libft/src/lst/ft_lstiter.c.o: ../libft/src/lst/ft_lstiter.c
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/n.kats/CLionProjects/ft_ls/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_27) "Building C object CMakeFiles/42_ft_ls_master.dir/libft/src/lst/ft_lstiter.c.o"
-	/Library/Developer/CommandLineTools/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/42_ft_ls_master.dir/libft/src/lst/ft_lstiter.c.o   -c /Users/n.kats/CLionProjects/ft_ls/libft/src/lst/ft_lstiter.c
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/lgunship/Desktop/CLion_Work_Dir/ft_ls1/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_17) "Building C object CMakeFiles/42_ft_ls_master.dir/libft/src/lst/ft_lstiter.c.o"
+	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/42_ft_ls_master.dir/libft/src/lst/ft_lstiter.c.o   -c /Users/lgunship/Desktop/CLion_Work_Dir/ft_ls1/libft/src/lst/ft_lstiter.c
 
 CMakeFiles/42_ft_ls_master.dir/libft/src/lst/ft_lstiter.c.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/42_ft_ls_master.dir/libft/src/lst/ft_lstiter.c.i"
-	/Library/Developer/CommandLineTools/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /Users/n.kats/CLionProjects/ft_ls/libft/src/lst/ft_lstiter.c > CMakeFiles/42_ft_ls_master.dir/libft/src/lst/ft_lstiter.c.i
+	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /Users/lgunship/Desktop/CLion_Work_Dir/ft_ls1/libft/src/lst/ft_lstiter.c > CMakeFiles/42_ft_ls_master.dir/libft/src/lst/ft_lstiter.c.i
 
 CMakeFiles/42_ft_ls_master.dir/libft/src/lst/ft_lstiter.c.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/42_ft_ls_master.dir/libft/src/lst/ft_lstiter.c.s"
-	/Library/Developer/CommandLineTools/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /Users/n.kats/CLionProjects/ft_ls/libft/src/lst/ft_lstiter.c -o CMakeFiles/42_ft_ls_master.dir/libft/src/lst/ft_lstiter.c.s
+	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /Users/lgunship/Desktop/CLion_Work_Dir/ft_ls1/libft/src/lst/ft_lstiter.c -o CMakeFiles/42_ft_ls_master.dir/libft/src/lst/ft_lstiter.c.s
 
 CMakeFiles/42_ft_ls_master.dir/libft/src/lst/ft_lstmap.c.o: CMakeFiles/42_ft_ls_master.dir/flags.make
 CMakeFiles/42_ft_ls_master.dir/libft/src/lst/ft_lstmap.c.o: ../libft/src/lst/ft_lstmap.c
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/n.kats/CLionProjects/ft_ls/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_28) "Building C object CMakeFiles/42_ft_ls_master.dir/libft/src/lst/ft_lstmap.c.o"
-	/Library/Developer/CommandLineTools/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/42_ft_ls_master.dir/libft/src/lst/ft_lstmap.c.o   -c /Users/n.kats/CLionProjects/ft_ls/libft/src/lst/ft_lstmap.c
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/lgunship/Desktop/CLion_Work_Dir/ft_ls1/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_18) "Building C object CMakeFiles/42_ft_ls_master.dir/libft/src/lst/ft_lstmap.c.o"
+	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/42_ft_ls_master.dir/libft/src/lst/ft_lstmap.c.o   -c /Users/lgunship/Desktop/CLion_Work_Dir/ft_ls1/libft/src/lst/ft_lstmap.c
 
 CMakeFiles/42_ft_ls_master.dir/libft/src/lst/ft_lstmap.c.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/42_ft_ls_master.dir/libft/src/lst/ft_lstmap.c.i"
-	/Library/Developer/CommandLineTools/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /Users/n.kats/CLionProjects/ft_ls/libft/src/lst/ft_lstmap.c > CMakeFiles/42_ft_ls_master.dir/libft/src/lst/ft_lstmap.c.i
+	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /Users/lgunship/Desktop/CLion_Work_Dir/ft_ls1/libft/src/lst/ft_lstmap.c > CMakeFiles/42_ft_ls_master.dir/libft/src/lst/ft_lstmap.c.i
 
 CMakeFiles/42_ft_ls_master.dir/libft/src/lst/ft_lstmap.c.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/42_ft_ls_master.dir/libft/src/lst/ft_lstmap.c.s"
-	/Library/Developer/CommandLineTools/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /Users/n.kats/CLionProjects/ft_ls/libft/src/lst/ft_lstmap.c -o CMakeFiles/42_ft_ls_master.dir/libft/src/lst/ft_lstmap.c.s
+	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /Users/lgunship/Desktop/CLion_Work_Dir/ft_ls1/libft/src/lst/ft_lstmap.c -o CMakeFiles/42_ft_ls_master.dir/libft/src/lst/ft_lstmap.c.s
 
 CMakeFiles/42_ft_ls_master.dir/libft/src/lst/ft_lstnew.c.o: CMakeFiles/42_ft_ls_master.dir/flags.make
 CMakeFiles/42_ft_ls_master.dir/libft/src/lst/ft_lstnew.c.o: ../libft/src/lst/ft_lstnew.c
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/n.kats/CLionProjects/ft_ls/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_29) "Building C object CMakeFiles/42_ft_ls_master.dir/libft/src/lst/ft_lstnew.c.o"
-	/Library/Developer/CommandLineTools/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/42_ft_ls_master.dir/libft/src/lst/ft_lstnew.c.o   -c /Users/n.kats/CLionProjects/ft_ls/libft/src/lst/ft_lstnew.c
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/lgunship/Desktop/CLion_Work_Dir/ft_ls1/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_19) "Building C object CMakeFiles/42_ft_ls_master.dir/libft/src/lst/ft_lstnew.c.o"
+	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/42_ft_ls_master.dir/libft/src/lst/ft_lstnew.c.o   -c /Users/lgunship/Desktop/CLion_Work_Dir/ft_ls1/libft/src/lst/ft_lstnew.c
 
 CMakeFiles/42_ft_ls_master.dir/libft/src/lst/ft_lstnew.c.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/42_ft_ls_master.dir/libft/src/lst/ft_lstnew.c.i"
-	/Library/Developer/CommandLineTools/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /Users/n.kats/CLionProjects/ft_ls/libft/src/lst/ft_lstnew.c > CMakeFiles/42_ft_ls_master.dir/libft/src/lst/ft_lstnew.c.i
+	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /Users/lgunship/Desktop/CLion_Work_Dir/ft_ls1/libft/src/lst/ft_lstnew.c > CMakeFiles/42_ft_ls_master.dir/libft/src/lst/ft_lstnew.c.i
 
 CMakeFiles/42_ft_ls_master.dir/libft/src/lst/ft_lstnew.c.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/42_ft_ls_master.dir/libft/src/lst/ft_lstnew.c.s"
-	/Library/Developer/CommandLineTools/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /Users/n.kats/CLionProjects/ft_ls/libft/src/lst/ft_lstnew.c -o CMakeFiles/42_ft_ls_master.dir/libft/src/lst/ft_lstnew.c.s
+	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /Users/lgunship/Desktop/CLion_Work_Dir/ft_ls1/libft/src/lst/ft_lstnew.c -o CMakeFiles/42_ft_ls_master.dir/libft/src/lst/ft_lstnew.c.s
 
 CMakeFiles/42_ft_ls_master.dir/libft/src/lst/ft_lstrev.c.o: CMakeFiles/42_ft_ls_master.dir/flags.make
 CMakeFiles/42_ft_ls_master.dir/libft/src/lst/ft_lstrev.c.o: ../libft/src/lst/ft_lstrev.c
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/n.kats/CLionProjects/ft_ls/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_30) "Building C object CMakeFiles/42_ft_ls_master.dir/libft/src/lst/ft_lstrev.c.o"
-	/Library/Developer/CommandLineTools/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/42_ft_ls_master.dir/libft/src/lst/ft_lstrev.c.o   -c /Users/n.kats/CLionProjects/ft_ls/libft/src/lst/ft_lstrev.c
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/lgunship/Desktop/CLion_Work_Dir/ft_ls1/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_20) "Building C object CMakeFiles/42_ft_ls_master.dir/libft/src/lst/ft_lstrev.c.o"
+	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/42_ft_ls_master.dir/libft/src/lst/ft_lstrev.c.o   -c /Users/lgunship/Desktop/CLion_Work_Dir/ft_ls1/libft/src/lst/ft_lstrev.c
 
 CMakeFiles/42_ft_ls_master.dir/libft/src/lst/ft_lstrev.c.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/42_ft_ls_master.dir/libft/src/lst/ft_lstrev.c.i"
-	/Library/Developer/CommandLineTools/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /Users/n.kats/CLionProjects/ft_ls/libft/src/lst/ft_lstrev.c > CMakeFiles/42_ft_ls_master.dir/libft/src/lst/ft_lstrev.c.i
+	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /Users/lgunship/Desktop/CLion_Work_Dir/ft_ls1/libft/src/lst/ft_lstrev.c > CMakeFiles/42_ft_ls_master.dir/libft/src/lst/ft_lstrev.c.i
 
 CMakeFiles/42_ft_ls_master.dir/libft/src/lst/ft_lstrev.c.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/42_ft_ls_master.dir/libft/src/lst/ft_lstrev.c.s"
-	/Library/Developer/CommandLineTools/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /Users/n.kats/CLionProjects/ft_ls/libft/src/lst/ft_lstrev.c -o CMakeFiles/42_ft_ls_master.dir/libft/src/lst/ft_lstrev.c.s
+	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /Users/lgunship/Desktop/CLion_Work_Dir/ft_ls1/libft/src/lst/ft_lstrev.c -o CMakeFiles/42_ft_ls_master.dir/libft/src/lst/ft_lstrev.c.s
 
 CMakeFiles/42_ft_ls_master.dir/libft/src/math/ft_clamp.c.o: CMakeFiles/42_ft_ls_master.dir/flags.make
 CMakeFiles/42_ft_ls_master.dir/libft/src/math/ft_clamp.c.o: ../libft/src/math/ft_clamp.c
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/n.kats/CLionProjects/ft_ls/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_31) "Building C object CMakeFiles/42_ft_ls_master.dir/libft/src/math/ft_clamp.c.o"
-	/Library/Developer/CommandLineTools/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/42_ft_ls_master.dir/libft/src/math/ft_clamp.c.o   -c /Users/n.kats/CLionProjects/ft_ls/libft/src/math/ft_clamp.c
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/lgunship/Desktop/CLion_Work_Dir/ft_ls1/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_21) "Building C object CMakeFiles/42_ft_ls_master.dir/libft/src/math/ft_clamp.c.o"
+	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/42_ft_ls_master.dir/libft/src/math/ft_clamp.c.o   -c /Users/lgunship/Desktop/CLion_Work_Dir/ft_ls1/libft/src/math/ft_clamp.c
 
 CMakeFiles/42_ft_ls_master.dir/libft/src/math/ft_clamp.c.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/42_ft_ls_master.dir/libft/src/math/ft_clamp.c.i"
-	/Library/Developer/CommandLineTools/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /Users/n.kats/CLionProjects/ft_ls/libft/src/math/ft_clamp.c > CMakeFiles/42_ft_ls_master.dir/libft/src/math/ft_clamp.c.i
+	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /Users/lgunship/Desktop/CLion_Work_Dir/ft_ls1/libft/src/math/ft_clamp.c > CMakeFiles/42_ft_ls_master.dir/libft/src/math/ft_clamp.c.i
 
 CMakeFiles/42_ft_ls_master.dir/libft/src/math/ft_clamp.c.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/42_ft_ls_master.dir/libft/src/math/ft_clamp.c.s"
-	/Library/Developer/CommandLineTools/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /Users/n.kats/CLionProjects/ft_ls/libft/src/math/ft_clamp.c -o CMakeFiles/42_ft_ls_master.dir/libft/src/math/ft_clamp.c.s
+	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /Users/lgunship/Desktop/CLion_Work_Dir/ft_ls1/libft/src/math/ft_clamp.c -o CMakeFiles/42_ft_ls_master.dir/libft/src/math/ft_clamp.c.s
 
 CMakeFiles/42_ft_ls_master.dir/libft/src/math/ft_isprime.c.o: CMakeFiles/42_ft_ls_master.dir/flags.make
 CMakeFiles/42_ft_ls_master.dir/libft/src/math/ft_isprime.c.o: ../libft/src/math/ft_isprime.c
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/n.kats/CLionProjects/ft_ls/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_32) "Building C object CMakeFiles/42_ft_ls_master.dir/libft/src/math/ft_isprime.c.o"
-	/Library/Developer/CommandLineTools/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/42_ft_ls_master.dir/libft/src/math/ft_isprime.c.o   -c /Users/n.kats/CLionProjects/ft_ls/libft/src/math/ft_isprime.c
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/lgunship/Desktop/CLion_Work_Dir/ft_ls1/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_22) "Building C object CMakeFiles/42_ft_ls_master.dir/libft/src/math/ft_isprime.c.o"
+	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/42_ft_ls_master.dir/libft/src/math/ft_isprime.c.o   -c /Users/lgunship/Desktop/CLion_Work_Dir/ft_ls1/libft/src/math/ft_isprime.c
 
 CMakeFiles/42_ft_ls_master.dir/libft/src/math/ft_isprime.c.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/42_ft_ls_master.dir/libft/src/math/ft_isprime.c.i"
-	/Library/Developer/CommandLineTools/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /Users/n.kats/CLionProjects/ft_ls/libft/src/math/ft_isprime.c > CMakeFiles/42_ft_ls_master.dir/libft/src/math/ft_isprime.c.i
+	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /Users/lgunship/Desktop/CLion_Work_Dir/ft_ls1/libft/src/math/ft_isprime.c > CMakeFiles/42_ft_ls_master.dir/libft/src/math/ft_isprime.c.i
 
 CMakeFiles/42_ft_ls_master.dir/libft/src/math/ft_isprime.c.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/42_ft_ls_master.dir/libft/src/math/ft_isprime.c.s"
-	/Library/Developer/CommandLineTools/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /Users/n.kats/CLionProjects/ft_ls/libft/src/math/ft_isprime.c -o CMakeFiles/42_ft_ls_master.dir/libft/src/math/ft_isprime.c.s
+	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /Users/lgunship/Desktop/CLion_Work_Dir/ft_ls1/libft/src/math/ft_isprime.c -o CMakeFiles/42_ft_ls_master.dir/libft/src/math/ft_isprime.c.s
 
 CMakeFiles/42_ft_ls_master.dir/libft/src/math/ft_iterative_power.c.o: CMakeFiles/42_ft_ls_master.dir/flags.make
 CMakeFiles/42_ft_ls_master.dir/libft/src/math/ft_iterative_power.c.o: ../libft/src/math/ft_iterative_power.c
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/n.kats/CLionProjects/ft_ls/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_33) "Building C object CMakeFiles/42_ft_ls_master.dir/libft/src/math/ft_iterative_power.c.o"
-	/Library/Developer/CommandLineTools/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/42_ft_ls_master.dir/libft/src/math/ft_iterative_power.c.o   -c /Users/n.kats/CLionProjects/ft_ls/libft/src/math/ft_iterative_power.c
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/lgunship/Desktop/CLion_Work_Dir/ft_ls1/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_23) "Building C object CMakeFiles/42_ft_ls_master.dir/libft/src/math/ft_iterative_power.c.o"
+	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/42_ft_ls_master.dir/libft/src/math/ft_iterative_power.c.o   -c /Users/lgunship/Desktop/CLion_Work_Dir/ft_ls1/libft/src/math/ft_iterative_power.c
 
 CMakeFiles/42_ft_ls_master.dir/libft/src/math/ft_iterative_power.c.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/42_ft_ls_master.dir/libft/src/math/ft_iterative_power.c.i"
-	/Library/Developer/CommandLineTools/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /Users/n.kats/CLionProjects/ft_ls/libft/src/math/ft_iterative_power.c > CMakeFiles/42_ft_ls_master.dir/libft/src/math/ft_iterative_power.c.i
+	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /Users/lgunship/Desktop/CLion_Work_Dir/ft_ls1/libft/src/math/ft_iterative_power.c > CMakeFiles/42_ft_ls_master.dir/libft/src/math/ft_iterative_power.c.i
 
 CMakeFiles/42_ft_ls_master.dir/libft/src/math/ft_iterative_power.c.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/42_ft_ls_master.dir/libft/src/math/ft_iterative_power.c.s"
-	/Library/Developer/CommandLineTools/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /Users/n.kats/CLionProjects/ft_ls/libft/src/math/ft_iterative_power.c -o CMakeFiles/42_ft_ls_master.dir/libft/src/math/ft_iterative_power.c.s
+	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /Users/lgunship/Desktop/CLion_Work_Dir/ft_ls1/libft/src/math/ft_iterative_power.c -o CMakeFiles/42_ft_ls_master.dir/libft/src/math/ft_iterative_power.c.s
 
 CMakeFiles/42_ft_ls_master.dir/libft/src/math/ft_sqrt.c.o: CMakeFiles/42_ft_ls_master.dir/flags.make
 CMakeFiles/42_ft_ls_master.dir/libft/src/math/ft_sqrt.c.o: ../libft/src/math/ft_sqrt.c
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/n.kats/CLionProjects/ft_ls/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_34) "Building C object CMakeFiles/42_ft_ls_master.dir/libft/src/math/ft_sqrt.c.o"
-	/Library/Developer/CommandLineTools/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/42_ft_ls_master.dir/libft/src/math/ft_sqrt.c.o   -c /Users/n.kats/CLionProjects/ft_ls/libft/src/math/ft_sqrt.c
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/lgunship/Desktop/CLion_Work_Dir/ft_ls1/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_24) "Building C object CMakeFiles/42_ft_ls_master.dir/libft/src/math/ft_sqrt.c.o"
+	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/42_ft_ls_master.dir/libft/src/math/ft_sqrt.c.o   -c /Users/lgunship/Desktop/CLion_Work_Dir/ft_ls1/libft/src/math/ft_sqrt.c
 
 CMakeFiles/42_ft_ls_master.dir/libft/src/math/ft_sqrt.c.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/42_ft_ls_master.dir/libft/src/math/ft_sqrt.c.i"
-	/Library/Developer/CommandLineTools/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /Users/n.kats/CLionProjects/ft_ls/libft/src/math/ft_sqrt.c > CMakeFiles/42_ft_ls_master.dir/libft/src/math/ft_sqrt.c.i
+	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /Users/lgunship/Desktop/CLion_Work_Dir/ft_ls1/libft/src/math/ft_sqrt.c > CMakeFiles/42_ft_ls_master.dir/libft/src/math/ft_sqrt.c.i
 
 CMakeFiles/42_ft_ls_master.dir/libft/src/math/ft_sqrt.c.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/42_ft_ls_master.dir/libft/src/math/ft_sqrt.c.s"
-	/Library/Developer/CommandLineTools/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /Users/n.kats/CLionProjects/ft_ls/libft/src/math/ft_sqrt.c -o CMakeFiles/42_ft_ls_master.dir/libft/src/math/ft_sqrt.c.s
+	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /Users/lgunship/Desktop/CLion_Work_Dir/ft_ls1/libft/src/math/ft_sqrt.c -o CMakeFiles/42_ft_ls_master.dir/libft/src/math/ft_sqrt.c.s
 
 CMakeFiles/42_ft_ls_master.dir/libft/src/mem/ft_bzero.c.o: CMakeFiles/42_ft_ls_master.dir/flags.make
 CMakeFiles/42_ft_ls_master.dir/libft/src/mem/ft_bzero.c.o: ../libft/src/mem/ft_bzero.c
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/n.kats/CLionProjects/ft_ls/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_35) "Building C object CMakeFiles/42_ft_ls_master.dir/libft/src/mem/ft_bzero.c.o"
-	/Library/Developer/CommandLineTools/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/42_ft_ls_master.dir/libft/src/mem/ft_bzero.c.o   -c /Users/n.kats/CLionProjects/ft_ls/libft/src/mem/ft_bzero.c
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/lgunship/Desktop/CLion_Work_Dir/ft_ls1/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_25) "Building C object CMakeFiles/42_ft_ls_master.dir/libft/src/mem/ft_bzero.c.o"
+	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/42_ft_ls_master.dir/libft/src/mem/ft_bzero.c.o   -c /Users/lgunship/Desktop/CLion_Work_Dir/ft_ls1/libft/src/mem/ft_bzero.c
 
 CMakeFiles/42_ft_ls_master.dir/libft/src/mem/ft_bzero.c.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/42_ft_ls_master.dir/libft/src/mem/ft_bzero.c.i"
-	/Library/Developer/CommandLineTools/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /Users/n.kats/CLionProjects/ft_ls/libft/src/mem/ft_bzero.c > CMakeFiles/42_ft_ls_master.dir/libft/src/mem/ft_bzero.c.i
+	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /Users/lgunship/Desktop/CLion_Work_Dir/ft_ls1/libft/src/mem/ft_bzero.c > CMakeFiles/42_ft_ls_master.dir/libft/src/mem/ft_bzero.c.i
 
 CMakeFiles/42_ft_ls_master.dir/libft/src/mem/ft_bzero.c.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/42_ft_ls_master.dir/libft/src/mem/ft_bzero.c.s"
-	/Library/Developer/CommandLineTools/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /Users/n.kats/CLionProjects/ft_ls/libft/src/mem/ft_bzero.c -o CMakeFiles/42_ft_ls_master.dir/libft/src/mem/ft_bzero.c.s
+	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /Users/lgunship/Desktop/CLion_Work_Dir/ft_ls1/libft/src/mem/ft_bzero.c -o CMakeFiles/42_ft_ls_master.dir/libft/src/mem/ft_bzero.c.s
 
 CMakeFiles/42_ft_ls_master.dir/libft/src/mem/ft_memalloc.c.o: CMakeFiles/42_ft_ls_master.dir/flags.make
 CMakeFiles/42_ft_ls_master.dir/libft/src/mem/ft_memalloc.c.o: ../libft/src/mem/ft_memalloc.c
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/n.kats/CLionProjects/ft_ls/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_36) "Building C object CMakeFiles/42_ft_ls_master.dir/libft/src/mem/ft_memalloc.c.o"
-	/Library/Developer/CommandLineTools/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/42_ft_ls_master.dir/libft/src/mem/ft_memalloc.c.o   -c /Users/n.kats/CLionProjects/ft_ls/libft/src/mem/ft_memalloc.c
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/lgunship/Desktop/CLion_Work_Dir/ft_ls1/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_26) "Building C object CMakeFiles/42_ft_ls_master.dir/libft/src/mem/ft_memalloc.c.o"
+	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/42_ft_ls_master.dir/libft/src/mem/ft_memalloc.c.o   -c /Users/lgunship/Desktop/CLion_Work_Dir/ft_ls1/libft/src/mem/ft_memalloc.c
 
 CMakeFiles/42_ft_ls_master.dir/libft/src/mem/ft_memalloc.c.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/42_ft_ls_master.dir/libft/src/mem/ft_memalloc.c.i"
-	/Library/Developer/CommandLineTools/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /Users/n.kats/CLionProjects/ft_ls/libft/src/mem/ft_memalloc.c > CMakeFiles/42_ft_ls_master.dir/libft/src/mem/ft_memalloc.c.i
+	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /Users/lgunship/Desktop/CLion_Work_Dir/ft_ls1/libft/src/mem/ft_memalloc.c > CMakeFiles/42_ft_ls_master.dir/libft/src/mem/ft_memalloc.c.i
 
 CMakeFiles/42_ft_ls_master.dir/libft/src/mem/ft_memalloc.c.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/42_ft_ls_master.dir/libft/src/mem/ft_memalloc.c.s"
-	/Library/Developer/CommandLineTools/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /Users/n.kats/CLionProjects/ft_ls/libft/src/mem/ft_memalloc.c -o CMakeFiles/42_ft_ls_master.dir/libft/src/mem/ft_memalloc.c.s
+	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /Users/lgunship/Desktop/CLion_Work_Dir/ft_ls1/libft/src/mem/ft_memalloc.c -o CMakeFiles/42_ft_ls_master.dir/libft/src/mem/ft_memalloc.c.s
 
 CMakeFiles/42_ft_ls_master.dir/libft/src/mem/ft_memccpy.c.o: CMakeFiles/42_ft_ls_master.dir/flags.make
 CMakeFiles/42_ft_ls_master.dir/libft/src/mem/ft_memccpy.c.o: ../libft/src/mem/ft_memccpy.c
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/n.kats/CLionProjects/ft_ls/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_37) "Building C object CMakeFiles/42_ft_ls_master.dir/libft/src/mem/ft_memccpy.c.o"
-	/Library/Developer/CommandLineTools/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/42_ft_ls_master.dir/libft/src/mem/ft_memccpy.c.o   -c /Users/n.kats/CLionProjects/ft_ls/libft/src/mem/ft_memccpy.c
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/lgunship/Desktop/CLion_Work_Dir/ft_ls1/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_27) "Building C object CMakeFiles/42_ft_ls_master.dir/libft/src/mem/ft_memccpy.c.o"
+	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/42_ft_ls_master.dir/libft/src/mem/ft_memccpy.c.o   -c /Users/lgunship/Desktop/CLion_Work_Dir/ft_ls1/libft/src/mem/ft_memccpy.c
 
 CMakeFiles/42_ft_ls_master.dir/libft/src/mem/ft_memccpy.c.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/42_ft_ls_master.dir/libft/src/mem/ft_memccpy.c.i"
-	/Library/Developer/CommandLineTools/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /Users/n.kats/CLionProjects/ft_ls/libft/src/mem/ft_memccpy.c > CMakeFiles/42_ft_ls_master.dir/libft/src/mem/ft_memccpy.c.i
+	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /Users/lgunship/Desktop/CLion_Work_Dir/ft_ls1/libft/src/mem/ft_memccpy.c > CMakeFiles/42_ft_ls_master.dir/libft/src/mem/ft_memccpy.c.i
 
 CMakeFiles/42_ft_ls_master.dir/libft/src/mem/ft_memccpy.c.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/42_ft_ls_master.dir/libft/src/mem/ft_memccpy.c.s"
-	/Library/Developer/CommandLineTools/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /Users/n.kats/CLionProjects/ft_ls/libft/src/mem/ft_memccpy.c -o CMakeFiles/42_ft_ls_master.dir/libft/src/mem/ft_memccpy.c.s
+	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /Users/lgunship/Desktop/CLion_Work_Dir/ft_ls1/libft/src/mem/ft_memccpy.c -o CMakeFiles/42_ft_ls_master.dir/libft/src/mem/ft_memccpy.c.s
 
 CMakeFiles/42_ft_ls_master.dir/libft/src/mem/ft_memchr.c.o: CMakeFiles/42_ft_ls_master.dir/flags.make
 CMakeFiles/42_ft_ls_master.dir/libft/src/mem/ft_memchr.c.o: ../libft/src/mem/ft_memchr.c
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/n.kats/CLionProjects/ft_ls/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_38) "Building C object CMakeFiles/42_ft_ls_master.dir/libft/src/mem/ft_memchr.c.o"
-	/Library/Developer/CommandLineTools/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/42_ft_ls_master.dir/libft/src/mem/ft_memchr.c.o   -c /Users/n.kats/CLionProjects/ft_ls/libft/src/mem/ft_memchr.c
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/lgunship/Desktop/CLion_Work_Dir/ft_ls1/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_28) "Building C object CMakeFiles/42_ft_ls_master.dir/libft/src/mem/ft_memchr.c.o"
+	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/42_ft_ls_master.dir/libft/src/mem/ft_memchr.c.o   -c /Users/lgunship/Desktop/CLion_Work_Dir/ft_ls1/libft/src/mem/ft_memchr.c
 
 CMakeFiles/42_ft_ls_master.dir/libft/src/mem/ft_memchr.c.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/42_ft_ls_master.dir/libft/src/mem/ft_memchr.c.i"
-	/Library/Developer/CommandLineTools/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /Users/n.kats/CLionProjects/ft_ls/libft/src/mem/ft_memchr.c > CMakeFiles/42_ft_ls_master.dir/libft/src/mem/ft_memchr.c.i
+	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /Users/lgunship/Desktop/CLion_Work_Dir/ft_ls1/libft/src/mem/ft_memchr.c > CMakeFiles/42_ft_ls_master.dir/libft/src/mem/ft_memchr.c.i
 
 CMakeFiles/42_ft_ls_master.dir/libft/src/mem/ft_memchr.c.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/42_ft_ls_master.dir/libft/src/mem/ft_memchr.c.s"
-	/Library/Developer/CommandLineTools/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /Users/n.kats/CLionProjects/ft_ls/libft/src/mem/ft_memchr.c -o CMakeFiles/42_ft_ls_master.dir/libft/src/mem/ft_memchr.c.s
+	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /Users/lgunship/Desktop/CLion_Work_Dir/ft_ls1/libft/src/mem/ft_memchr.c -o CMakeFiles/42_ft_ls_master.dir/libft/src/mem/ft_memchr.c.s
 
 CMakeFiles/42_ft_ls_master.dir/libft/src/mem/ft_memcmp.c.o: CMakeFiles/42_ft_ls_master.dir/flags.make
 CMakeFiles/42_ft_ls_master.dir/libft/src/mem/ft_memcmp.c.o: ../libft/src/mem/ft_memcmp.c
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/n.kats/CLionProjects/ft_ls/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_39) "Building C object CMakeFiles/42_ft_ls_master.dir/libft/src/mem/ft_memcmp.c.o"
-	/Library/Developer/CommandLineTools/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/42_ft_ls_master.dir/libft/src/mem/ft_memcmp.c.o   -c /Users/n.kats/CLionProjects/ft_ls/libft/src/mem/ft_memcmp.c
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/lgunship/Desktop/CLion_Work_Dir/ft_ls1/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_29) "Building C object CMakeFiles/42_ft_ls_master.dir/libft/src/mem/ft_memcmp.c.o"
+	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/42_ft_ls_master.dir/libft/src/mem/ft_memcmp.c.o   -c /Users/lgunship/Desktop/CLion_Work_Dir/ft_ls1/libft/src/mem/ft_memcmp.c
 
 CMakeFiles/42_ft_ls_master.dir/libft/src/mem/ft_memcmp.c.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/42_ft_ls_master.dir/libft/src/mem/ft_memcmp.c.i"
-	/Library/Developer/CommandLineTools/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /Users/n.kats/CLionProjects/ft_ls/libft/src/mem/ft_memcmp.c > CMakeFiles/42_ft_ls_master.dir/libft/src/mem/ft_memcmp.c.i
+	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /Users/lgunship/Desktop/CLion_Work_Dir/ft_ls1/libft/src/mem/ft_memcmp.c > CMakeFiles/42_ft_ls_master.dir/libft/src/mem/ft_memcmp.c.i
 
 CMakeFiles/42_ft_ls_master.dir/libft/src/mem/ft_memcmp.c.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/42_ft_ls_master.dir/libft/src/mem/ft_memcmp.c.s"
-	/Library/Developer/CommandLineTools/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /Users/n.kats/CLionProjects/ft_ls/libft/src/mem/ft_memcmp.c -o CMakeFiles/42_ft_ls_master.dir/libft/src/mem/ft_memcmp.c.s
+	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /Users/lgunship/Desktop/CLion_Work_Dir/ft_ls1/libft/src/mem/ft_memcmp.c -o CMakeFiles/42_ft_ls_master.dir/libft/src/mem/ft_memcmp.c.s
 
 CMakeFiles/42_ft_ls_master.dir/libft/src/mem/ft_memcpy.c.o: CMakeFiles/42_ft_ls_master.dir/flags.make
 CMakeFiles/42_ft_ls_master.dir/libft/src/mem/ft_memcpy.c.o: ../libft/src/mem/ft_memcpy.c
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/n.kats/CLionProjects/ft_ls/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_40) "Building C object CMakeFiles/42_ft_ls_master.dir/libft/src/mem/ft_memcpy.c.o"
-	/Library/Developer/CommandLineTools/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/42_ft_ls_master.dir/libft/src/mem/ft_memcpy.c.o   -c /Users/n.kats/CLionProjects/ft_ls/libft/src/mem/ft_memcpy.c
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/lgunship/Desktop/CLion_Work_Dir/ft_ls1/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_30) "Building C object CMakeFiles/42_ft_ls_master.dir/libft/src/mem/ft_memcpy.c.o"
+	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/42_ft_ls_master.dir/libft/src/mem/ft_memcpy.c.o   -c /Users/lgunship/Desktop/CLion_Work_Dir/ft_ls1/libft/src/mem/ft_memcpy.c
 
 CMakeFiles/42_ft_ls_master.dir/libft/src/mem/ft_memcpy.c.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/42_ft_ls_master.dir/libft/src/mem/ft_memcpy.c.i"
-	/Library/Developer/CommandLineTools/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /Users/n.kats/CLionProjects/ft_ls/libft/src/mem/ft_memcpy.c > CMakeFiles/42_ft_ls_master.dir/libft/src/mem/ft_memcpy.c.i
+	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /Users/lgunship/Desktop/CLion_Work_Dir/ft_ls1/libft/src/mem/ft_memcpy.c > CMakeFiles/42_ft_ls_master.dir/libft/src/mem/ft_memcpy.c.i
 
 CMakeFiles/42_ft_ls_master.dir/libft/src/mem/ft_memcpy.c.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/42_ft_ls_master.dir/libft/src/mem/ft_memcpy.c.s"
-	/Library/Developer/CommandLineTools/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /Users/n.kats/CLionProjects/ft_ls/libft/src/mem/ft_memcpy.c -o CMakeFiles/42_ft_ls_master.dir/libft/src/mem/ft_memcpy.c.s
+	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /Users/lgunship/Desktop/CLion_Work_Dir/ft_ls1/libft/src/mem/ft_memcpy.c -o CMakeFiles/42_ft_ls_master.dir/libft/src/mem/ft_memcpy.c.s
 
 CMakeFiles/42_ft_ls_master.dir/libft/src/mem/ft_memdel.c.o: CMakeFiles/42_ft_ls_master.dir/flags.make
 CMakeFiles/42_ft_ls_master.dir/libft/src/mem/ft_memdel.c.o: ../libft/src/mem/ft_memdel.c
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/n.kats/CLionProjects/ft_ls/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_41) "Building C object CMakeFiles/42_ft_ls_master.dir/libft/src/mem/ft_memdel.c.o"
-	/Library/Developer/CommandLineTools/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/42_ft_ls_master.dir/libft/src/mem/ft_memdel.c.o   -c /Users/n.kats/CLionProjects/ft_ls/libft/src/mem/ft_memdel.c
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/lgunship/Desktop/CLion_Work_Dir/ft_ls1/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_31) "Building C object CMakeFiles/42_ft_ls_master.dir/libft/src/mem/ft_memdel.c.o"
+	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/42_ft_ls_master.dir/libft/src/mem/ft_memdel.c.o   -c /Users/lgunship/Desktop/CLion_Work_Dir/ft_ls1/libft/src/mem/ft_memdel.c
 
 CMakeFiles/42_ft_ls_master.dir/libft/src/mem/ft_memdel.c.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/42_ft_ls_master.dir/libft/src/mem/ft_memdel.c.i"
-	/Library/Developer/CommandLineTools/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /Users/n.kats/CLionProjects/ft_ls/libft/src/mem/ft_memdel.c > CMakeFiles/42_ft_ls_master.dir/libft/src/mem/ft_memdel.c.i
+	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /Users/lgunship/Desktop/CLion_Work_Dir/ft_ls1/libft/src/mem/ft_memdel.c > CMakeFiles/42_ft_ls_master.dir/libft/src/mem/ft_memdel.c.i
 
 CMakeFiles/42_ft_ls_master.dir/libft/src/mem/ft_memdel.c.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/42_ft_ls_master.dir/libft/src/mem/ft_memdel.c.s"
-	/Library/Developer/CommandLineTools/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /Users/n.kats/CLionProjects/ft_ls/libft/src/mem/ft_memdel.c -o CMakeFiles/42_ft_ls_master.dir/libft/src/mem/ft_memdel.c.s
+	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /Users/lgunship/Desktop/CLion_Work_Dir/ft_ls1/libft/src/mem/ft_memdel.c -o CMakeFiles/42_ft_ls_master.dir/libft/src/mem/ft_memdel.c.s
 
 CMakeFiles/42_ft_ls_master.dir/libft/src/mem/ft_memmove.c.o: CMakeFiles/42_ft_ls_master.dir/flags.make
 CMakeFiles/42_ft_ls_master.dir/libft/src/mem/ft_memmove.c.o: ../libft/src/mem/ft_memmove.c
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/n.kats/CLionProjects/ft_ls/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_42) "Building C object CMakeFiles/42_ft_ls_master.dir/libft/src/mem/ft_memmove.c.o"
-	/Library/Developer/CommandLineTools/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/42_ft_ls_master.dir/libft/src/mem/ft_memmove.c.o   -c /Users/n.kats/CLionProjects/ft_ls/libft/src/mem/ft_memmove.c
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/lgunship/Desktop/CLion_Work_Dir/ft_ls1/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_32) "Building C object CMakeFiles/42_ft_ls_master.dir/libft/src/mem/ft_memmove.c.o"
+	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/42_ft_ls_master.dir/libft/src/mem/ft_memmove.c.o   -c /Users/lgunship/Desktop/CLion_Work_Dir/ft_ls1/libft/src/mem/ft_memmove.c
 
 CMakeFiles/42_ft_ls_master.dir/libft/src/mem/ft_memmove.c.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/42_ft_ls_master.dir/libft/src/mem/ft_memmove.c.i"
-	/Library/Developer/CommandLineTools/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /Users/n.kats/CLionProjects/ft_ls/libft/src/mem/ft_memmove.c > CMakeFiles/42_ft_ls_master.dir/libft/src/mem/ft_memmove.c.i
+	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /Users/lgunship/Desktop/CLion_Work_Dir/ft_ls1/libft/src/mem/ft_memmove.c > CMakeFiles/42_ft_ls_master.dir/libft/src/mem/ft_memmove.c.i
 
 CMakeFiles/42_ft_ls_master.dir/libft/src/mem/ft_memmove.c.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/42_ft_ls_master.dir/libft/src/mem/ft_memmove.c.s"
-	/Library/Developer/CommandLineTools/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /Users/n.kats/CLionProjects/ft_ls/libft/src/mem/ft_memmove.c -o CMakeFiles/42_ft_ls_master.dir/libft/src/mem/ft_memmove.c.s
+	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /Users/lgunship/Desktop/CLion_Work_Dir/ft_ls1/libft/src/mem/ft_memmove.c -o CMakeFiles/42_ft_ls_master.dir/libft/src/mem/ft_memmove.c.s
 
 CMakeFiles/42_ft_ls_master.dir/libft/src/mem/ft_memrchr.c.o: CMakeFiles/42_ft_ls_master.dir/flags.make
 CMakeFiles/42_ft_ls_master.dir/libft/src/mem/ft_memrchr.c.o: ../libft/src/mem/ft_memrchr.c
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/n.kats/CLionProjects/ft_ls/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_43) "Building C object CMakeFiles/42_ft_ls_master.dir/libft/src/mem/ft_memrchr.c.o"
-	/Library/Developer/CommandLineTools/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/42_ft_ls_master.dir/libft/src/mem/ft_memrchr.c.o   -c /Users/n.kats/CLionProjects/ft_ls/libft/src/mem/ft_memrchr.c
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/lgunship/Desktop/CLion_Work_Dir/ft_ls1/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_33) "Building C object CMakeFiles/42_ft_ls_master.dir/libft/src/mem/ft_memrchr.c.o"
+	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/42_ft_ls_master.dir/libft/src/mem/ft_memrchr.c.o   -c /Users/lgunship/Desktop/CLion_Work_Dir/ft_ls1/libft/src/mem/ft_memrchr.c
 
 CMakeFiles/42_ft_ls_master.dir/libft/src/mem/ft_memrchr.c.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/42_ft_ls_master.dir/libft/src/mem/ft_memrchr.c.i"
-	/Library/Developer/CommandLineTools/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /Users/n.kats/CLionProjects/ft_ls/libft/src/mem/ft_memrchr.c > CMakeFiles/42_ft_ls_master.dir/libft/src/mem/ft_memrchr.c.i
+	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /Users/lgunship/Desktop/CLion_Work_Dir/ft_ls1/libft/src/mem/ft_memrchr.c > CMakeFiles/42_ft_ls_master.dir/libft/src/mem/ft_memrchr.c.i
 
 CMakeFiles/42_ft_ls_master.dir/libft/src/mem/ft_memrchr.c.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/42_ft_ls_master.dir/libft/src/mem/ft_memrchr.c.s"
-	/Library/Developer/CommandLineTools/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /Users/n.kats/CLionProjects/ft_ls/libft/src/mem/ft_memrchr.c -o CMakeFiles/42_ft_ls_master.dir/libft/src/mem/ft_memrchr.c.s
+	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /Users/lgunship/Desktop/CLion_Work_Dir/ft_ls1/libft/src/mem/ft_memrchr.c -o CMakeFiles/42_ft_ls_master.dir/libft/src/mem/ft_memrchr.c.s
 
 CMakeFiles/42_ft_ls_master.dir/libft/src/mem/ft_memset.c.o: CMakeFiles/42_ft_ls_master.dir/flags.make
 CMakeFiles/42_ft_ls_master.dir/libft/src/mem/ft_memset.c.o: ../libft/src/mem/ft_memset.c
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/n.kats/CLionProjects/ft_ls/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_44) "Building C object CMakeFiles/42_ft_ls_master.dir/libft/src/mem/ft_memset.c.o"
-	/Library/Developer/CommandLineTools/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/42_ft_ls_master.dir/libft/src/mem/ft_memset.c.o   -c /Users/n.kats/CLionProjects/ft_ls/libft/src/mem/ft_memset.c
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/lgunship/Desktop/CLion_Work_Dir/ft_ls1/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_34) "Building C object CMakeFiles/42_ft_ls_master.dir/libft/src/mem/ft_memset.c.o"
+	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/42_ft_ls_master.dir/libft/src/mem/ft_memset.c.o   -c /Users/lgunship/Desktop/CLion_Work_Dir/ft_ls1/libft/src/mem/ft_memset.c
 
 CMakeFiles/42_ft_ls_master.dir/libft/src/mem/ft_memset.c.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/42_ft_ls_master.dir/libft/src/mem/ft_memset.c.i"
-	/Library/Developer/CommandLineTools/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /Users/n.kats/CLionProjects/ft_ls/libft/src/mem/ft_memset.c > CMakeFiles/42_ft_ls_master.dir/libft/src/mem/ft_memset.c.i
+	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /Users/lgunship/Desktop/CLion_Work_Dir/ft_ls1/libft/src/mem/ft_memset.c > CMakeFiles/42_ft_ls_master.dir/libft/src/mem/ft_memset.c.i
 
 CMakeFiles/42_ft_ls_master.dir/libft/src/mem/ft_memset.c.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/42_ft_ls_master.dir/libft/src/mem/ft_memset.c.s"
-	/Library/Developer/CommandLineTools/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /Users/n.kats/CLionProjects/ft_ls/libft/src/mem/ft_memset.c -o CMakeFiles/42_ft_ls_master.dir/libft/src/mem/ft_memset.c.s
+	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /Users/lgunship/Desktop/CLion_Work_Dir/ft_ls1/libft/src/mem/ft_memset.c -o CMakeFiles/42_ft_ls_master.dir/libft/src/mem/ft_memset.c.s
 
 CMakeFiles/42_ft_ls_master.dir/libft/src/put/ft_putchar.c.o: CMakeFiles/42_ft_ls_master.dir/flags.make
 CMakeFiles/42_ft_ls_master.dir/libft/src/put/ft_putchar.c.o: ../libft/src/put/ft_putchar.c
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/n.kats/CLionProjects/ft_ls/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_45) "Building C object CMakeFiles/42_ft_ls_master.dir/libft/src/put/ft_putchar.c.o"
-	/Library/Developer/CommandLineTools/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/42_ft_ls_master.dir/libft/src/put/ft_putchar.c.o   -c /Users/n.kats/CLionProjects/ft_ls/libft/src/put/ft_putchar.c
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/lgunship/Desktop/CLion_Work_Dir/ft_ls1/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_35) "Building C object CMakeFiles/42_ft_ls_master.dir/libft/src/put/ft_putchar.c.o"
+	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/42_ft_ls_master.dir/libft/src/put/ft_putchar.c.o   -c /Users/lgunship/Desktop/CLion_Work_Dir/ft_ls1/libft/src/put/ft_putchar.c
 
 CMakeFiles/42_ft_ls_master.dir/libft/src/put/ft_putchar.c.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/42_ft_ls_master.dir/libft/src/put/ft_putchar.c.i"
-	/Library/Developer/CommandLineTools/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /Users/n.kats/CLionProjects/ft_ls/libft/src/put/ft_putchar.c > CMakeFiles/42_ft_ls_master.dir/libft/src/put/ft_putchar.c.i
+	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /Users/lgunship/Desktop/CLion_Work_Dir/ft_ls1/libft/src/put/ft_putchar.c > CMakeFiles/42_ft_ls_master.dir/libft/src/put/ft_putchar.c.i
 
 CMakeFiles/42_ft_ls_master.dir/libft/src/put/ft_putchar.c.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/42_ft_ls_master.dir/libft/src/put/ft_putchar.c.s"
-	/Library/Developer/CommandLineTools/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /Users/n.kats/CLionProjects/ft_ls/libft/src/put/ft_putchar.c -o CMakeFiles/42_ft_ls_master.dir/libft/src/put/ft_putchar.c.s
+	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /Users/lgunship/Desktop/CLion_Work_Dir/ft_ls1/libft/src/put/ft_putchar.c -o CMakeFiles/42_ft_ls_master.dir/libft/src/put/ft_putchar.c.s
 
 CMakeFiles/42_ft_ls_master.dir/libft/src/put/ft_putchar_fd.c.o: CMakeFiles/42_ft_ls_master.dir/flags.make
 CMakeFiles/42_ft_ls_master.dir/libft/src/put/ft_putchar_fd.c.o: ../libft/src/put/ft_putchar_fd.c
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/n.kats/CLionProjects/ft_ls/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_46) "Building C object CMakeFiles/42_ft_ls_master.dir/libft/src/put/ft_putchar_fd.c.o"
-	/Library/Developer/CommandLineTools/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/42_ft_ls_master.dir/libft/src/put/ft_putchar_fd.c.o   -c /Users/n.kats/CLionProjects/ft_ls/libft/src/put/ft_putchar_fd.c
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/lgunship/Desktop/CLion_Work_Dir/ft_ls1/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_36) "Building C object CMakeFiles/42_ft_ls_master.dir/libft/src/put/ft_putchar_fd.c.o"
+	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/42_ft_ls_master.dir/libft/src/put/ft_putchar_fd.c.o   -c /Users/lgunship/Desktop/CLion_Work_Dir/ft_ls1/libft/src/put/ft_putchar_fd.c
 
 CMakeFiles/42_ft_ls_master.dir/libft/src/put/ft_putchar_fd.c.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/42_ft_ls_master.dir/libft/src/put/ft_putchar_fd.c.i"
-	/Library/Developer/CommandLineTools/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /Users/n.kats/CLionProjects/ft_ls/libft/src/put/ft_putchar_fd.c > CMakeFiles/42_ft_ls_master.dir/libft/src/put/ft_putchar_fd.c.i
+	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /Users/lgunship/Desktop/CLion_Work_Dir/ft_ls1/libft/src/put/ft_putchar_fd.c > CMakeFiles/42_ft_ls_master.dir/libft/src/put/ft_putchar_fd.c.i
 
 CMakeFiles/42_ft_ls_master.dir/libft/src/put/ft_putchar_fd.c.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/42_ft_ls_master.dir/libft/src/put/ft_putchar_fd.c.s"
-	/Library/Developer/CommandLineTools/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /Users/n.kats/CLionProjects/ft_ls/libft/src/put/ft_putchar_fd.c -o CMakeFiles/42_ft_ls_master.dir/libft/src/put/ft_putchar_fd.c.s
+	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /Users/lgunship/Desktop/CLion_Work_Dir/ft_ls1/libft/src/put/ft_putchar_fd.c -o CMakeFiles/42_ft_ls_master.dir/libft/src/put/ft_putchar_fd.c.s
 
 CMakeFiles/42_ft_ls_master.dir/libft/src/put/ft_putendl.c.o: CMakeFiles/42_ft_ls_master.dir/flags.make
 CMakeFiles/42_ft_ls_master.dir/libft/src/put/ft_putendl.c.o: ../libft/src/put/ft_putendl.c
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/n.kats/CLionProjects/ft_ls/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_47) "Building C object CMakeFiles/42_ft_ls_master.dir/libft/src/put/ft_putendl.c.o"
-	/Library/Developer/CommandLineTools/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/42_ft_ls_master.dir/libft/src/put/ft_putendl.c.o   -c /Users/n.kats/CLionProjects/ft_ls/libft/src/put/ft_putendl.c
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/lgunship/Desktop/CLion_Work_Dir/ft_ls1/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_37) "Building C object CMakeFiles/42_ft_ls_master.dir/libft/src/put/ft_putendl.c.o"
+	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/42_ft_ls_master.dir/libft/src/put/ft_putendl.c.o   -c /Users/lgunship/Desktop/CLion_Work_Dir/ft_ls1/libft/src/put/ft_putendl.c
 
 CMakeFiles/42_ft_ls_master.dir/libft/src/put/ft_putendl.c.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/42_ft_ls_master.dir/libft/src/put/ft_putendl.c.i"
-	/Library/Developer/CommandLineTools/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /Users/n.kats/CLionProjects/ft_ls/libft/src/put/ft_putendl.c > CMakeFiles/42_ft_ls_master.dir/libft/src/put/ft_putendl.c.i
+	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /Users/lgunship/Desktop/CLion_Work_Dir/ft_ls1/libft/src/put/ft_putendl.c > CMakeFiles/42_ft_ls_master.dir/libft/src/put/ft_putendl.c.i
 
 CMakeFiles/42_ft_ls_master.dir/libft/src/put/ft_putendl.c.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/42_ft_ls_master.dir/libft/src/put/ft_putendl.c.s"
-	/Library/Developer/CommandLineTools/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /Users/n.kats/CLionProjects/ft_ls/libft/src/put/ft_putendl.c -o CMakeFiles/42_ft_ls_master.dir/libft/src/put/ft_putendl.c.s
+	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /Users/lgunship/Desktop/CLion_Work_Dir/ft_ls1/libft/src/put/ft_putendl.c -o CMakeFiles/42_ft_ls_master.dir/libft/src/put/ft_putendl.c.s
 
 CMakeFiles/42_ft_ls_master.dir/libft/src/put/ft_putendl_fd.c.o: CMakeFiles/42_ft_ls_master.dir/flags.make
 CMakeFiles/42_ft_ls_master.dir/libft/src/put/ft_putendl_fd.c.o: ../libft/src/put/ft_putendl_fd.c
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/n.kats/CLionProjects/ft_ls/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_48) "Building C object CMakeFiles/42_ft_ls_master.dir/libft/src/put/ft_putendl_fd.c.o"
-	/Library/Developer/CommandLineTools/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/42_ft_ls_master.dir/libft/src/put/ft_putendl_fd.c.o   -c /Users/n.kats/CLionProjects/ft_ls/libft/src/put/ft_putendl_fd.c
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/lgunship/Desktop/CLion_Work_Dir/ft_ls1/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_38) "Building C object CMakeFiles/42_ft_ls_master.dir/libft/src/put/ft_putendl_fd.c.o"
+	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/42_ft_ls_master.dir/libft/src/put/ft_putendl_fd.c.o   -c /Users/lgunship/Desktop/CLion_Work_Dir/ft_ls1/libft/src/put/ft_putendl_fd.c
 
 CMakeFiles/42_ft_ls_master.dir/libft/src/put/ft_putendl_fd.c.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/42_ft_ls_master.dir/libft/src/put/ft_putendl_fd.c.i"
-	/Library/Developer/CommandLineTools/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /Users/n.kats/CLionProjects/ft_ls/libft/src/put/ft_putendl_fd.c > CMakeFiles/42_ft_ls_master.dir/libft/src/put/ft_putendl_fd.c.i
+	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /Users/lgunship/Desktop/CLion_Work_Dir/ft_ls1/libft/src/put/ft_putendl_fd.c > CMakeFiles/42_ft_ls_master.dir/libft/src/put/ft_putendl_fd.c.i
 
 CMakeFiles/42_ft_ls_master.dir/libft/src/put/ft_putendl_fd.c.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/42_ft_ls_master.dir/libft/src/put/ft_putendl_fd.c.s"
-	/Library/Developer/CommandLineTools/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /Users/n.kats/CLionProjects/ft_ls/libft/src/put/ft_putendl_fd.c -o CMakeFiles/42_ft_ls_master.dir/libft/src/put/ft_putendl_fd.c.s
+	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /Users/lgunship/Desktop/CLion_Work_Dir/ft_ls1/libft/src/put/ft_putendl_fd.c -o CMakeFiles/42_ft_ls_master.dir/libft/src/put/ft_putendl_fd.c.s
 
 CMakeFiles/42_ft_ls_master.dir/libft/src/put/ft_putnbr.c.o: CMakeFiles/42_ft_ls_master.dir/flags.make
 CMakeFiles/42_ft_ls_master.dir/libft/src/put/ft_putnbr.c.o: ../libft/src/put/ft_putnbr.c
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/n.kats/CLionProjects/ft_ls/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_49) "Building C object CMakeFiles/42_ft_ls_master.dir/libft/src/put/ft_putnbr.c.o"
-	/Library/Developer/CommandLineTools/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/42_ft_ls_master.dir/libft/src/put/ft_putnbr.c.o   -c /Users/n.kats/CLionProjects/ft_ls/libft/src/put/ft_putnbr.c
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/lgunship/Desktop/CLion_Work_Dir/ft_ls1/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_39) "Building C object CMakeFiles/42_ft_ls_master.dir/libft/src/put/ft_putnbr.c.o"
+	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/42_ft_ls_master.dir/libft/src/put/ft_putnbr.c.o   -c /Users/lgunship/Desktop/CLion_Work_Dir/ft_ls1/libft/src/put/ft_putnbr.c
 
 CMakeFiles/42_ft_ls_master.dir/libft/src/put/ft_putnbr.c.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/42_ft_ls_master.dir/libft/src/put/ft_putnbr.c.i"
-	/Library/Developer/CommandLineTools/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /Users/n.kats/CLionProjects/ft_ls/libft/src/put/ft_putnbr.c > CMakeFiles/42_ft_ls_master.dir/libft/src/put/ft_putnbr.c.i
+	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /Users/lgunship/Desktop/CLion_Work_Dir/ft_ls1/libft/src/put/ft_putnbr.c > CMakeFiles/42_ft_ls_master.dir/libft/src/put/ft_putnbr.c.i
 
 CMakeFiles/42_ft_ls_master.dir/libft/src/put/ft_putnbr.c.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/42_ft_ls_master.dir/libft/src/put/ft_putnbr.c.s"
-	/Library/Developer/CommandLineTools/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /Users/n.kats/CLionProjects/ft_ls/libft/src/put/ft_putnbr.c -o CMakeFiles/42_ft_ls_master.dir/libft/src/put/ft_putnbr.c.s
+	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /Users/lgunship/Desktop/CLion_Work_Dir/ft_ls1/libft/src/put/ft_putnbr.c -o CMakeFiles/42_ft_ls_master.dir/libft/src/put/ft_putnbr.c.s
 
 CMakeFiles/42_ft_ls_master.dir/libft/src/put/ft_putnbr_fd.c.o: CMakeFiles/42_ft_ls_master.dir/flags.make
 CMakeFiles/42_ft_ls_master.dir/libft/src/put/ft_putnbr_fd.c.o: ../libft/src/put/ft_putnbr_fd.c
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/n.kats/CLionProjects/ft_ls/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_50) "Building C object CMakeFiles/42_ft_ls_master.dir/libft/src/put/ft_putnbr_fd.c.o"
-	/Library/Developer/CommandLineTools/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/42_ft_ls_master.dir/libft/src/put/ft_putnbr_fd.c.o   -c /Users/n.kats/CLionProjects/ft_ls/libft/src/put/ft_putnbr_fd.c
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/lgunship/Desktop/CLion_Work_Dir/ft_ls1/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_40) "Building C object CMakeFiles/42_ft_ls_master.dir/libft/src/put/ft_putnbr_fd.c.o"
+	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/42_ft_ls_master.dir/libft/src/put/ft_putnbr_fd.c.o   -c /Users/lgunship/Desktop/CLion_Work_Dir/ft_ls1/libft/src/put/ft_putnbr_fd.c
 
 CMakeFiles/42_ft_ls_master.dir/libft/src/put/ft_putnbr_fd.c.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/42_ft_ls_master.dir/libft/src/put/ft_putnbr_fd.c.i"
-	/Library/Developer/CommandLineTools/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /Users/n.kats/CLionProjects/ft_ls/libft/src/put/ft_putnbr_fd.c > CMakeFiles/42_ft_ls_master.dir/libft/src/put/ft_putnbr_fd.c.i
+	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /Users/lgunship/Desktop/CLion_Work_Dir/ft_ls1/libft/src/put/ft_putnbr_fd.c > CMakeFiles/42_ft_ls_master.dir/libft/src/put/ft_putnbr_fd.c.i
 
 CMakeFiles/42_ft_ls_master.dir/libft/src/put/ft_putnbr_fd.c.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/42_ft_ls_master.dir/libft/src/put/ft_putnbr_fd.c.s"
-	/Library/Developer/CommandLineTools/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /Users/n.kats/CLionProjects/ft_ls/libft/src/put/ft_putnbr_fd.c -o CMakeFiles/42_ft_ls_master.dir/libft/src/put/ft_putnbr_fd.c.s
+	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /Users/lgunship/Desktop/CLion_Work_Dir/ft_ls1/libft/src/put/ft_putnbr_fd.c -o CMakeFiles/42_ft_ls_master.dir/libft/src/put/ft_putnbr_fd.c.s
 
 CMakeFiles/42_ft_ls_master.dir/libft/src/put/ft_putstr.c.o: CMakeFiles/42_ft_ls_master.dir/flags.make
 CMakeFiles/42_ft_ls_master.dir/libft/src/put/ft_putstr.c.o: ../libft/src/put/ft_putstr.c
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/n.kats/CLionProjects/ft_ls/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_51) "Building C object CMakeFiles/42_ft_ls_master.dir/libft/src/put/ft_putstr.c.o"
-	/Library/Developer/CommandLineTools/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/42_ft_ls_master.dir/libft/src/put/ft_putstr.c.o   -c /Users/n.kats/CLionProjects/ft_ls/libft/src/put/ft_putstr.c
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/lgunship/Desktop/CLion_Work_Dir/ft_ls1/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_41) "Building C object CMakeFiles/42_ft_ls_master.dir/libft/src/put/ft_putstr.c.o"
+	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/42_ft_ls_master.dir/libft/src/put/ft_putstr.c.o   -c /Users/lgunship/Desktop/CLion_Work_Dir/ft_ls1/libft/src/put/ft_putstr.c
 
 CMakeFiles/42_ft_ls_master.dir/libft/src/put/ft_putstr.c.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/42_ft_ls_master.dir/libft/src/put/ft_putstr.c.i"
-	/Library/Developer/CommandLineTools/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /Users/n.kats/CLionProjects/ft_ls/libft/src/put/ft_putstr.c > CMakeFiles/42_ft_ls_master.dir/libft/src/put/ft_putstr.c.i
+	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /Users/lgunship/Desktop/CLion_Work_Dir/ft_ls1/libft/src/put/ft_putstr.c > CMakeFiles/42_ft_ls_master.dir/libft/src/put/ft_putstr.c.i
 
 CMakeFiles/42_ft_ls_master.dir/libft/src/put/ft_putstr.c.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/42_ft_ls_master.dir/libft/src/put/ft_putstr.c.s"
-	/Library/Developer/CommandLineTools/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /Users/n.kats/CLionProjects/ft_ls/libft/src/put/ft_putstr.c -o CMakeFiles/42_ft_ls_master.dir/libft/src/put/ft_putstr.c.s
+	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /Users/lgunship/Desktop/CLion_Work_Dir/ft_ls1/libft/src/put/ft_putstr.c -o CMakeFiles/42_ft_ls_master.dir/libft/src/put/ft_putstr.c.s
 
 CMakeFiles/42_ft_ls_master.dir/libft/src/put/ft_putstr_fd.c.o: CMakeFiles/42_ft_ls_master.dir/flags.make
 CMakeFiles/42_ft_ls_master.dir/libft/src/put/ft_putstr_fd.c.o: ../libft/src/put/ft_putstr_fd.c
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/n.kats/CLionProjects/ft_ls/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_52) "Building C object CMakeFiles/42_ft_ls_master.dir/libft/src/put/ft_putstr_fd.c.o"
-	/Library/Developer/CommandLineTools/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/42_ft_ls_master.dir/libft/src/put/ft_putstr_fd.c.o   -c /Users/n.kats/CLionProjects/ft_ls/libft/src/put/ft_putstr_fd.c
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/lgunship/Desktop/CLion_Work_Dir/ft_ls1/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_42) "Building C object CMakeFiles/42_ft_ls_master.dir/libft/src/put/ft_putstr_fd.c.o"
+	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/42_ft_ls_master.dir/libft/src/put/ft_putstr_fd.c.o   -c /Users/lgunship/Desktop/CLion_Work_Dir/ft_ls1/libft/src/put/ft_putstr_fd.c
 
 CMakeFiles/42_ft_ls_master.dir/libft/src/put/ft_putstr_fd.c.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/42_ft_ls_master.dir/libft/src/put/ft_putstr_fd.c.i"
-	/Library/Developer/CommandLineTools/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /Users/n.kats/CLionProjects/ft_ls/libft/src/put/ft_putstr_fd.c > CMakeFiles/42_ft_ls_master.dir/libft/src/put/ft_putstr_fd.c.i
+	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /Users/lgunship/Desktop/CLion_Work_Dir/ft_ls1/libft/src/put/ft_putstr_fd.c > CMakeFiles/42_ft_ls_master.dir/libft/src/put/ft_putstr_fd.c.i
 
 CMakeFiles/42_ft_ls_master.dir/libft/src/put/ft_putstr_fd.c.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/42_ft_ls_master.dir/libft/src/put/ft_putstr_fd.c.s"
-	/Library/Developer/CommandLineTools/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /Users/n.kats/CLionProjects/ft_ls/libft/src/put/ft_putstr_fd.c -o CMakeFiles/42_ft_ls_master.dir/libft/src/put/ft_putstr_fd.c.s
+	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /Users/lgunship/Desktop/CLion_Work_Dir/ft_ls1/libft/src/put/ft_putstr_fd.c -o CMakeFiles/42_ft_ls_master.dir/libft/src/put/ft_putstr_fd.c.s
 
 CMakeFiles/42_ft_ls_master.dir/libft/src/str/ft_findchr.c.o: CMakeFiles/42_ft_ls_master.dir/flags.make
 CMakeFiles/42_ft_ls_master.dir/libft/src/str/ft_findchr.c.o: ../libft/src/str/ft_findchr.c
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/n.kats/CLionProjects/ft_ls/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_53) "Building C object CMakeFiles/42_ft_ls_master.dir/libft/src/str/ft_findchr.c.o"
-	/Library/Developer/CommandLineTools/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/42_ft_ls_master.dir/libft/src/str/ft_findchr.c.o   -c /Users/n.kats/CLionProjects/ft_ls/libft/src/str/ft_findchr.c
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/lgunship/Desktop/CLion_Work_Dir/ft_ls1/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_43) "Building C object CMakeFiles/42_ft_ls_master.dir/libft/src/str/ft_findchr.c.o"
+	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/42_ft_ls_master.dir/libft/src/str/ft_findchr.c.o   -c /Users/lgunship/Desktop/CLion_Work_Dir/ft_ls1/libft/src/str/ft_findchr.c
 
 CMakeFiles/42_ft_ls_master.dir/libft/src/str/ft_findchr.c.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/42_ft_ls_master.dir/libft/src/str/ft_findchr.c.i"
-	/Library/Developer/CommandLineTools/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /Users/n.kats/CLionProjects/ft_ls/libft/src/str/ft_findchr.c > CMakeFiles/42_ft_ls_master.dir/libft/src/str/ft_findchr.c.i
+	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /Users/lgunship/Desktop/CLion_Work_Dir/ft_ls1/libft/src/str/ft_findchr.c > CMakeFiles/42_ft_ls_master.dir/libft/src/str/ft_findchr.c.i
 
 CMakeFiles/42_ft_ls_master.dir/libft/src/str/ft_findchr.c.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/42_ft_ls_master.dir/libft/src/str/ft_findchr.c.s"
-	/Library/Developer/CommandLineTools/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /Users/n.kats/CLionProjects/ft_ls/libft/src/str/ft_findchr.c -o CMakeFiles/42_ft_ls_master.dir/libft/src/str/ft_findchr.c.s
+	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /Users/lgunship/Desktop/CLion_Work_Dir/ft_ls1/libft/src/str/ft_findchr.c -o CMakeFiles/42_ft_ls_master.dir/libft/src/str/ft_findchr.c.s
 
 CMakeFiles/42_ft_ls_master.dir/libft/src/str/ft_strcat.c.o: CMakeFiles/42_ft_ls_master.dir/flags.make
 CMakeFiles/42_ft_ls_master.dir/libft/src/str/ft_strcat.c.o: ../libft/src/str/ft_strcat.c
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/n.kats/CLionProjects/ft_ls/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_54) "Building C object CMakeFiles/42_ft_ls_master.dir/libft/src/str/ft_strcat.c.o"
-	/Library/Developer/CommandLineTools/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/42_ft_ls_master.dir/libft/src/str/ft_strcat.c.o   -c /Users/n.kats/CLionProjects/ft_ls/libft/src/str/ft_strcat.c
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/lgunship/Desktop/CLion_Work_Dir/ft_ls1/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_44) "Building C object CMakeFiles/42_ft_ls_master.dir/libft/src/str/ft_strcat.c.o"
+	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/42_ft_ls_master.dir/libft/src/str/ft_strcat.c.o   -c /Users/lgunship/Desktop/CLion_Work_Dir/ft_ls1/libft/src/str/ft_strcat.c
 
 CMakeFiles/42_ft_ls_master.dir/libft/src/str/ft_strcat.c.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/42_ft_ls_master.dir/libft/src/str/ft_strcat.c.i"
-	/Library/Developer/CommandLineTools/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /Users/n.kats/CLionProjects/ft_ls/libft/src/str/ft_strcat.c > CMakeFiles/42_ft_ls_master.dir/libft/src/str/ft_strcat.c.i
+	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /Users/lgunship/Desktop/CLion_Work_Dir/ft_ls1/libft/src/str/ft_strcat.c > CMakeFiles/42_ft_ls_master.dir/libft/src/str/ft_strcat.c.i
 
 CMakeFiles/42_ft_ls_master.dir/libft/src/str/ft_strcat.c.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/42_ft_ls_master.dir/libft/src/str/ft_strcat.c.s"
-	/Library/Developer/CommandLineTools/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /Users/n.kats/CLionProjects/ft_ls/libft/src/str/ft_strcat.c -o CMakeFiles/42_ft_ls_master.dir/libft/src/str/ft_strcat.c.s
+	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /Users/lgunship/Desktop/CLion_Work_Dir/ft_ls1/libft/src/str/ft_strcat.c -o CMakeFiles/42_ft_ls_master.dir/libft/src/str/ft_strcat.c.s
 
 CMakeFiles/42_ft_ls_master.dir/libft/src/str/ft_strchr.c.o: CMakeFiles/42_ft_ls_master.dir/flags.make
 CMakeFiles/42_ft_ls_master.dir/libft/src/str/ft_strchr.c.o: ../libft/src/str/ft_strchr.c
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/n.kats/CLionProjects/ft_ls/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_55) "Building C object CMakeFiles/42_ft_ls_master.dir/libft/src/str/ft_strchr.c.o"
-	/Library/Developer/CommandLineTools/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/42_ft_ls_master.dir/libft/src/str/ft_strchr.c.o   -c /Users/n.kats/CLionProjects/ft_ls/libft/src/str/ft_strchr.c
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/lgunship/Desktop/CLion_Work_Dir/ft_ls1/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_45) "Building C object CMakeFiles/42_ft_ls_master.dir/libft/src/str/ft_strchr.c.o"
+	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/42_ft_ls_master.dir/libft/src/str/ft_strchr.c.o   -c /Users/lgunship/Desktop/CLion_Work_Dir/ft_ls1/libft/src/str/ft_strchr.c
 
 CMakeFiles/42_ft_ls_master.dir/libft/src/str/ft_strchr.c.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/42_ft_ls_master.dir/libft/src/str/ft_strchr.c.i"
-	/Library/Developer/CommandLineTools/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /Users/n.kats/CLionProjects/ft_ls/libft/src/str/ft_strchr.c > CMakeFiles/42_ft_ls_master.dir/libft/src/str/ft_strchr.c.i
+	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /Users/lgunship/Desktop/CLion_Work_Dir/ft_ls1/libft/src/str/ft_strchr.c > CMakeFiles/42_ft_ls_master.dir/libft/src/str/ft_strchr.c.i
 
 CMakeFiles/42_ft_ls_master.dir/libft/src/str/ft_strchr.c.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/42_ft_ls_master.dir/libft/src/str/ft_strchr.c.s"
-	/Library/Developer/CommandLineTools/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /Users/n.kats/CLionProjects/ft_ls/libft/src/str/ft_strchr.c -o CMakeFiles/42_ft_ls_master.dir/libft/src/str/ft_strchr.c.s
+	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /Users/lgunship/Desktop/CLion_Work_Dir/ft_ls1/libft/src/str/ft_strchr.c -o CMakeFiles/42_ft_ls_master.dir/libft/src/str/ft_strchr.c.s
 
 CMakeFiles/42_ft_ls_master.dir/libft/src/str/ft_strclr.c.o: CMakeFiles/42_ft_ls_master.dir/flags.make
 CMakeFiles/42_ft_ls_master.dir/libft/src/str/ft_strclr.c.o: ../libft/src/str/ft_strclr.c
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/n.kats/CLionProjects/ft_ls/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_56) "Building C object CMakeFiles/42_ft_ls_master.dir/libft/src/str/ft_strclr.c.o"
-	/Library/Developer/CommandLineTools/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/42_ft_ls_master.dir/libft/src/str/ft_strclr.c.o   -c /Users/n.kats/CLionProjects/ft_ls/libft/src/str/ft_strclr.c
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/lgunship/Desktop/CLion_Work_Dir/ft_ls1/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_46) "Building C object CMakeFiles/42_ft_ls_master.dir/libft/src/str/ft_strclr.c.o"
+	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/42_ft_ls_master.dir/libft/src/str/ft_strclr.c.o   -c /Users/lgunship/Desktop/CLion_Work_Dir/ft_ls1/libft/src/str/ft_strclr.c
 
 CMakeFiles/42_ft_ls_master.dir/libft/src/str/ft_strclr.c.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/42_ft_ls_master.dir/libft/src/str/ft_strclr.c.i"
-	/Library/Developer/CommandLineTools/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /Users/n.kats/CLionProjects/ft_ls/libft/src/str/ft_strclr.c > CMakeFiles/42_ft_ls_master.dir/libft/src/str/ft_strclr.c.i
+	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /Users/lgunship/Desktop/CLion_Work_Dir/ft_ls1/libft/src/str/ft_strclr.c > CMakeFiles/42_ft_ls_master.dir/libft/src/str/ft_strclr.c.i
 
 CMakeFiles/42_ft_ls_master.dir/libft/src/str/ft_strclr.c.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/42_ft_ls_master.dir/libft/src/str/ft_strclr.c.s"
-	/Library/Developer/CommandLineTools/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /Users/n.kats/CLionProjects/ft_ls/libft/src/str/ft_strclr.c -o CMakeFiles/42_ft_ls_master.dir/libft/src/str/ft_strclr.c.s
+	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /Users/lgunship/Desktop/CLion_Work_Dir/ft_ls1/libft/src/str/ft_strclr.c -o CMakeFiles/42_ft_ls_master.dir/libft/src/str/ft_strclr.c.s
 
 CMakeFiles/42_ft_ls_master.dir/libft/src/str/ft_strcmp.c.o: CMakeFiles/42_ft_ls_master.dir/flags.make
 CMakeFiles/42_ft_ls_master.dir/libft/src/str/ft_strcmp.c.o: ../libft/src/str/ft_strcmp.c
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/n.kats/CLionProjects/ft_ls/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_57) "Building C object CMakeFiles/42_ft_ls_master.dir/libft/src/str/ft_strcmp.c.o"
-	/Library/Developer/CommandLineTools/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/42_ft_ls_master.dir/libft/src/str/ft_strcmp.c.o   -c /Users/n.kats/CLionProjects/ft_ls/libft/src/str/ft_strcmp.c
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/lgunship/Desktop/CLion_Work_Dir/ft_ls1/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_47) "Building C object CMakeFiles/42_ft_ls_master.dir/libft/src/str/ft_strcmp.c.o"
+	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/42_ft_ls_master.dir/libft/src/str/ft_strcmp.c.o   -c /Users/lgunship/Desktop/CLion_Work_Dir/ft_ls1/libft/src/str/ft_strcmp.c
 
 CMakeFiles/42_ft_ls_master.dir/libft/src/str/ft_strcmp.c.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/42_ft_ls_master.dir/libft/src/str/ft_strcmp.c.i"
-	/Library/Developer/CommandLineTools/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /Users/n.kats/CLionProjects/ft_ls/libft/src/str/ft_strcmp.c > CMakeFiles/42_ft_ls_master.dir/libft/src/str/ft_strcmp.c.i
+	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /Users/lgunship/Desktop/CLion_Work_Dir/ft_ls1/libft/src/str/ft_strcmp.c > CMakeFiles/42_ft_ls_master.dir/libft/src/str/ft_strcmp.c.i
 
 CMakeFiles/42_ft_ls_master.dir/libft/src/str/ft_strcmp.c.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/42_ft_ls_master.dir/libft/src/str/ft_strcmp.c.s"
-	/Library/Developer/CommandLineTools/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /Users/n.kats/CLionProjects/ft_ls/libft/src/str/ft_strcmp.c -o CMakeFiles/42_ft_ls_master.dir/libft/src/str/ft_strcmp.c.s
+	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /Users/lgunship/Desktop/CLion_Work_Dir/ft_ls1/libft/src/str/ft_strcmp.c -o CMakeFiles/42_ft_ls_master.dir/libft/src/str/ft_strcmp.c.s
 
 CMakeFiles/42_ft_ls_master.dir/libft/src/str/ft_strcpy.c.o: CMakeFiles/42_ft_ls_master.dir/flags.make
 CMakeFiles/42_ft_ls_master.dir/libft/src/str/ft_strcpy.c.o: ../libft/src/str/ft_strcpy.c
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/n.kats/CLionProjects/ft_ls/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_58) "Building C object CMakeFiles/42_ft_ls_master.dir/libft/src/str/ft_strcpy.c.o"
-	/Library/Developer/CommandLineTools/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/42_ft_ls_master.dir/libft/src/str/ft_strcpy.c.o   -c /Users/n.kats/CLionProjects/ft_ls/libft/src/str/ft_strcpy.c
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/lgunship/Desktop/CLion_Work_Dir/ft_ls1/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_48) "Building C object CMakeFiles/42_ft_ls_master.dir/libft/src/str/ft_strcpy.c.o"
+	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/42_ft_ls_master.dir/libft/src/str/ft_strcpy.c.o   -c /Users/lgunship/Desktop/CLion_Work_Dir/ft_ls1/libft/src/str/ft_strcpy.c
 
 CMakeFiles/42_ft_ls_master.dir/libft/src/str/ft_strcpy.c.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/42_ft_ls_master.dir/libft/src/str/ft_strcpy.c.i"
-	/Library/Developer/CommandLineTools/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /Users/n.kats/CLionProjects/ft_ls/libft/src/str/ft_strcpy.c > CMakeFiles/42_ft_ls_master.dir/libft/src/str/ft_strcpy.c.i
+	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /Users/lgunship/Desktop/CLion_Work_Dir/ft_ls1/libft/src/str/ft_strcpy.c > CMakeFiles/42_ft_ls_master.dir/libft/src/str/ft_strcpy.c.i
 
 CMakeFiles/42_ft_ls_master.dir/libft/src/str/ft_strcpy.c.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/42_ft_ls_master.dir/libft/src/str/ft_strcpy.c.s"
-	/Library/Developer/CommandLineTools/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /Users/n.kats/CLionProjects/ft_ls/libft/src/str/ft_strcpy.c -o CMakeFiles/42_ft_ls_master.dir/libft/src/str/ft_strcpy.c.s
+	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /Users/lgunship/Desktop/CLion_Work_Dir/ft_ls1/libft/src/str/ft_strcpy.c -o CMakeFiles/42_ft_ls_master.dir/libft/src/str/ft_strcpy.c.s
 
 CMakeFiles/42_ft_ls_master.dir/libft/src/str/ft_strdel.c.o: CMakeFiles/42_ft_ls_master.dir/flags.make
 CMakeFiles/42_ft_ls_master.dir/libft/src/str/ft_strdel.c.o: ../libft/src/str/ft_strdel.c
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/n.kats/CLionProjects/ft_ls/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_59) "Building C object CMakeFiles/42_ft_ls_master.dir/libft/src/str/ft_strdel.c.o"
-	/Library/Developer/CommandLineTools/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/42_ft_ls_master.dir/libft/src/str/ft_strdel.c.o   -c /Users/n.kats/CLionProjects/ft_ls/libft/src/str/ft_strdel.c
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/lgunship/Desktop/CLion_Work_Dir/ft_ls1/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_49) "Building C object CMakeFiles/42_ft_ls_master.dir/libft/src/str/ft_strdel.c.o"
+	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/42_ft_ls_master.dir/libft/src/str/ft_strdel.c.o   -c /Users/lgunship/Desktop/CLion_Work_Dir/ft_ls1/libft/src/str/ft_strdel.c
 
 CMakeFiles/42_ft_ls_master.dir/libft/src/str/ft_strdel.c.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/42_ft_ls_master.dir/libft/src/str/ft_strdel.c.i"
-	/Library/Developer/CommandLineTools/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /Users/n.kats/CLionProjects/ft_ls/libft/src/str/ft_strdel.c > CMakeFiles/42_ft_ls_master.dir/libft/src/str/ft_strdel.c.i
+	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /Users/lgunship/Desktop/CLion_Work_Dir/ft_ls1/libft/src/str/ft_strdel.c > CMakeFiles/42_ft_ls_master.dir/libft/src/str/ft_strdel.c.i
 
 CMakeFiles/42_ft_ls_master.dir/libft/src/str/ft_strdel.c.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/42_ft_ls_master.dir/libft/src/str/ft_strdel.c.s"
-	/Library/Developer/CommandLineTools/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /Users/n.kats/CLionProjects/ft_ls/libft/src/str/ft_strdel.c -o CMakeFiles/42_ft_ls_master.dir/libft/src/str/ft_strdel.c.s
+	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /Users/lgunship/Desktop/CLion_Work_Dir/ft_ls1/libft/src/str/ft_strdel.c -o CMakeFiles/42_ft_ls_master.dir/libft/src/str/ft_strdel.c.s
 
 CMakeFiles/42_ft_ls_master.dir/libft/src/str/ft_strdup.c.o: CMakeFiles/42_ft_ls_master.dir/flags.make
 CMakeFiles/42_ft_ls_master.dir/libft/src/str/ft_strdup.c.o: ../libft/src/str/ft_strdup.c
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/n.kats/CLionProjects/ft_ls/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_60) "Building C object CMakeFiles/42_ft_ls_master.dir/libft/src/str/ft_strdup.c.o"
-	/Library/Developer/CommandLineTools/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/42_ft_ls_master.dir/libft/src/str/ft_strdup.c.o   -c /Users/n.kats/CLionProjects/ft_ls/libft/src/str/ft_strdup.c
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/lgunship/Desktop/CLion_Work_Dir/ft_ls1/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_50) "Building C object CMakeFiles/42_ft_ls_master.dir/libft/src/str/ft_strdup.c.o"
+	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/42_ft_ls_master.dir/libft/src/str/ft_strdup.c.o   -c /Users/lgunship/Desktop/CLion_Work_Dir/ft_ls1/libft/src/str/ft_strdup.c
 
 CMakeFiles/42_ft_ls_master.dir/libft/src/str/ft_strdup.c.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/42_ft_ls_master.dir/libft/src/str/ft_strdup.c.i"
-	/Library/Developer/CommandLineTools/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /Users/n.kats/CLionProjects/ft_ls/libft/src/str/ft_strdup.c > CMakeFiles/42_ft_ls_master.dir/libft/src/str/ft_strdup.c.i
+	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /Users/lgunship/Desktop/CLion_Work_Dir/ft_ls1/libft/src/str/ft_strdup.c > CMakeFiles/42_ft_ls_master.dir/libft/src/str/ft_strdup.c.i
 
 CMakeFiles/42_ft_ls_master.dir/libft/src/str/ft_strdup.c.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/42_ft_ls_master.dir/libft/src/str/ft_strdup.c.s"
-	/Library/Developer/CommandLineTools/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /Users/n.kats/CLionProjects/ft_ls/libft/src/str/ft_strdup.c -o CMakeFiles/42_ft_ls_master.dir/libft/src/str/ft_strdup.c.s
+	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /Users/lgunship/Desktop/CLion_Work_Dir/ft_ls1/libft/src/str/ft_strdup.c -o CMakeFiles/42_ft_ls_master.dir/libft/src/str/ft_strdup.c.s
 
 CMakeFiles/42_ft_ls_master.dir/libft/src/str/ft_strequ.c.o: CMakeFiles/42_ft_ls_master.dir/flags.make
 CMakeFiles/42_ft_ls_master.dir/libft/src/str/ft_strequ.c.o: ../libft/src/str/ft_strequ.c
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/n.kats/CLionProjects/ft_ls/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_61) "Building C object CMakeFiles/42_ft_ls_master.dir/libft/src/str/ft_strequ.c.o"
-	/Library/Developer/CommandLineTools/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/42_ft_ls_master.dir/libft/src/str/ft_strequ.c.o   -c /Users/n.kats/CLionProjects/ft_ls/libft/src/str/ft_strequ.c
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/lgunship/Desktop/CLion_Work_Dir/ft_ls1/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_51) "Building C object CMakeFiles/42_ft_ls_master.dir/libft/src/str/ft_strequ.c.o"
+	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/42_ft_ls_master.dir/libft/src/str/ft_strequ.c.o   -c /Users/lgunship/Desktop/CLion_Work_Dir/ft_ls1/libft/src/str/ft_strequ.c
 
 CMakeFiles/42_ft_ls_master.dir/libft/src/str/ft_strequ.c.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/42_ft_ls_master.dir/libft/src/str/ft_strequ.c.i"
-	/Library/Developer/CommandLineTools/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /Users/n.kats/CLionProjects/ft_ls/libft/src/str/ft_strequ.c > CMakeFiles/42_ft_ls_master.dir/libft/src/str/ft_strequ.c.i
+	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /Users/lgunship/Desktop/CLion_Work_Dir/ft_ls1/libft/src/str/ft_strequ.c > CMakeFiles/42_ft_ls_master.dir/libft/src/str/ft_strequ.c.i
 
 CMakeFiles/42_ft_ls_master.dir/libft/src/str/ft_strequ.c.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/42_ft_ls_master.dir/libft/src/str/ft_strequ.c.s"
-	/Library/Developer/CommandLineTools/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /Users/n.kats/CLionProjects/ft_ls/libft/src/str/ft_strequ.c -o CMakeFiles/42_ft_ls_master.dir/libft/src/str/ft_strequ.c.s
+	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /Users/lgunship/Desktop/CLion_Work_Dir/ft_ls1/libft/src/str/ft_strequ.c -o CMakeFiles/42_ft_ls_master.dir/libft/src/str/ft_strequ.c.s
 
 CMakeFiles/42_ft_ls_master.dir/libft/src/str/ft_striter.c.o: CMakeFiles/42_ft_ls_master.dir/flags.make
 CMakeFiles/42_ft_ls_master.dir/libft/src/str/ft_striter.c.o: ../libft/src/str/ft_striter.c
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/n.kats/CLionProjects/ft_ls/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_62) "Building C object CMakeFiles/42_ft_ls_master.dir/libft/src/str/ft_striter.c.o"
-	/Library/Developer/CommandLineTools/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/42_ft_ls_master.dir/libft/src/str/ft_striter.c.o   -c /Users/n.kats/CLionProjects/ft_ls/libft/src/str/ft_striter.c
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/lgunship/Desktop/CLion_Work_Dir/ft_ls1/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_52) "Building C object CMakeFiles/42_ft_ls_master.dir/libft/src/str/ft_striter.c.o"
+	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/42_ft_ls_master.dir/libft/src/str/ft_striter.c.o   -c /Users/lgunship/Desktop/CLion_Work_Dir/ft_ls1/libft/src/str/ft_striter.c
 
 CMakeFiles/42_ft_ls_master.dir/libft/src/str/ft_striter.c.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/42_ft_ls_master.dir/libft/src/str/ft_striter.c.i"
-	/Library/Developer/CommandLineTools/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /Users/n.kats/CLionProjects/ft_ls/libft/src/str/ft_striter.c > CMakeFiles/42_ft_ls_master.dir/libft/src/str/ft_striter.c.i
+	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /Users/lgunship/Desktop/CLion_Work_Dir/ft_ls1/libft/src/str/ft_striter.c > CMakeFiles/42_ft_ls_master.dir/libft/src/str/ft_striter.c.i
 
 CMakeFiles/42_ft_ls_master.dir/libft/src/str/ft_striter.c.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/42_ft_ls_master.dir/libft/src/str/ft_striter.c.s"
-	/Library/Developer/CommandLineTools/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /Users/n.kats/CLionProjects/ft_ls/libft/src/str/ft_striter.c -o CMakeFiles/42_ft_ls_master.dir/libft/src/str/ft_striter.c.s
+	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /Users/lgunship/Desktop/CLion_Work_Dir/ft_ls1/libft/src/str/ft_striter.c -o CMakeFiles/42_ft_ls_master.dir/libft/src/str/ft_striter.c.s
 
 CMakeFiles/42_ft_ls_master.dir/libft/src/str/ft_striteri.c.o: CMakeFiles/42_ft_ls_master.dir/flags.make
 CMakeFiles/42_ft_ls_master.dir/libft/src/str/ft_striteri.c.o: ../libft/src/str/ft_striteri.c
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/n.kats/CLionProjects/ft_ls/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_63) "Building C object CMakeFiles/42_ft_ls_master.dir/libft/src/str/ft_striteri.c.o"
-	/Library/Developer/CommandLineTools/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/42_ft_ls_master.dir/libft/src/str/ft_striteri.c.o   -c /Users/n.kats/CLionProjects/ft_ls/libft/src/str/ft_striteri.c
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/lgunship/Desktop/CLion_Work_Dir/ft_ls1/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_53) "Building C object CMakeFiles/42_ft_ls_master.dir/libft/src/str/ft_striteri.c.o"
+	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/42_ft_ls_master.dir/libft/src/str/ft_striteri.c.o   -c /Users/lgunship/Desktop/CLion_Work_Dir/ft_ls1/libft/src/str/ft_striteri.c
 
 CMakeFiles/42_ft_ls_master.dir/libft/src/str/ft_striteri.c.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/42_ft_ls_master.dir/libft/src/str/ft_striteri.c.i"
-	/Library/Developer/CommandLineTools/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /Users/n.kats/CLionProjects/ft_ls/libft/src/str/ft_striteri.c > CMakeFiles/42_ft_ls_master.dir/libft/src/str/ft_striteri.c.i
+	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /Users/lgunship/Desktop/CLion_Work_Dir/ft_ls1/libft/src/str/ft_striteri.c > CMakeFiles/42_ft_ls_master.dir/libft/src/str/ft_striteri.c.i
 
 CMakeFiles/42_ft_ls_master.dir/libft/src/str/ft_striteri.c.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/42_ft_ls_master.dir/libft/src/str/ft_striteri.c.s"
-	/Library/Developer/CommandLineTools/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /Users/n.kats/CLionProjects/ft_ls/libft/src/str/ft_striteri.c -o CMakeFiles/42_ft_ls_master.dir/libft/src/str/ft_striteri.c.s
+	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /Users/lgunship/Desktop/CLion_Work_Dir/ft_ls1/libft/src/str/ft_striteri.c -o CMakeFiles/42_ft_ls_master.dir/libft/src/str/ft_striteri.c.s
 
 CMakeFiles/42_ft_ls_master.dir/libft/src/str/ft_strjoin.c.o: CMakeFiles/42_ft_ls_master.dir/flags.make
 CMakeFiles/42_ft_ls_master.dir/libft/src/str/ft_strjoin.c.o: ../libft/src/str/ft_strjoin.c
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/n.kats/CLionProjects/ft_ls/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_64) "Building C object CMakeFiles/42_ft_ls_master.dir/libft/src/str/ft_strjoin.c.o"
-	/Library/Developer/CommandLineTools/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/42_ft_ls_master.dir/libft/src/str/ft_strjoin.c.o   -c /Users/n.kats/CLionProjects/ft_ls/libft/src/str/ft_strjoin.c
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/lgunship/Desktop/CLion_Work_Dir/ft_ls1/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_54) "Building C object CMakeFiles/42_ft_ls_master.dir/libft/src/str/ft_strjoin.c.o"
+	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/42_ft_ls_master.dir/libft/src/str/ft_strjoin.c.o   -c /Users/lgunship/Desktop/CLion_Work_Dir/ft_ls1/libft/src/str/ft_strjoin.c
 
 CMakeFiles/42_ft_ls_master.dir/libft/src/str/ft_strjoin.c.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/42_ft_ls_master.dir/libft/src/str/ft_strjoin.c.i"
-	/Library/Developer/CommandLineTools/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /Users/n.kats/CLionProjects/ft_ls/libft/src/str/ft_strjoin.c > CMakeFiles/42_ft_ls_master.dir/libft/src/str/ft_strjoin.c.i
+	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /Users/lgunship/Desktop/CLion_Work_Dir/ft_ls1/libft/src/str/ft_strjoin.c > CMakeFiles/42_ft_ls_master.dir/libft/src/str/ft_strjoin.c.i
 
 CMakeFiles/42_ft_ls_master.dir/libft/src/str/ft_strjoin.c.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/42_ft_ls_master.dir/libft/src/str/ft_strjoin.c.s"
-	/Library/Developer/CommandLineTools/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /Users/n.kats/CLionProjects/ft_ls/libft/src/str/ft_strjoin.c -o CMakeFiles/42_ft_ls_master.dir/libft/src/str/ft_strjoin.c.s
+	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /Users/lgunship/Desktop/CLion_Work_Dir/ft_ls1/libft/src/str/ft_strjoin.c -o CMakeFiles/42_ft_ls_master.dir/libft/src/str/ft_strjoin.c.s
 
 CMakeFiles/42_ft_ls_master.dir/libft/src/str/ft_strlcat.c.o: CMakeFiles/42_ft_ls_master.dir/flags.make
 CMakeFiles/42_ft_ls_master.dir/libft/src/str/ft_strlcat.c.o: ../libft/src/str/ft_strlcat.c
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/n.kats/CLionProjects/ft_ls/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_65) "Building C object CMakeFiles/42_ft_ls_master.dir/libft/src/str/ft_strlcat.c.o"
-	/Library/Developer/CommandLineTools/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/42_ft_ls_master.dir/libft/src/str/ft_strlcat.c.o   -c /Users/n.kats/CLionProjects/ft_ls/libft/src/str/ft_strlcat.c
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/lgunship/Desktop/CLion_Work_Dir/ft_ls1/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_55) "Building C object CMakeFiles/42_ft_ls_master.dir/libft/src/str/ft_strlcat.c.o"
+	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/42_ft_ls_master.dir/libft/src/str/ft_strlcat.c.o   -c /Users/lgunship/Desktop/CLion_Work_Dir/ft_ls1/libft/src/str/ft_strlcat.c
 
 CMakeFiles/42_ft_ls_master.dir/libft/src/str/ft_strlcat.c.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/42_ft_ls_master.dir/libft/src/str/ft_strlcat.c.i"
-	/Library/Developer/CommandLineTools/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /Users/n.kats/CLionProjects/ft_ls/libft/src/str/ft_strlcat.c > CMakeFiles/42_ft_ls_master.dir/libft/src/str/ft_strlcat.c.i
+	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /Users/lgunship/Desktop/CLion_Work_Dir/ft_ls1/libft/src/str/ft_strlcat.c > CMakeFiles/42_ft_ls_master.dir/libft/src/str/ft_strlcat.c.i
 
 CMakeFiles/42_ft_ls_master.dir/libft/src/str/ft_strlcat.c.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/42_ft_ls_master.dir/libft/src/str/ft_strlcat.c.s"
-	/Library/Developer/CommandLineTools/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /Users/n.kats/CLionProjects/ft_ls/libft/src/str/ft_strlcat.c -o CMakeFiles/42_ft_ls_master.dir/libft/src/str/ft_strlcat.c.s
+	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /Users/lgunship/Desktop/CLion_Work_Dir/ft_ls1/libft/src/str/ft_strlcat.c -o CMakeFiles/42_ft_ls_master.dir/libft/src/str/ft_strlcat.c.s
 
 CMakeFiles/42_ft_ls_master.dir/libft/src/str/ft_strlen.c.o: CMakeFiles/42_ft_ls_master.dir/flags.make
 CMakeFiles/42_ft_ls_master.dir/libft/src/str/ft_strlen.c.o: ../libft/src/str/ft_strlen.c
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/n.kats/CLionProjects/ft_ls/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_66) "Building C object CMakeFiles/42_ft_ls_master.dir/libft/src/str/ft_strlen.c.o"
-	/Library/Developer/CommandLineTools/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/42_ft_ls_master.dir/libft/src/str/ft_strlen.c.o   -c /Users/n.kats/CLionProjects/ft_ls/libft/src/str/ft_strlen.c
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/lgunship/Desktop/CLion_Work_Dir/ft_ls1/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_56) "Building C object CMakeFiles/42_ft_ls_master.dir/libft/src/str/ft_strlen.c.o"
+	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/42_ft_ls_master.dir/libft/src/str/ft_strlen.c.o   -c /Users/lgunship/Desktop/CLion_Work_Dir/ft_ls1/libft/src/str/ft_strlen.c
 
 CMakeFiles/42_ft_ls_master.dir/libft/src/str/ft_strlen.c.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/42_ft_ls_master.dir/libft/src/str/ft_strlen.c.i"
-	/Library/Developer/CommandLineTools/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /Users/n.kats/CLionProjects/ft_ls/libft/src/str/ft_strlen.c > CMakeFiles/42_ft_ls_master.dir/libft/src/str/ft_strlen.c.i
+	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /Users/lgunship/Desktop/CLion_Work_Dir/ft_ls1/libft/src/str/ft_strlen.c > CMakeFiles/42_ft_ls_master.dir/libft/src/str/ft_strlen.c.i
 
 CMakeFiles/42_ft_ls_master.dir/libft/src/str/ft_strlen.c.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/42_ft_ls_master.dir/libft/src/str/ft_strlen.c.s"
-	/Library/Developer/CommandLineTools/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /Users/n.kats/CLionProjects/ft_ls/libft/src/str/ft_strlen.c -o CMakeFiles/42_ft_ls_master.dir/libft/src/str/ft_strlen.c.s
+	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /Users/lgunship/Desktop/CLion_Work_Dir/ft_ls1/libft/src/str/ft_strlen.c -o CMakeFiles/42_ft_ls_master.dir/libft/src/str/ft_strlen.c.s
 
 CMakeFiles/42_ft_ls_master.dir/libft/src/str/ft_strlower.c.o: CMakeFiles/42_ft_ls_master.dir/flags.make
 CMakeFiles/42_ft_ls_master.dir/libft/src/str/ft_strlower.c.o: ../libft/src/str/ft_strlower.c
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/n.kats/CLionProjects/ft_ls/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_67) "Building C object CMakeFiles/42_ft_ls_master.dir/libft/src/str/ft_strlower.c.o"
-	/Library/Developer/CommandLineTools/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/42_ft_ls_master.dir/libft/src/str/ft_strlower.c.o   -c /Users/n.kats/CLionProjects/ft_ls/libft/src/str/ft_strlower.c
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/lgunship/Desktop/CLion_Work_Dir/ft_ls1/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_57) "Building C object CMakeFiles/42_ft_ls_master.dir/libft/src/str/ft_strlower.c.o"
+	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/42_ft_ls_master.dir/libft/src/str/ft_strlower.c.o   -c /Users/lgunship/Desktop/CLion_Work_Dir/ft_ls1/libft/src/str/ft_strlower.c
 
 CMakeFiles/42_ft_ls_master.dir/libft/src/str/ft_strlower.c.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/42_ft_ls_master.dir/libft/src/str/ft_strlower.c.i"
-	/Library/Developer/CommandLineTools/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /Users/n.kats/CLionProjects/ft_ls/libft/src/str/ft_strlower.c > CMakeFiles/42_ft_ls_master.dir/libft/src/str/ft_strlower.c.i
+	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /Users/lgunship/Desktop/CLion_Work_Dir/ft_ls1/libft/src/str/ft_strlower.c > CMakeFiles/42_ft_ls_master.dir/libft/src/str/ft_strlower.c.i
 
 CMakeFiles/42_ft_ls_master.dir/libft/src/str/ft_strlower.c.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/42_ft_ls_master.dir/libft/src/str/ft_strlower.c.s"
-	/Library/Developer/CommandLineTools/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /Users/n.kats/CLionProjects/ft_ls/libft/src/str/ft_strlower.c -o CMakeFiles/42_ft_ls_master.dir/libft/src/str/ft_strlower.c.s
+	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /Users/lgunship/Desktop/CLion_Work_Dir/ft_ls1/libft/src/str/ft_strlower.c -o CMakeFiles/42_ft_ls_master.dir/libft/src/str/ft_strlower.c.s
 
 CMakeFiles/42_ft_ls_master.dir/libft/src/str/ft_strmap.c.o: CMakeFiles/42_ft_ls_master.dir/flags.make
 CMakeFiles/42_ft_ls_master.dir/libft/src/str/ft_strmap.c.o: ../libft/src/str/ft_strmap.c
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/n.kats/CLionProjects/ft_ls/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_68) "Building C object CMakeFiles/42_ft_ls_master.dir/libft/src/str/ft_strmap.c.o"
-	/Library/Developer/CommandLineTools/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/42_ft_ls_master.dir/libft/src/str/ft_strmap.c.o   -c /Users/n.kats/CLionProjects/ft_ls/libft/src/str/ft_strmap.c
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/lgunship/Desktop/CLion_Work_Dir/ft_ls1/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_58) "Building C object CMakeFiles/42_ft_ls_master.dir/libft/src/str/ft_strmap.c.o"
+	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/42_ft_ls_master.dir/libft/src/str/ft_strmap.c.o   -c /Users/lgunship/Desktop/CLion_Work_Dir/ft_ls1/libft/src/str/ft_strmap.c
 
 CMakeFiles/42_ft_ls_master.dir/libft/src/str/ft_strmap.c.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/42_ft_ls_master.dir/libft/src/str/ft_strmap.c.i"
-	/Library/Developer/CommandLineTools/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /Users/n.kats/CLionProjects/ft_ls/libft/src/str/ft_strmap.c > CMakeFiles/42_ft_ls_master.dir/libft/src/str/ft_strmap.c.i
+	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /Users/lgunship/Desktop/CLion_Work_Dir/ft_ls1/libft/src/str/ft_strmap.c > CMakeFiles/42_ft_ls_master.dir/libft/src/str/ft_strmap.c.i
 
 CMakeFiles/42_ft_ls_master.dir/libft/src/str/ft_strmap.c.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/42_ft_ls_master.dir/libft/src/str/ft_strmap.c.s"
-	/Library/Developer/CommandLineTools/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /Users/n.kats/CLionProjects/ft_ls/libft/src/str/ft_strmap.c -o CMakeFiles/42_ft_ls_master.dir/libft/src/str/ft_strmap.c.s
+	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /Users/lgunship/Desktop/CLion_Work_Dir/ft_ls1/libft/src/str/ft_strmap.c -o CMakeFiles/42_ft_ls_master.dir/libft/src/str/ft_strmap.c.s
 
 CMakeFiles/42_ft_ls_master.dir/libft/src/str/ft_strmapi.c.o: CMakeFiles/42_ft_ls_master.dir/flags.make
 CMakeFiles/42_ft_ls_master.dir/libft/src/str/ft_strmapi.c.o: ../libft/src/str/ft_strmapi.c
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/n.kats/CLionProjects/ft_ls/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_69) "Building C object CMakeFiles/42_ft_ls_master.dir/libft/src/str/ft_strmapi.c.o"
-	/Library/Developer/CommandLineTools/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/42_ft_ls_master.dir/libft/src/str/ft_strmapi.c.o   -c /Users/n.kats/CLionProjects/ft_ls/libft/src/str/ft_strmapi.c
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/lgunship/Desktop/CLion_Work_Dir/ft_ls1/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_59) "Building C object CMakeFiles/42_ft_ls_master.dir/libft/src/str/ft_strmapi.c.o"
+	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/42_ft_ls_master.dir/libft/src/str/ft_strmapi.c.o   -c /Users/lgunship/Desktop/CLion_Work_Dir/ft_ls1/libft/src/str/ft_strmapi.c
 
 CMakeFiles/42_ft_ls_master.dir/libft/src/str/ft_strmapi.c.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/42_ft_ls_master.dir/libft/src/str/ft_strmapi.c.i"
-	/Library/Developer/CommandLineTools/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /Users/n.kats/CLionProjects/ft_ls/libft/src/str/ft_strmapi.c > CMakeFiles/42_ft_ls_master.dir/libft/src/str/ft_strmapi.c.i
+	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /Users/lgunship/Desktop/CLion_Work_Dir/ft_ls1/libft/src/str/ft_strmapi.c > CMakeFiles/42_ft_ls_master.dir/libft/src/str/ft_strmapi.c.i
 
 CMakeFiles/42_ft_ls_master.dir/libft/src/str/ft_strmapi.c.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/42_ft_ls_master.dir/libft/src/str/ft_strmapi.c.s"
-	/Library/Developer/CommandLineTools/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /Users/n.kats/CLionProjects/ft_ls/libft/src/str/ft_strmapi.c -o CMakeFiles/42_ft_ls_master.dir/libft/src/str/ft_strmapi.c.s
+	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /Users/lgunship/Desktop/CLion_Work_Dir/ft_ls1/libft/src/str/ft_strmapi.c -o CMakeFiles/42_ft_ls_master.dir/libft/src/str/ft_strmapi.c.s
 
 CMakeFiles/42_ft_ls_master.dir/libft/src/str/ft_strncat.c.o: CMakeFiles/42_ft_ls_master.dir/flags.make
 CMakeFiles/42_ft_ls_master.dir/libft/src/str/ft_strncat.c.o: ../libft/src/str/ft_strncat.c
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/n.kats/CLionProjects/ft_ls/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_70) "Building C object CMakeFiles/42_ft_ls_master.dir/libft/src/str/ft_strncat.c.o"
-	/Library/Developer/CommandLineTools/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/42_ft_ls_master.dir/libft/src/str/ft_strncat.c.o   -c /Users/n.kats/CLionProjects/ft_ls/libft/src/str/ft_strncat.c
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/lgunship/Desktop/CLion_Work_Dir/ft_ls1/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_60) "Building C object CMakeFiles/42_ft_ls_master.dir/libft/src/str/ft_strncat.c.o"
+	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/42_ft_ls_master.dir/libft/src/str/ft_strncat.c.o   -c /Users/lgunship/Desktop/CLion_Work_Dir/ft_ls1/libft/src/str/ft_strncat.c
 
 CMakeFiles/42_ft_ls_master.dir/libft/src/str/ft_strncat.c.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/42_ft_ls_master.dir/libft/src/str/ft_strncat.c.i"
-	/Library/Developer/CommandLineTools/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /Users/n.kats/CLionProjects/ft_ls/libft/src/str/ft_strncat.c > CMakeFiles/42_ft_ls_master.dir/libft/src/str/ft_strncat.c.i
+	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /Users/lgunship/Desktop/CLion_Work_Dir/ft_ls1/libft/src/str/ft_strncat.c > CMakeFiles/42_ft_ls_master.dir/libft/src/str/ft_strncat.c.i
 
 CMakeFiles/42_ft_ls_master.dir/libft/src/str/ft_strncat.c.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/42_ft_ls_master.dir/libft/src/str/ft_strncat.c.s"
-	/Library/Developer/CommandLineTools/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /Users/n.kats/CLionProjects/ft_ls/libft/src/str/ft_strncat.c -o CMakeFiles/42_ft_ls_master.dir/libft/src/str/ft_strncat.c.s
+	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /Users/lgunship/Desktop/CLion_Work_Dir/ft_ls1/libft/src/str/ft_strncat.c -o CMakeFiles/42_ft_ls_master.dir/libft/src/str/ft_strncat.c.s
 
 CMakeFiles/42_ft_ls_master.dir/libft/src/str/ft_strncmp.c.o: CMakeFiles/42_ft_ls_master.dir/flags.make
 CMakeFiles/42_ft_ls_master.dir/libft/src/str/ft_strncmp.c.o: ../libft/src/str/ft_strncmp.c
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/n.kats/CLionProjects/ft_ls/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_71) "Building C object CMakeFiles/42_ft_ls_master.dir/libft/src/str/ft_strncmp.c.o"
-	/Library/Developer/CommandLineTools/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/42_ft_ls_master.dir/libft/src/str/ft_strncmp.c.o   -c /Users/n.kats/CLionProjects/ft_ls/libft/src/str/ft_strncmp.c
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/lgunship/Desktop/CLion_Work_Dir/ft_ls1/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_61) "Building C object CMakeFiles/42_ft_ls_master.dir/libft/src/str/ft_strncmp.c.o"
+	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/42_ft_ls_master.dir/libft/src/str/ft_strncmp.c.o   -c /Users/lgunship/Desktop/CLion_Work_Dir/ft_ls1/libft/src/str/ft_strncmp.c
 
 CMakeFiles/42_ft_ls_master.dir/libft/src/str/ft_strncmp.c.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/42_ft_ls_master.dir/libft/src/str/ft_strncmp.c.i"
-	/Library/Developer/CommandLineTools/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /Users/n.kats/CLionProjects/ft_ls/libft/src/str/ft_strncmp.c > CMakeFiles/42_ft_ls_master.dir/libft/src/str/ft_strncmp.c.i
+	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /Users/lgunship/Desktop/CLion_Work_Dir/ft_ls1/libft/src/str/ft_strncmp.c > CMakeFiles/42_ft_ls_master.dir/libft/src/str/ft_strncmp.c.i
 
 CMakeFiles/42_ft_ls_master.dir/libft/src/str/ft_strncmp.c.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/42_ft_ls_master.dir/libft/src/str/ft_strncmp.c.s"
-	/Library/Developer/CommandLineTools/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /Users/n.kats/CLionProjects/ft_ls/libft/src/str/ft_strncmp.c -o CMakeFiles/42_ft_ls_master.dir/libft/src/str/ft_strncmp.c.s
+	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /Users/lgunship/Desktop/CLion_Work_Dir/ft_ls1/libft/src/str/ft_strncmp.c -o CMakeFiles/42_ft_ls_master.dir/libft/src/str/ft_strncmp.c.s
 
 CMakeFiles/42_ft_ls_master.dir/libft/src/str/ft_strncpy.c.o: CMakeFiles/42_ft_ls_master.dir/flags.make
 CMakeFiles/42_ft_ls_master.dir/libft/src/str/ft_strncpy.c.o: ../libft/src/str/ft_strncpy.c
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/n.kats/CLionProjects/ft_ls/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_72) "Building C object CMakeFiles/42_ft_ls_master.dir/libft/src/str/ft_strncpy.c.o"
-	/Library/Developer/CommandLineTools/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/42_ft_ls_master.dir/libft/src/str/ft_strncpy.c.o   -c /Users/n.kats/CLionProjects/ft_ls/libft/src/str/ft_strncpy.c
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/lgunship/Desktop/CLion_Work_Dir/ft_ls1/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_62) "Building C object CMakeFiles/42_ft_ls_master.dir/libft/src/str/ft_strncpy.c.o"
+	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/42_ft_ls_master.dir/libft/src/str/ft_strncpy.c.o   -c /Users/lgunship/Desktop/CLion_Work_Dir/ft_ls1/libft/src/str/ft_strncpy.c
 
 CMakeFiles/42_ft_ls_master.dir/libft/src/str/ft_strncpy.c.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/42_ft_ls_master.dir/libft/src/str/ft_strncpy.c.i"
-	/Library/Developer/CommandLineTools/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /Users/n.kats/CLionProjects/ft_ls/libft/src/str/ft_strncpy.c > CMakeFiles/42_ft_ls_master.dir/libft/src/str/ft_strncpy.c.i
+	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /Users/lgunship/Desktop/CLion_Work_Dir/ft_ls1/libft/src/str/ft_strncpy.c > CMakeFiles/42_ft_ls_master.dir/libft/src/str/ft_strncpy.c.i
 
 CMakeFiles/42_ft_ls_master.dir/libft/src/str/ft_strncpy.c.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/42_ft_ls_master.dir/libft/src/str/ft_strncpy.c.s"
-	/Library/Developer/CommandLineTools/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /Users/n.kats/CLionProjects/ft_ls/libft/src/str/ft_strncpy.c -o CMakeFiles/42_ft_ls_master.dir/libft/src/str/ft_strncpy.c.s
+	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /Users/lgunship/Desktop/CLion_Work_Dir/ft_ls1/libft/src/str/ft_strncpy.c -o CMakeFiles/42_ft_ls_master.dir/libft/src/str/ft_strncpy.c.s
 
 CMakeFiles/42_ft_ls_master.dir/libft/src/str/ft_strndup.c.o: CMakeFiles/42_ft_ls_master.dir/flags.make
 CMakeFiles/42_ft_ls_master.dir/libft/src/str/ft_strndup.c.o: ../libft/src/str/ft_strndup.c
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/n.kats/CLionProjects/ft_ls/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_73) "Building C object CMakeFiles/42_ft_ls_master.dir/libft/src/str/ft_strndup.c.o"
-	/Library/Developer/CommandLineTools/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/42_ft_ls_master.dir/libft/src/str/ft_strndup.c.o   -c /Users/n.kats/CLionProjects/ft_ls/libft/src/str/ft_strndup.c
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/lgunship/Desktop/CLion_Work_Dir/ft_ls1/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_63) "Building C object CMakeFiles/42_ft_ls_master.dir/libft/src/str/ft_strndup.c.o"
+	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/42_ft_ls_master.dir/libft/src/str/ft_strndup.c.o   -c /Users/lgunship/Desktop/CLion_Work_Dir/ft_ls1/libft/src/str/ft_strndup.c
 
 CMakeFiles/42_ft_ls_master.dir/libft/src/str/ft_strndup.c.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/42_ft_ls_master.dir/libft/src/str/ft_strndup.c.i"
-	/Library/Developer/CommandLineTools/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /Users/n.kats/CLionProjects/ft_ls/libft/src/str/ft_strndup.c > CMakeFiles/42_ft_ls_master.dir/libft/src/str/ft_strndup.c.i
+	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /Users/lgunship/Desktop/CLion_Work_Dir/ft_ls1/libft/src/str/ft_strndup.c > CMakeFiles/42_ft_ls_master.dir/libft/src/str/ft_strndup.c.i
 
 CMakeFiles/42_ft_ls_master.dir/libft/src/str/ft_strndup.c.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/42_ft_ls_master.dir/libft/src/str/ft_strndup.c.s"
-	/Library/Developer/CommandLineTools/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /Users/n.kats/CLionProjects/ft_ls/libft/src/str/ft_strndup.c -o CMakeFiles/42_ft_ls_master.dir/libft/src/str/ft_strndup.c.s
+	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /Users/lgunship/Desktop/CLion_Work_Dir/ft_ls1/libft/src/str/ft_strndup.c -o CMakeFiles/42_ft_ls_master.dir/libft/src/str/ft_strndup.c.s
 
 CMakeFiles/42_ft_ls_master.dir/libft/src/str/ft_strnequ.c.o: CMakeFiles/42_ft_ls_master.dir/flags.make
 CMakeFiles/42_ft_ls_master.dir/libft/src/str/ft_strnequ.c.o: ../libft/src/str/ft_strnequ.c
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/n.kats/CLionProjects/ft_ls/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_74) "Building C object CMakeFiles/42_ft_ls_master.dir/libft/src/str/ft_strnequ.c.o"
-	/Library/Developer/CommandLineTools/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/42_ft_ls_master.dir/libft/src/str/ft_strnequ.c.o   -c /Users/n.kats/CLionProjects/ft_ls/libft/src/str/ft_strnequ.c
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/lgunship/Desktop/CLion_Work_Dir/ft_ls1/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_64) "Building C object CMakeFiles/42_ft_ls_master.dir/libft/src/str/ft_strnequ.c.o"
+	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/42_ft_ls_master.dir/libft/src/str/ft_strnequ.c.o   -c /Users/lgunship/Desktop/CLion_Work_Dir/ft_ls1/libft/src/str/ft_strnequ.c
 
 CMakeFiles/42_ft_ls_master.dir/libft/src/str/ft_strnequ.c.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/42_ft_ls_master.dir/libft/src/str/ft_strnequ.c.i"
-	/Library/Developer/CommandLineTools/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /Users/n.kats/CLionProjects/ft_ls/libft/src/str/ft_strnequ.c > CMakeFiles/42_ft_ls_master.dir/libft/src/str/ft_strnequ.c.i
+	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /Users/lgunship/Desktop/CLion_Work_Dir/ft_ls1/libft/src/str/ft_strnequ.c > CMakeFiles/42_ft_ls_master.dir/libft/src/str/ft_strnequ.c.i
 
 CMakeFiles/42_ft_ls_master.dir/libft/src/str/ft_strnequ.c.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/42_ft_ls_master.dir/libft/src/str/ft_strnequ.c.s"
-	/Library/Developer/CommandLineTools/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /Users/n.kats/CLionProjects/ft_ls/libft/src/str/ft_strnequ.c -o CMakeFiles/42_ft_ls_master.dir/libft/src/str/ft_strnequ.c.s
+	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /Users/lgunship/Desktop/CLion_Work_Dir/ft_ls1/libft/src/str/ft_strnequ.c -o CMakeFiles/42_ft_ls_master.dir/libft/src/str/ft_strnequ.c.s
 
 CMakeFiles/42_ft_ls_master.dir/libft/src/str/ft_strnew.c.o: CMakeFiles/42_ft_ls_master.dir/flags.make
 CMakeFiles/42_ft_ls_master.dir/libft/src/str/ft_strnew.c.o: ../libft/src/str/ft_strnew.c
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/n.kats/CLionProjects/ft_ls/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_75) "Building C object CMakeFiles/42_ft_ls_master.dir/libft/src/str/ft_strnew.c.o"
-	/Library/Developer/CommandLineTools/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/42_ft_ls_master.dir/libft/src/str/ft_strnew.c.o   -c /Users/n.kats/CLionProjects/ft_ls/libft/src/str/ft_strnew.c
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/lgunship/Desktop/CLion_Work_Dir/ft_ls1/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_65) "Building C object CMakeFiles/42_ft_ls_master.dir/libft/src/str/ft_strnew.c.o"
+	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/42_ft_ls_master.dir/libft/src/str/ft_strnew.c.o   -c /Users/lgunship/Desktop/CLion_Work_Dir/ft_ls1/libft/src/str/ft_strnew.c
 
 CMakeFiles/42_ft_ls_master.dir/libft/src/str/ft_strnew.c.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/42_ft_ls_master.dir/libft/src/str/ft_strnew.c.i"
-	/Library/Developer/CommandLineTools/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /Users/n.kats/CLionProjects/ft_ls/libft/src/str/ft_strnew.c > CMakeFiles/42_ft_ls_master.dir/libft/src/str/ft_strnew.c.i
+	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /Users/lgunship/Desktop/CLion_Work_Dir/ft_ls1/libft/src/str/ft_strnew.c > CMakeFiles/42_ft_ls_master.dir/libft/src/str/ft_strnew.c.i
 
 CMakeFiles/42_ft_ls_master.dir/libft/src/str/ft_strnew.c.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/42_ft_ls_master.dir/libft/src/str/ft_strnew.c.s"
-	/Library/Developer/CommandLineTools/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /Users/n.kats/CLionProjects/ft_ls/libft/src/str/ft_strnew.c -o CMakeFiles/42_ft_ls_master.dir/libft/src/str/ft_strnew.c.s
+	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /Users/lgunship/Desktop/CLion_Work_Dir/ft_ls1/libft/src/str/ft_strnew.c -o CMakeFiles/42_ft_ls_master.dir/libft/src/str/ft_strnew.c.s
 
 CMakeFiles/42_ft_ls_master.dir/libft/src/str/ft_strnstr.c.o: CMakeFiles/42_ft_ls_master.dir/flags.make
 CMakeFiles/42_ft_ls_master.dir/libft/src/str/ft_strnstr.c.o: ../libft/src/str/ft_strnstr.c
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/n.kats/CLionProjects/ft_ls/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_76) "Building C object CMakeFiles/42_ft_ls_master.dir/libft/src/str/ft_strnstr.c.o"
-	/Library/Developer/CommandLineTools/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/42_ft_ls_master.dir/libft/src/str/ft_strnstr.c.o   -c /Users/n.kats/CLionProjects/ft_ls/libft/src/str/ft_strnstr.c
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/lgunship/Desktop/CLion_Work_Dir/ft_ls1/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_66) "Building C object CMakeFiles/42_ft_ls_master.dir/libft/src/str/ft_strnstr.c.o"
+	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/42_ft_ls_master.dir/libft/src/str/ft_strnstr.c.o   -c /Users/lgunship/Desktop/CLion_Work_Dir/ft_ls1/libft/src/str/ft_strnstr.c
 
 CMakeFiles/42_ft_ls_master.dir/libft/src/str/ft_strnstr.c.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/42_ft_ls_master.dir/libft/src/str/ft_strnstr.c.i"
-	/Library/Developer/CommandLineTools/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /Users/n.kats/CLionProjects/ft_ls/libft/src/str/ft_strnstr.c > CMakeFiles/42_ft_ls_master.dir/libft/src/str/ft_strnstr.c.i
+	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /Users/lgunship/Desktop/CLion_Work_Dir/ft_ls1/libft/src/str/ft_strnstr.c > CMakeFiles/42_ft_ls_master.dir/libft/src/str/ft_strnstr.c.i
 
 CMakeFiles/42_ft_ls_master.dir/libft/src/str/ft_strnstr.c.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/42_ft_ls_master.dir/libft/src/str/ft_strnstr.c.s"
-	/Library/Developer/CommandLineTools/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /Users/n.kats/CLionProjects/ft_ls/libft/src/str/ft_strnstr.c -o CMakeFiles/42_ft_ls_master.dir/libft/src/str/ft_strnstr.c.s
+	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /Users/lgunship/Desktop/CLion_Work_Dir/ft_ls1/libft/src/str/ft_strnstr.c -o CMakeFiles/42_ft_ls_master.dir/libft/src/str/ft_strnstr.c.s
 
 CMakeFiles/42_ft_ls_master.dir/libft/src/str/ft_strrchr.c.o: CMakeFiles/42_ft_ls_master.dir/flags.make
 CMakeFiles/42_ft_ls_master.dir/libft/src/str/ft_strrchr.c.o: ../libft/src/str/ft_strrchr.c
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/n.kats/CLionProjects/ft_ls/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_77) "Building C object CMakeFiles/42_ft_ls_master.dir/libft/src/str/ft_strrchr.c.o"
-	/Library/Developer/CommandLineTools/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/42_ft_ls_master.dir/libft/src/str/ft_strrchr.c.o   -c /Users/n.kats/CLionProjects/ft_ls/libft/src/str/ft_strrchr.c
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/lgunship/Desktop/CLion_Work_Dir/ft_ls1/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_67) "Building C object CMakeFiles/42_ft_ls_master.dir/libft/src/str/ft_strrchr.c.o"
+	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/42_ft_ls_master.dir/libft/src/str/ft_strrchr.c.o   -c /Users/lgunship/Desktop/CLion_Work_Dir/ft_ls1/libft/src/str/ft_strrchr.c
 
 CMakeFiles/42_ft_ls_master.dir/libft/src/str/ft_strrchr.c.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/42_ft_ls_master.dir/libft/src/str/ft_strrchr.c.i"
-	/Library/Developer/CommandLineTools/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /Users/n.kats/CLionProjects/ft_ls/libft/src/str/ft_strrchr.c > CMakeFiles/42_ft_ls_master.dir/libft/src/str/ft_strrchr.c.i
+	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /Users/lgunship/Desktop/CLion_Work_Dir/ft_ls1/libft/src/str/ft_strrchr.c > CMakeFiles/42_ft_ls_master.dir/libft/src/str/ft_strrchr.c.i
 
 CMakeFiles/42_ft_ls_master.dir/libft/src/str/ft_strrchr.c.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/42_ft_ls_master.dir/libft/src/str/ft_strrchr.c.s"
-	/Library/Developer/CommandLineTools/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /Users/n.kats/CLionProjects/ft_ls/libft/src/str/ft_strrchr.c -o CMakeFiles/42_ft_ls_master.dir/libft/src/str/ft_strrchr.c.s
+	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /Users/lgunship/Desktop/CLion_Work_Dir/ft_ls1/libft/src/str/ft_strrchr.c -o CMakeFiles/42_ft_ls_master.dir/libft/src/str/ft_strrchr.c.s
 
 CMakeFiles/42_ft_ls_master.dir/libft/src/str/ft_strsplit.c.o: CMakeFiles/42_ft_ls_master.dir/flags.make
 CMakeFiles/42_ft_ls_master.dir/libft/src/str/ft_strsplit.c.o: ../libft/src/str/ft_strsplit.c
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/n.kats/CLionProjects/ft_ls/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_78) "Building C object CMakeFiles/42_ft_ls_master.dir/libft/src/str/ft_strsplit.c.o"
-	/Library/Developer/CommandLineTools/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/42_ft_ls_master.dir/libft/src/str/ft_strsplit.c.o   -c /Users/n.kats/CLionProjects/ft_ls/libft/src/str/ft_strsplit.c
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/lgunship/Desktop/CLion_Work_Dir/ft_ls1/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_68) "Building C object CMakeFiles/42_ft_ls_master.dir/libft/src/str/ft_strsplit.c.o"
+	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/42_ft_ls_master.dir/libft/src/str/ft_strsplit.c.o   -c /Users/lgunship/Desktop/CLion_Work_Dir/ft_ls1/libft/src/str/ft_strsplit.c
 
 CMakeFiles/42_ft_ls_master.dir/libft/src/str/ft_strsplit.c.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/42_ft_ls_master.dir/libft/src/str/ft_strsplit.c.i"
-	/Library/Developer/CommandLineTools/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /Users/n.kats/CLionProjects/ft_ls/libft/src/str/ft_strsplit.c > CMakeFiles/42_ft_ls_master.dir/libft/src/str/ft_strsplit.c.i
+	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /Users/lgunship/Desktop/CLion_Work_Dir/ft_ls1/libft/src/str/ft_strsplit.c > CMakeFiles/42_ft_ls_master.dir/libft/src/str/ft_strsplit.c.i
 
 CMakeFiles/42_ft_ls_master.dir/libft/src/str/ft_strsplit.c.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/42_ft_ls_master.dir/libft/src/str/ft_strsplit.c.s"
-	/Library/Developer/CommandLineTools/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /Users/n.kats/CLionProjects/ft_ls/libft/src/str/ft_strsplit.c -o CMakeFiles/42_ft_ls_master.dir/libft/src/str/ft_strsplit.c.s
+	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /Users/lgunship/Desktop/CLion_Work_Dir/ft_ls1/libft/src/str/ft_strsplit.c -o CMakeFiles/42_ft_ls_master.dir/libft/src/str/ft_strsplit.c.s
 
 CMakeFiles/42_ft_ls_master.dir/libft/src/str/ft_strstr.c.o: CMakeFiles/42_ft_ls_master.dir/flags.make
 CMakeFiles/42_ft_ls_master.dir/libft/src/str/ft_strstr.c.o: ../libft/src/str/ft_strstr.c
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/n.kats/CLionProjects/ft_ls/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_79) "Building C object CMakeFiles/42_ft_ls_master.dir/libft/src/str/ft_strstr.c.o"
-	/Library/Developer/CommandLineTools/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/42_ft_ls_master.dir/libft/src/str/ft_strstr.c.o   -c /Users/n.kats/CLionProjects/ft_ls/libft/src/str/ft_strstr.c
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/lgunship/Desktop/CLion_Work_Dir/ft_ls1/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_69) "Building C object CMakeFiles/42_ft_ls_master.dir/libft/src/str/ft_strstr.c.o"
+	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/42_ft_ls_master.dir/libft/src/str/ft_strstr.c.o   -c /Users/lgunship/Desktop/CLion_Work_Dir/ft_ls1/libft/src/str/ft_strstr.c
 
 CMakeFiles/42_ft_ls_master.dir/libft/src/str/ft_strstr.c.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/42_ft_ls_master.dir/libft/src/str/ft_strstr.c.i"
-	/Library/Developer/CommandLineTools/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /Users/n.kats/CLionProjects/ft_ls/libft/src/str/ft_strstr.c > CMakeFiles/42_ft_ls_master.dir/libft/src/str/ft_strstr.c.i
+	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /Users/lgunship/Desktop/CLion_Work_Dir/ft_ls1/libft/src/str/ft_strstr.c > CMakeFiles/42_ft_ls_master.dir/libft/src/str/ft_strstr.c.i
 
 CMakeFiles/42_ft_ls_master.dir/libft/src/str/ft_strstr.c.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/42_ft_ls_master.dir/libft/src/str/ft_strstr.c.s"
-	/Library/Developer/CommandLineTools/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /Users/n.kats/CLionProjects/ft_ls/libft/src/str/ft_strstr.c -o CMakeFiles/42_ft_ls_master.dir/libft/src/str/ft_strstr.c.s
+	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /Users/lgunship/Desktop/CLion_Work_Dir/ft_ls1/libft/src/str/ft_strstr.c -o CMakeFiles/42_ft_ls_master.dir/libft/src/str/ft_strstr.c.s
 
 CMakeFiles/42_ft_ls_master.dir/libft/src/str/ft_strsub.c.o: CMakeFiles/42_ft_ls_master.dir/flags.make
 CMakeFiles/42_ft_ls_master.dir/libft/src/str/ft_strsub.c.o: ../libft/src/str/ft_strsub.c
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/n.kats/CLionProjects/ft_ls/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_80) "Building C object CMakeFiles/42_ft_ls_master.dir/libft/src/str/ft_strsub.c.o"
-	/Library/Developer/CommandLineTools/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/42_ft_ls_master.dir/libft/src/str/ft_strsub.c.o   -c /Users/n.kats/CLionProjects/ft_ls/libft/src/str/ft_strsub.c
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/lgunship/Desktop/CLion_Work_Dir/ft_ls1/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_70) "Building C object CMakeFiles/42_ft_ls_master.dir/libft/src/str/ft_strsub.c.o"
+	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/42_ft_ls_master.dir/libft/src/str/ft_strsub.c.o   -c /Users/lgunship/Desktop/CLion_Work_Dir/ft_ls1/libft/src/str/ft_strsub.c
 
 CMakeFiles/42_ft_ls_master.dir/libft/src/str/ft_strsub.c.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/42_ft_ls_master.dir/libft/src/str/ft_strsub.c.i"
-	/Library/Developer/CommandLineTools/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /Users/n.kats/CLionProjects/ft_ls/libft/src/str/ft_strsub.c > CMakeFiles/42_ft_ls_master.dir/libft/src/str/ft_strsub.c.i
+	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /Users/lgunship/Desktop/CLion_Work_Dir/ft_ls1/libft/src/str/ft_strsub.c > CMakeFiles/42_ft_ls_master.dir/libft/src/str/ft_strsub.c.i
 
 CMakeFiles/42_ft_ls_master.dir/libft/src/str/ft_strsub.c.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/42_ft_ls_master.dir/libft/src/str/ft_strsub.c.s"
-	/Library/Developer/CommandLineTools/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /Users/n.kats/CLionProjects/ft_ls/libft/src/str/ft_strsub.c -o CMakeFiles/42_ft_ls_master.dir/libft/src/str/ft_strsub.c.s
+	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /Users/lgunship/Desktop/CLion_Work_Dir/ft_ls1/libft/src/str/ft_strsub.c -o CMakeFiles/42_ft_ls_master.dir/libft/src/str/ft_strsub.c.s
 
 CMakeFiles/42_ft_ls_master.dir/libft/src/str/ft_strtrim.c.o: CMakeFiles/42_ft_ls_master.dir/flags.make
 CMakeFiles/42_ft_ls_master.dir/libft/src/str/ft_strtrim.c.o: ../libft/src/str/ft_strtrim.c
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/n.kats/CLionProjects/ft_ls/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_81) "Building C object CMakeFiles/42_ft_ls_master.dir/libft/src/str/ft_strtrim.c.o"
-	/Library/Developer/CommandLineTools/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/42_ft_ls_master.dir/libft/src/str/ft_strtrim.c.o   -c /Users/n.kats/CLionProjects/ft_ls/libft/src/str/ft_strtrim.c
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/lgunship/Desktop/CLion_Work_Dir/ft_ls1/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_71) "Building C object CMakeFiles/42_ft_ls_master.dir/libft/src/str/ft_strtrim.c.o"
+	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/42_ft_ls_master.dir/libft/src/str/ft_strtrim.c.o   -c /Users/lgunship/Desktop/CLion_Work_Dir/ft_ls1/libft/src/str/ft_strtrim.c
 
 CMakeFiles/42_ft_ls_master.dir/libft/src/str/ft_strtrim.c.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/42_ft_ls_master.dir/libft/src/str/ft_strtrim.c.i"
-	/Library/Developer/CommandLineTools/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /Users/n.kats/CLionProjects/ft_ls/libft/src/str/ft_strtrim.c > CMakeFiles/42_ft_ls_master.dir/libft/src/str/ft_strtrim.c.i
+	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /Users/lgunship/Desktop/CLion_Work_Dir/ft_ls1/libft/src/str/ft_strtrim.c > CMakeFiles/42_ft_ls_master.dir/libft/src/str/ft_strtrim.c.i
 
 CMakeFiles/42_ft_ls_master.dir/libft/src/str/ft_strtrim.c.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/42_ft_ls_master.dir/libft/src/str/ft_strtrim.c.s"
-	/Library/Developer/CommandLineTools/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /Users/n.kats/CLionProjects/ft_ls/libft/src/str/ft_strtrim.c -o CMakeFiles/42_ft_ls_master.dir/libft/src/str/ft_strtrim.c.s
+	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /Users/lgunship/Desktop/CLion_Work_Dir/ft_ls1/libft/src/str/ft_strtrim.c -o CMakeFiles/42_ft_ls_master.dir/libft/src/str/ft_strtrim.c.s
 
 CMakeFiles/42_ft_ls_master.dir/src/t_file/file_add.c.o: CMakeFiles/42_ft_ls_master.dir/flags.make
 CMakeFiles/42_ft_ls_master.dir/src/t_file/file_add.c.o: ../src/t_file/file_add.c
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/n.kats/CLionProjects/ft_ls/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_82) "Building C object CMakeFiles/42_ft_ls_master.dir/src/t_file/file_add.c.o"
-	/Library/Developer/CommandLineTools/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/42_ft_ls_master.dir/src/t_file/file_add.c.o   -c /Users/n.kats/CLionProjects/ft_ls/src/t_file/file_add.c
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/lgunship/Desktop/CLion_Work_Dir/ft_ls1/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_72) "Building C object CMakeFiles/42_ft_ls_master.dir/src/t_file/file_add.c.o"
+	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/42_ft_ls_master.dir/src/t_file/file_add.c.o   -c /Users/lgunship/Desktop/CLion_Work_Dir/ft_ls1/src/t_file/file_add.c
 
 CMakeFiles/42_ft_ls_master.dir/src/t_file/file_add.c.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/42_ft_ls_master.dir/src/t_file/file_add.c.i"
-	/Library/Developer/CommandLineTools/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /Users/n.kats/CLionProjects/ft_ls/src/t_file/file_add.c > CMakeFiles/42_ft_ls_master.dir/src/t_file/file_add.c.i
+	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /Users/lgunship/Desktop/CLion_Work_Dir/ft_ls1/src/t_file/file_add.c > CMakeFiles/42_ft_ls_master.dir/src/t_file/file_add.c.i
 
 CMakeFiles/42_ft_ls_master.dir/src/t_file/file_add.c.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/42_ft_ls_master.dir/src/t_file/file_add.c.s"
-	/Library/Developer/CommandLineTools/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /Users/n.kats/CLionProjects/ft_ls/src/t_file/file_add.c -o CMakeFiles/42_ft_ls_master.dir/src/t_file/file_add.c.s
+	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /Users/lgunship/Desktop/CLion_Work_Dir/ft_ls1/src/t_file/file_add.c -o CMakeFiles/42_ft_ls_master.dir/src/t_file/file_add.c.s
 
 CMakeFiles/42_ft_ls_master.dir/src/t_file/file_del.c.o: CMakeFiles/42_ft_ls_master.dir/flags.make
 CMakeFiles/42_ft_ls_master.dir/src/t_file/file_del.c.o: ../src/t_file/file_del.c
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/n.kats/CLionProjects/ft_ls/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_83) "Building C object CMakeFiles/42_ft_ls_master.dir/src/t_file/file_del.c.o"
-	/Library/Developer/CommandLineTools/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/42_ft_ls_master.dir/src/t_file/file_del.c.o   -c /Users/n.kats/CLionProjects/ft_ls/src/t_file/file_del.c
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/lgunship/Desktop/CLion_Work_Dir/ft_ls1/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_73) "Building C object CMakeFiles/42_ft_ls_master.dir/src/t_file/file_del.c.o"
+	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/42_ft_ls_master.dir/src/t_file/file_del.c.o   -c /Users/lgunship/Desktop/CLion_Work_Dir/ft_ls1/src/t_file/file_del.c
 
 CMakeFiles/42_ft_ls_master.dir/src/t_file/file_del.c.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/42_ft_ls_master.dir/src/t_file/file_del.c.i"
-	/Library/Developer/CommandLineTools/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /Users/n.kats/CLionProjects/ft_ls/src/t_file/file_del.c > CMakeFiles/42_ft_ls_master.dir/src/t_file/file_del.c.i
+	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /Users/lgunship/Desktop/CLion_Work_Dir/ft_ls1/src/t_file/file_del.c > CMakeFiles/42_ft_ls_master.dir/src/t_file/file_del.c.i
 
 CMakeFiles/42_ft_ls_master.dir/src/t_file/file_del.c.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/42_ft_ls_master.dir/src/t_file/file_del.c.s"
-	/Library/Developer/CommandLineTools/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /Users/n.kats/CLionProjects/ft_ls/src/t_file/file_del.c -o CMakeFiles/42_ft_ls_master.dir/src/t_file/file_del.c.s
+	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /Users/lgunship/Desktop/CLion_Work_Dir/ft_ls1/src/t_file/file_del.c -o CMakeFiles/42_ft_ls_master.dir/src/t_file/file_del.c.s
 
 CMakeFiles/42_ft_ls_master.dir/src/t_file/file_dir.c.o: CMakeFiles/42_ft_ls_master.dir/flags.make
 CMakeFiles/42_ft_ls_master.dir/src/t_file/file_dir.c.o: ../src/t_file/file_dir.c
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/n.kats/CLionProjects/ft_ls/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_84) "Building C object CMakeFiles/42_ft_ls_master.dir/src/t_file/file_dir.c.o"
-	/Library/Developer/CommandLineTools/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/42_ft_ls_master.dir/src/t_file/file_dir.c.o   -c /Users/n.kats/CLionProjects/ft_ls/src/t_file/file_dir.c
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/lgunship/Desktop/CLion_Work_Dir/ft_ls1/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_74) "Building C object CMakeFiles/42_ft_ls_master.dir/src/t_file/file_dir.c.o"
+	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/42_ft_ls_master.dir/src/t_file/file_dir.c.o   -c /Users/lgunship/Desktop/CLion_Work_Dir/ft_ls1/src/t_file/file_dir.c
 
 CMakeFiles/42_ft_ls_master.dir/src/t_file/file_dir.c.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/42_ft_ls_master.dir/src/t_file/file_dir.c.i"
-	/Library/Developer/CommandLineTools/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /Users/n.kats/CLionProjects/ft_ls/src/t_file/file_dir.c > CMakeFiles/42_ft_ls_master.dir/src/t_file/file_dir.c.i
+	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /Users/lgunship/Desktop/CLion_Work_Dir/ft_ls1/src/t_file/file_dir.c > CMakeFiles/42_ft_ls_master.dir/src/t_file/file_dir.c.i
 
 CMakeFiles/42_ft_ls_master.dir/src/t_file/file_dir.c.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/42_ft_ls_master.dir/src/t_file/file_dir.c.s"
-	/Library/Developer/CommandLineTools/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /Users/n.kats/CLionProjects/ft_ls/src/t_file/file_dir.c -o CMakeFiles/42_ft_ls_master.dir/src/t_file/file_dir.c.s
+	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /Users/lgunship/Desktop/CLion_Work_Dir/ft_ls1/src/t_file/file_dir.c -o CMakeFiles/42_ft_ls_master.dir/src/t_file/file_dir.c.s
 
 CMakeFiles/42_ft_ls_master.dir/src/t_file/file_ini.c.o: CMakeFiles/42_ft_ls_master.dir/flags.make
 CMakeFiles/42_ft_ls_master.dir/src/t_file/file_ini.c.o: ../src/t_file/file_ini.c
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/n.kats/CLionProjects/ft_ls/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_85) "Building C object CMakeFiles/42_ft_ls_master.dir/src/t_file/file_ini.c.o"
-	/Library/Developer/CommandLineTools/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/42_ft_ls_master.dir/src/t_file/file_ini.c.o   -c /Users/n.kats/CLionProjects/ft_ls/src/t_file/file_ini.c
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/lgunship/Desktop/CLion_Work_Dir/ft_ls1/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_75) "Building C object CMakeFiles/42_ft_ls_master.dir/src/t_file/file_ini.c.o"
+	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/42_ft_ls_master.dir/src/t_file/file_ini.c.o   -c /Users/lgunship/Desktop/CLion_Work_Dir/ft_ls1/src/t_file/file_ini.c
 
 CMakeFiles/42_ft_ls_master.dir/src/t_file/file_ini.c.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/42_ft_ls_master.dir/src/t_file/file_ini.c.i"
-	/Library/Developer/CommandLineTools/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /Users/n.kats/CLionProjects/ft_ls/src/t_file/file_ini.c > CMakeFiles/42_ft_ls_master.dir/src/t_file/file_ini.c.i
+	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /Users/lgunship/Desktop/CLion_Work_Dir/ft_ls1/src/t_file/file_ini.c > CMakeFiles/42_ft_ls_master.dir/src/t_file/file_ini.c.i
 
 CMakeFiles/42_ft_ls_master.dir/src/t_file/file_ini.c.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/42_ft_ls_master.dir/src/t_file/file_ini.c.s"
-	/Library/Developer/CommandLineTools/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /Users/n.kats/CLionProjects/ft_ls/src/t_file/file_ini.c -o CMakeFiles/42_ft_ls_master.dir/src/t_file/file_ini.c.s
+	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /Users/lgunship/Desktop/CLion_Work_Dir/ft_ls1/src/t_file/file_ini.c -o CMakeFiles/42_ft_ls_master.dir/src/t_file/file_ini.c.s
 
 CMakeFiles/42_ft_ls_master.dir/src/t_file/file_len.c.o: CMakeFiles/42_ft_ls_master.dir/flags.make
 CMakeFiles/42_ft_ls_master.dir/src/t_file/file_len.c.o: ../src/t_file/file_len.c
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/n.kats/CLionProjects/ft_ls/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_86) "Building C object CMakeFiles/42_ft_ls_master.dir/src/t_file/file_len.c.o"
-	/Library/Developer/CommandLineTools/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/42_ft_ls_master.dir/src/t_file/file_len.c.o   -c /Users/n.kats/CLionProjects/ft_ls/src/t_file/file_len.c
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/lgunship/Desktop/CLion_Work_Dir/ft_ls1/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_76) "Building C object CMakeFiles/42_ft_ls_master.dir/src/t_file/file_len.c.o"
+	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/42_ft_ls_master.dir/src/t_file/file_len.c.o   -c /Users/lgunship/Desktop/CLion_Work_Dir/ft_ls1/src/t_file/file_len.c
 
 CMakeFiles/42_ft_ls_master.dir/src/t_file/file_len.c.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/42_ft_ls_master.dir/src/t_file/file_len.c.i"
-	/Library/Developer/CommandLineTools/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /Users/n.kats/CLionProjects/ft_ls/src/t_file/file_len.c > CMakeFiles/42_ft_ls_master.dir/src/t_file/file_len.c.i
+	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /Users/lgunship/Desktop/CLion_Work_Dir/ft_ls1/src/t_file/file_len.c > CMakeFiles/42_ft_ls_master.dir/src/t_file/file_len.c.i
 
 CMakeFiles/42_ft_ls_master.dir/src/t_file/file_len.c.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/42_ft_ls_master.dir/src/t_file/file_len.c.s"
-	/Library/Developer/CommandLineTools/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /Users/n.kats/CLionProjects/ft_ls/src/t_file/file_len.c -o CMakeFiles/42_ft_ls_master.dir/src/t_file/file_len.c.s
+	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /Users/lgunship/Desktop/CLion_Work_Dir/ft_ls1/src/t_file/file_len.c -o CMakeFiles/42_ft_ls_master.dir/src/t_file/file_len.c.s
 
 CMakeFiles/42_ft_ls_master.dir/src/t_file/file_srt.c.o: CMakeFiles/42_ft_ls_master.dir/flags.make
 CMakeFiles/42_ft_ls_master.dir/src/t_file/file_srt.c.o: ../src/t_file/file_srt.c
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/n.kats/CLionProjects/ft_ls/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_87) "Building C object CMakeFiles/42_ft_ls_master.dir/src/t_file/file_srt.c.o"
-	/Library/Developer/CommandLineTools/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/42_ft_ls_master.dir/src/t_file/file_srt.c.o   -c /Users/n.kats/CLionProjects/ft_ls/src/t_file/file_srt.c
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/lgunship/Desktop/CLion_Work_Dir/ft_ls1/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_77) "Building C object CMakeFiles/42_ft_ls_master.dir/src/t_file/file_srt.c.o"
+	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/42_ft_ls_master.dir/src/t_file/file_srt.c.o   -c /Users/lgunship/Desktop/CLion_Work_Dir/ft_ls1/src/t_file/file_srt.c
 
 CMakeFiles/42_ft_ls_master.dir/src/t_file/file_srt.c.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/42_ft_ls_master.dir/src/t_file/file_srt.c.i"
-	/Library/Developer/CommandLineTools/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /Users/n.kats/CLionProjects/ft_ls/src/t_file/file_srt.c > CMakeFiles/42_ft_ls_master.dir/src/t_file/file_srt.c.i
+	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /Users/lgunship/Desktop/CLion_Work_Dir/ft_ls1/src/t_file/file_srt.c > CMakeFiles/42_ft_ls_master.dir/src/t_file/file_srt.c.i
 
 CMakeFiles/42_ft_ls_master.dir/src/t_file/file_srt.c.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/42_ft_ls_master.dir/src/t_file/file_srt.c.s"
-	/Library/Developer/CommandLineTools/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /Users/n.kats/CLionProjects/ft_ls/src/t_file/file_srt.c -o CMakeFiles/42_ft_ls_master.dir/src/t_file/file_srt.c.s
+	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /Users/lgunship/Desktop/CLion_Work_Dir/ft_ls1/src/t_file/file_srt.c -o CMakeFiles/42_ft_ls_master.dir/src/t_file/file_srt.c.s
 
 CMakeFiles/42_ft_ls_master.dir/src/t_file/file_swp.c.o: CMakeFiles/42_ft_ls_master.dir/flags.make
 CMakeFiles/42_ft_ls_master.dir/src/t_file/file_swp.c.o: ../src/t_file/file_swp.c
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/n.kats/CLionProjects/ft_ls/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_88) "Building C object CMakeFiles/42_ft_ls_master.dir/src/t_file/file_swp.c.o"
-	/Library/Developer/CommandLineTools/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/42_ft_ls_master.dir/src/t_file/file_swp.c.o   -c /Users/n.kats/CLionProjects/ft_ls/src/t_file/file_swp.c
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/lgunship/Desktop/CLion_Work_Dir/ft_ls1/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_78) "Building C object CMakeFiles/42_ft_ls_master.dir/src/t_file/file_swp.c.o"
+	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/42_ft_ls_master.dir/src/t_file/file_swp.c.o   -c /Users/lgunship/Desktop/CLion_Work_Dir/ft_ls1/src/t_file/file_swp.c
 
 CMakeFiles/42_ft_ls_master.dir/src/t_file/file_swp.c.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/42_ft_ls_master.dir/src/t_file/file_swp.c.i"
-	/Library/Developer/CommandLineTools/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /Users/n.kats/CLionProjects/ft_ls/src/t_file/file_swp.c > CMakeFiles/42_ft_ls_master.dir/src/t_file/file_swp.c.i
+	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /Users/lgunship/Desktop/CLion_Work_Dir/ft_ls1/src/t_file/file_swp.c > CMakeFiles/42_ft_ls_master.dir/src/t_file/file_swp.c.i
 
 CMakeFiles/42_ft_ls_master.dir/src/t_file/file_swp.c.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/42_ft_ls_master.dir/src/t_file/file_swp.c.s"
-	/Library/Developer/CommandLineTools/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /Users/n.kats/CLionProjects/ft_ls/src/t_file/file_swp.c -o CMakeFiles/42_ft_ls_master.dir/src/t_file/file_swp.c.s
+	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /Users/lgunship/Desktop/CLion_Work_Dir/ft_ls1/src/t_file/file_swp.c -o CMakeFiles/42_ft_ls_master.dir/src/t_file/file_swp.c.s
 
 CMakeFiles/42_ft_ls_master.dir/src/t_path/path_add.c.o: CMakeFiles/42_ft_ls_master.dir/flags.make
 CMakeFiles/42_ft_ls_master.dir/src/t_path/path_add.c.o: ../src/t_path/path_add.c
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/n.kats/CLionProjects/ft_ls/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_89) "Building C object CMakeFiles/42_ft_ls_master.dir/src/t_path/path_add.c.o"
-	/Library/Developer/CommandLineTools/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/42_ft_ls_master.dir/src/t_path/path_add.c.o   -c /Users/n.kats/CLionProjects/ft_ls/src/t_path/path_add.c
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/lgunship/Desktop/CLion_Work_Dir/ft_ls1/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_79) "Building C object CMakeFiles/42_ft_ls_master.dir/src/t_path/path_add.c.o"
+	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/42_ft_ls_master.dir/src/t_path/path_add.c.o   -c /Users/lgunship/Desktop/CLion_Work_Dir/ft_ls1/src/t_path/path_add.c
 
 CMakeFiles/42_ft_ls_master.dir/src/t_path/path_add.c.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/42_ft_ls_master.dir/src/t_path/path_add.c.i"
-	/Library/Developer/CommandLineTools/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /Users/n.kats/CLionProjects/ft_ls/src/t_path/path_add.c > CMakeFiles/42_ft_ls_master.dir/src/t_path/path_add.c.i
+	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /Users/lgunship/Desktop/CLion_Work_Dir/ft_ls1/src/t_path/path_add.c > CMakeFiles/42_ft_ls_master.dir/src/t_path/path_add.c.i
 
 CMakeFiles/42_ft_ls_master.dir/src/t_path/path_add.c.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/42_ft_ls_master.dir/src/t_path/path_add.c.s"
-	/Library/Developer/CommandLineTools/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /Users/n.kats/CLionProjects/ft_ls/src/t_path/path_add.c -o CMakeFiles/42_ft_ls_master.dir/src/t_path/path_add.c.s
+	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /Users/lgunship/Desktop/CLion_Work_Dir/ft_ls1/src/t_path/path_add.c -o CMakeFiles/42_ft_ls_master.dir/src/t_path/path_add.c.s
 
 CMakeFiles/42_ft_ls_master.dir/src/t_path/path_del.c.o: CMakeFiles/42_ft_ls_master.dir/flags.make
 CMakeFiles/42_ft_ls_master.dir/src/t_path/path_del.c.o: ../src/t_path/path_del.c
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/n.kats/CLionProjects/ft_ls/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_90) "Building C object CMakeFiles/42_ft_ls_master.dir/src/t_path/path_del.c.o"
-	/Library/Developer/CommandLineTools/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/42_ft_ls_master.dir/src/t_path/path_del.c.o   -c /Users/n.kats/CLionProjects/ft_ls/src/t_path/path_del.c
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/lgunship/Desktop/CLion_Work_Dir/ft_ls1/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_80) "Building C object CMakeFiles/42_ft_ls_master.dir/src/t_path/path_del.c.o"
+	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/42_ft_ls_master.dir/src/t_path/path_del.c.o   -c /Users/lgunship/Desktop/CLion_Work_Dir/ft_ls1/src/t_path/path_del.c
 
 CMakeFiles/42_ft_ls_master.dir/src/t_path/path_del.c.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/42_ft_ls_master.dir/src/t_path/path_del.c.i"
-	/Library/Developer/CommandLineTools/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /Users/n.kats/CLionProjects/ft_ls/src/t_path/path_del.c > CMakeFiles/42_ft_ls_master.dir/src/t_path/path_del.c.i
+	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /Users/lgunship/Desktop/CLion_Work_Dir/ft_ls1/src/t_path/path_del.c > CMakeFiles/42_ft_ls_master.dir/src/t_path/path_del.c.i
 
 CMakeFiles/42_ft_ls_master.dir/src/t_path/path_del.c.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/42_ft_ls_master.dir/src/t_path/path_del.c.s"
-	/Library/Developer/CommandLineTools/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /Users/n.kats/CLionProjects/ft_ls/src/t_path/path_del.c -o CMakeFiles/42_ft_ls_master.dir/src/t_path/path_del.c.s
+	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /Users/lgunship/Desktop/CLion_Work_Dir/ft_ls1/src/t_path/path_del.c -o CMakeFiles/42_ft_ls_master.dir/src/t_path/path_del.c.s
 
 CMakeFiles/42_ft_ls_master.dir/src/t_path/path_len.c.o: CMakeFiles/42_ft_ls_master.dir/flags.make
 CMakeFiles/42_ft_ls_master.dir/src/t_path/path_len.c.o: ../src/t_path/path_len.c
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/n.kats/CLionProjects/ft_ls/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_91) "Building C object CMakeFiles/42_ft_ls_master.dir/src/t_path/path_len.c.o"
-	/Library/Developer/CommandLineTools/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/42_ft_ls_master.dir/src/t_path/path_len.c.o   -c /Users/n.kats/CLionProjects/ft_ls/src/t_path/path_len.c
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/lgunship/Desktop/CLion_Work_Dir/ft_ls1/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_81) "Building C object CMakeFiles/42_ft_ls_master.dir/src/t_path/path_len.c.o"
+	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/42_ft_ls_master.dir/src/t_path/path_len.c.o   -c /Users/lgunship/Desktop/CLion_Work_Dir/ft_ls1/src/t_path/path_len.c
 
 CMakeFiles/42_ft_ls_master.dir/src/t_path/path_len.c.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/42_ft_ls_master.dir/src/t_path/path_len.c.i"
-	/Library/Developer/CommandLineTools/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /Users/n.kats/CLionProjects/ft_ls/src/t_path/path_len.c > CMakeFiles/42_ft_ls_master.dir/src/t_path/path_len.c.i
+	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /Users/lgunship/Desktop/CLion_Work_Dir/ft_ls1/src/t_path/path_len.c > CMakeFiles/42_ft_ls_master.dir/src/t_path/path_len.c.i
 
 CMakeFiles/42_ft_ls_master.dir/src/t_path/path_len.c.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/42_ft_ls_master.dir/src/t_path/path_len.c.s"
-	/Library/Developer/CommandLineTools/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /Users/n.kats/CLionProjects/ft_ls/src/t_path/path_len.c -o CMakeFiles/42_ft_ls_master.dir/src/t_path/path_len.c.s
+	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /Users/lgunship/Desktop/CLion_Work_Dir/ft_ls1/src/t_path/path_len.c -o CMakeFiles/42_ft_ls_master.dir/src/t_path/path_len.c.s
 
 CMakeFiles/42_ft_ls_master.dir/src/t_path/path_srt.c.o: CMakeFiles/42_ft_ls_master.dir/flags.make
 CMakeFiles/42_ft_ls_master.dir/src/t_path/path_srt.c.o: ../src/t_path/path_srt.c
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/n.kats/CLionProjects/ft_ls/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_92) "Building C object CMakeFiles/42_ft_ls_master.dir/src/t_path/path_srt.c.o"
-	/Library/Developer/CommandLineTools/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/42_ft_ls_master.dir/src/t_path/path_srt.c.o   -c /Users/n.kats/CLionProjects/ft_ls/src/t_path/path_srt.c
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/lgunship/Desktop/CLion_Work_Dir/ft_ls1/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_82) "Building C object CMakeFiles/42_ft_ls_master.dir/src/t_path/path_srt.c.o"
+	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/42_ft_ls_master.dir/src/t_path/path_srt.c.o   -c /Users/lgunship/Desktop/CLion_Work_Dir/ft_ls1/src/t_path/path_srt.c
 
 CMakeFiles/42_ft_ls_master.dir/src/t_path/path_srt.c.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/42_ft_ls_master.dir/src/t_path/path_srt.c.i"
-	/Library/Developer/CommandLineTools/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /Users/n.kats/CLionProjects/ft_ls/src/t_path/path_srt.c > CMakeFiles/42_ft_ls_master.dir/src/t_path/path_srt.c.i
+	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /Users/lgunship/Desktop/CLion_Work_Dir/ft_ls1/src/t_path/path_srt.c > CMakeFiles/42_ft_ls_master.dir/src/t_path/path_srt.c.i
 
 CMakeFiles/42_ft_ls_master.dir/src/t_path/path_srt.c.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/42_ft_ls_master.dir/src/t_path/path_srt.c.s"
-	/Library/Developer/CommandLineTools/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /Users/n.kats/CLionProjects/ft_ls/src/t_path/path_srt.c -o CMakeFiles/42_ft_ls_master.dir/src/t_path/path_srt.c.s
+	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /Users/lgunship/Desktop/CLion_Work_Dir/ft_ls1/src/t_path/path_srt.c -o CMakeFiles/42_ft_ls_master.dir/src/t_path/path_srt.c.s
 
 CMakeFiles/42_ft_ls_master.dir/src/t_path/path_swp.c.o: CMakeFiles/42_ft_ls_master.dir/flags.make
 CMakeFiles/42_ft_ls_master.dir/src/t_path/path_swp.c.o: ../src/t_path/path_swp.c
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/n.kats/CLionProjects/ft_ls/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_93) "Building C object CMakeFiles/42_ft_ls_master.dir/src/t_path/path_swp.c.o"
-	/Library/Developer/CommandLineTools/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/42_ft_ls_master.dir/src/t_path/path_swp.c.o   -c /Users/n.kats/CLionProjects/ft_ls/src/t_path/path_swp.c
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/lgunship/Desktop/CLion_Work_Dir/ft_ls1/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_83) "Building C object CMakeFiles/42_ft_ls_master.dir/src/t_path/path_swp.c.o"
+	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/42_ft_ls_master.dir/src/t_path/path_swp.c.o   -c /Users/lgunship/Desktop/CLion_Work_Dir/ft_ls1/src/t_path/path_swp.c
 
 CMakeFiles/42_ft_ls_master.dir/src/t_path/path_swp.c.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/42_ft_ls_master.dir/src/t_path/path_swp.c.i"
-	/Library/Developer/CommandLineTools/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /Users/n.kats/CLionProjects/ft_ls/src/t_path/path_swp.c > CMakeFiles/42_ft_ls_master.dir/src/t_path/path_swp.c.i
+	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /Users/lgunship/Desktop/CLion_Work_Dir/ft_ls1/src/t_path/path_swp.c > CMakeFiles/42_ft_ls_master.dir/src/t_path/path_swp.c.i
 
 CMakeFiles/42_ft_ls_master.dir/src/t_path/path_swp.c.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/42_ft_ls_master.dir/src/t_path/path_swp.c.s"
-	/Library/Developer/CommandLineTools/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /Users/n.kats/CLionProjects/ft_ls/src/t_path/path_swp.c -o CMakeFiles/42_ft_ls_master.dir/src/t_path/path_swp.c.s
+	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /Users/lgunship/Desktop/CLion_Work_Dir/ft_ls1/src/t_path/path_swp.c -o CMakeFiles/42_ft_ls_master.dir/src/t_path/path_swp.c.s
 
 CMakeFiles/42_ft_ls_master.dir/src/utils/print/print_date.c.o: CMakeFiles/42_ft_ls_master.dir/flags.make
 CMakeFiles/42_ft_ls_master.dir/src/utils/print/print_date.c.o: ../src/utils/print/print_date.c
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/n.kats/CLionProjects/ft_ls/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_94) "Building C object CMakeFiles/42_ft_ls_master.dir/src/utils/print/print_date.c.o"
-	/Library/Developer/CommandLineTools/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/42_ft_ls_master.dir/src/utils/print/print_date.c.o   -c /Users/n.kats/CLionProjects/ft_ls/src/utils/print/print_date.c
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/lgunship/Desktop/CLion_Work_Dir/ft_ls1/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_84) "Building C object CMakeFiles/42_ft_ls_master.dir/src/utils/print/print_date.c.o"
+	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/42_ft_ls_master.dir/src/utils/print/print_date.c.o   -c /Users/lgunship/Desktop/CLion_Work_Dir/ft_ls1/src/utils/print/print_date.c
 
 CMakeFiles/42_ft_ls_master.dir/src/utils/print/print_date.c.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/42_ft_ls_master.dir/src/utils/print/print_date.c.i"
-	/Library/Developer/CommandLineTools/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /Users/n.kats/CLionProjects/ft_ls/src/utils/print/print_date.c > CMakeFiles/42_ft_ls_master.dir/src/utils/print/print_date.c.i
+	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /Users/lgunship/Desktop/CLion_Work_Dir/ft_ls1/src/utils/print/print_date.c > CMakeFiles/42_ft_ls_master.dir/src/utils/print/print_date.c.i
 
 CMakeFiles/42_ft_ls_master.dir/src/utils/print/print_date.c.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/42_ft_ls_master.dir/src/utils/print/print_date.c.s"
-	/Library/Developer/CommandLineTools/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /Users/n.kats/CLionProjects/ft_ls/src/utils/print/print_date.c -o CMakeFiles/42_ft_ls_master.dir/src/utils/print/print_date.c.s
+	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /Users/lgunship/Desktop/CLion_Work_Dir/ft_ls1/src/utils/print/print_date.c -o CMakeFiles/42_ft_ls_master.dir/src/utils/print/print_date.c.s
 
 CMakeFiles/42_ft_ls_master.dir/src/utils/print/print_entry.c.o: CMakeFiles/42_ft_ls_master.dir/flags.make
 CMakeFiles/42_ft_ls_master.dir/src/utils/print/print_entry.c.o: ../src/utils/print/print_entry.c
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/n.kats/CLionProjects/ft_ls/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_95) "Building C object CMakeFiles/42_ft_ls_master.dir/src/utils/print/print_entry.c.o"
-	/Library/Developer/CommandLineTools/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/42_ft_ls_master.dir/src/utils/print/print_entry.c.o   -c /Users/n.kats/CLionProjects/ft_ls/src/utils/print/print_entry.c
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/lgunship/Desktop/CLion_Work_Dir/ft_ls1/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_85) "Building C object CMakeFiles/42_ft_ls_master.dir/src/utils/print/print_entry.c.o"
+	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/42_ft_ls_master.dir/src/utils/print/print_entry.c.o   -c /Users/lgunship/Desktop/CLion_Work_Dir/ft_ls1/src/utils/print/print_entry.c
 
 CMakeFiles/42_ft_ls_master.dir/src/utils/print/print_entry.c.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/42_ft_ls_master.dir/src/utils/print/print_entry.c.i"
-	/Library/Developer/CommandLineTools/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /Users/n.kats/CLionProjects/ft_ls/src/utils/print/print_entry.c > CMakeFiles/42_ft_ls_master.dir/src/utils/print/print_entry.c.i
+	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /Users/lgunship/Desktop/CLion_Work_Dir/ft_ls1/src/utils/print/print_entry.c > CMakeFiles/42_ft_ls_master.dir/src/utils/print/print_entry.c.i
 
 CMakeFiles/42_ft_ls_master.dir/src/utils/print/print_entry.c.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/42_ft_ls_master.dir/src/utils/print/print_entry.c.s"
-	/Library/Developer/CommandLineTools/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /Users/n.kats/CLionProjects/ft_ls/src/utils/print/print_entry.c -o CMakeFiles/42_ft_ls_master.dir/src/utils/print/print_entry.c.s
+	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /Users/lgunship/Desktop/CLion_Work_Dir/ft_ls1/src/utils/print/print_entry.c -o CMakeFiles/42_ft_ls_master.dir/src/utils/print/print_entry.c.s
 
 CMakeFiles/42_ft_ls_master.dir/src/utils/print/print_list.c.o: CMakeFiles/42_ft_ls_master.dir/flags.make
 CMakeFiles/42_ft_ls_master.dir/src/utils/print/print_list.c.o: ../src/utils/print/print_list.c
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/n.kats/CLionProjects/ft_ls/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_96) "Building C object CMakeFiles/42_ft_ls_master.dir/src/utils/print/print_list.c.o"
-	/Library/Developer/CommandLineTools/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/42_ft_ls_master.dir/src/utils/print/print_list.c.o   -c /Users/n.kats/CLionProjects/ft_ls/src/utils/print/print_list.c
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/lgunship/Desktop/CLion_Work_Dir/ft_ls1/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_86) "Building C object CMakeFiles/42_ft_ls_master.dir/src/utils/print/print_list.c.o"
+	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/42_ft_ls_master.dir/src/utils/print/print_list.c.o   -c /Users/lgunship/Desktop/CLion_Work_Dir/ft_ls1/src/utils/print/print_list.c
 
 CMakeFiles/42_ft_ls_master.dir/src/utils/print/print_list.c.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/42_ft_ls_master.dir/src/utils/print/print_list.c.i"
-	/Library/Developer/CommandLineTools/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /Users/n.kats/CLionProjects/ft_ls/src/utils/print/print_list.c > CMakeFiles/42_ft_ls_master.dir/src/utils/print/print_list.c.i
+	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /Users/lgunship/Desktop/CLion_Work_Dir/ft_ls1/src/utils/print/print_list.c > CMakeFiles/42_ft_ls_master.dir/src/utils/print/print_list.c.i
 
 CMakeFiles/42_ft_ls_master.dir/src/utils/print/print_list.c.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/42_ft_ls_master.dir/src/utils/print/print_list.c.s"
-	/Library/Developer/CommandLineTools/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /Users/n.kats/CLionProjects/ft_ls/src/utils/print/print_list.c -o CMakeFiles/42_ft_ls_master.dir/src/utils/print/print_list.c.s
+	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /Users/lgunship/Desktop/CLion_Work_Dir/ft_ls1/src/utils/print/print_list.c -o CMakeFiles/42_ft_ls_master.dir/src/utils/print/print_list.c.s
 
 CMakeFiles/42_ft_ls_master.dir/src/utils/print/print_name.c.o: CMakeFiles/42_ft_ls_master.dir/flags.make
 CMakeFiles/42_ft_ls_master.dir/src/utils/print/print_name.c.o: ../src/utils/print/print_name.c
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/n.kats/CLionProjects/ft_ls/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_97) "Building C object CMakeFiles/42_ft_ls_master.dir/src/utils/print/print_name.c.o"
-	/Library/Developer/CommandLineTools/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/42_ft_ls_master.dir/src/utils/print/print_name.c.o   -c /Users/n.kats/CLionProjects/ft_ls/src/utils/print/print_name.c
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/lgunship/Desktop/CLion_Work_Dir/ft_ls1/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_87) "Building C object CMakeFiles/42_ft_ls_master.dir/src/utils/print/print_name.c.o"
+	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/42_ft_ls_master.dir/src/utils/print/print_name.c.o   -c /Users/lgunship/Desktop/CLion_Work_Dir/ft_ls1/src/utils/print/print_name.c
 
 CMakeFiles/42_ft_ls_master.dir/src/utils/print/print_name.c.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/42_ft_ls_master.dir/src/utils/print/print_name.c.i"
-	/Library/Developer/CommandLineTools/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /Users/n.kats/CLionProjects/ft_ls/src/utils/print/print_name.c > CMakeFiles/42_ft_ls_master.dir/src/utils/print/print_name.c.i
+	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /Users/lgunship/Desktop/CLion_Work_Dir/ft_ls1/src/utils/print/print_name.c > CMakeFiles/42_ft_ls_master.dir/src/utils/print/print_name.c.i
 
 CMakeFiles/42_ft_ls_master.dir/src/utils/print/print_name.c.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/42_ft_ls_master.dir/src/utils/print/print_name.c.s"
-	/Library/Developer/CommandLineTools/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /Users/n.kats/CLionProjects/ft_ls/src/utils/print/print_name.c -o CMakeFiles/42_ft_ls_master.dir/src/utils/print/print_name.c.s
+	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /Users/lgunship/Desktop/CLion_Work_Dir/ft_ls1/src/utils/print/print_name.c -o CMakeFiles/42_ft_ls_master.dir/src/utils/print/print_name.c.s
 
 CMakeFiles/42_ft_ls_master.dir/src/utils/print/print_perm.c.o: CMakeFiles/42_ft_ls_master.dir/flags.make
 CMakeFiles/42_ft_ls_master.dir/src/utils/print/print_perm.c.o: ../src/utils/print/print_perm.c
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/n.kats/CLionProjects/ft_ls/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_98) "Building C object CMakeFiles/42_ft_ls_master.dir/src/utils/print/print_perm.c.o"
-	/Library/Developer/CommandLineTools/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/42_ft_ls_master.dir/src/utils/print/print_perm.c.o   -c /Users/n.kats/CLionProjects/ft_ls/src/utils/print/print_perm.c
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/lgunship/Desktop/CLion_Work_Dir/ft_ls1/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_88) "Building C object CMakeFiles/42_ft_ls_master.dir/src/utils/print/print_perm.c.o"
+	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/42_ft_ls_master.dir/src/utils/print/print_perm.c.o   -c /Users/lgunship/Desktop/CLion_Work_Dir/ft_ls1/src/utils/print/print_perm.c
 
 CMakeFiles/42_ft_ls_master.dir/src/utils/print/print_perm.c.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/42_ft_ls_master.dir/src/utils/print/print_perm.c.i"
-	/Library/Developer/CommandLineTools/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /Users/n.kats/CLionProjects/ft_ls/src/utils/print/print_perm.c > CMakeFiles/42_ft_ls_master.dir/src/utils/print/print_perm.c.i
+	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /Users/lgunship/Desktop/CLion_Work_Dir/ft_ls1/src/utils/print/print_perm.c > CMakeFiles/42_ft_ls_master.dir/src/utils/print/print_perm.c.i
 
 CMakeFiles/42_ft_ls_master.dir/src/utils/print/print_perm.c.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/42_ft_ls_master.dir/src/utils/print/print_perm.c.s"
-	/Library/Developer/CommandLineTools/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /Users/n.kats/CLionProjects/ft_ls/src/utils/print/print_perm.c -o CMakeFiles/42_ft_ls_master.dir/src/utils/print/print_perm.c.s
+	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /Users/lgunship/Desktop/CLion_Work_Dir/ft_ls1/src/utils/print/print_perm.c -o CMakeFiles/42_ft_ls_master.dir/src/utils/print/print_perm.c.s
 
 CMakeFiles/42_ft_ls_master.dir/src/utils/print/print_type.c.o: CMakeFiles/42_ft_ls_master.dir/flags.make
 CMakeFiles/42_ft_ls_master.dir/src/utils/print/print_type.c.o: ../src/utils/print/print_type.c
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/n.kats/CLionProjects/ft_ls/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_99) "Building C object CMakeFiles/42_ft_ls_master.dir/src/utils/print/print_type.c.o"
-	/Library/Developer/CommandLineTools/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/42_ft_ls_master.dir/src/utils/print/print_type.c.o   -c /Users/n.kats/CLionProjects/ft_ls/src/utils/print/print_type.c
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/lgunship/Desktop/CLion_Work_Dir/ft_ls1/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_89) "Building C object CMakeFiles/42_ft_ls_master.dir/src/utils/print/print_type.c.o"
+	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/42_ft_ls_master.dir/src/utils/print/print_type.c.o   -c /Users/lgunship/Desktop/CLion_Work_Dir/ft_ls1/src/utils/print/print_type.c
 
 CMakeFiles/42_ft_ls_master.dir/src/utils/print/print_type.c.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/42_ft_ls_master.dir/src/utils/print/print_type.c.i"
-	/Library/Developer/CommandLineTools/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /Users/n.kats/CLionProjects/ft_ls/src/utils/print/print_type.c > CMakeFiles/42_ft_ls_master.dir/src/utils/print/print_type.c.i
+	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /Users/lgunship/Desktop/CLion_Work_Dir/ft_ls1/src/utils/print/print_type.c > CMakeFiles/42_ft_ls_master.dir/src/utils/print/print_type.c.i
 
 CMakeFiles/42_ft_ls_master.dir/src/utils/print/print_type.c.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/42_ft_ls_master.dir/src/utils/print/print_type.c.s"
-	/Library/Developer/CommandLineTools/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /Users/n.kats/CLionProjects/ft_ls/src/utils/print/print_type.c -o CMakeFiles/42_ft_ls_master.dir/src/utils/print/print_type.c.s
+	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /Users/lgunship/Desktop/CLion_Work_Dir/ft_ls1/src/utils/print/print_type.c -o CMakeFiles/42_ft_ls_master.dir/src/utils/print/print_type.c.s
 
 CMakeFiles/42_ft_ls_master.dir/src/utils/cmp_ts_n.c.o: CMakeFiles/42_ft_ls_master.dir/flags.make
 CMakeFiles/42_ft_ls_master.dir/src/utils/cmp_ts_n.c.o: ../src/utils/cmp_ts_n.c
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/n.kats/CLionProjects/ft_ls/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_100) "Building C object CMakeFiles/42_ft_ls_master.dir/src/utils/cmp_ts_n.c.o"
-	/Library/Developer/CommandLineTools/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/42_ft_ls_master.dir/src/utils/cmp_ts_n.c.o   -c /Users/n.kats/CLionProjects/ft_ls/src/utils/cmp_ts_n.c
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/lgunship/Desktop/CLion_Work_Dir/ft_ls1/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_90) "Building C object CMakeFiles/42_ft_ls_master.dir/src/utils/cmp_ts_n.c.o"
+	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/42_ft_ls_master.dir/src/utils/cmp_ts_n.c.o   -c /Users/lgunship/Desktop/CLion_Work_Dir/ft_ls1/src/utils/cmp_ts_n.c
 
 CMakeFiles/42_ft_ls_master.dir/src/utils/cmp_ts_n.c.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/42_ft_ls_master.dir/src/utils/cmp_ts_n.c.i"
-	/Library/Developer/CommandLineTools/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /Users/n.kats/CLionProjects/ft_ls/src/utils/cmp_ts_n.c > CMakeFiles/42_ft_ls_master.dir/src/utils/cmp_ts_n.c.i
+	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /Users/lgunship/Desktop/CLion_Work_Dir/ft_ls1/src/utils/cmp_ts_n.c > CMakeFiles/42_ft_ls_master.dir/src/utils/cmp_ts_n.c.i
 
 CMakeFiles/42_ft_ls_master.dir/src/utils/cmp_ts_n.c.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/42_ft_ls_master.dir/src/utils/cmp_ts_n.c.s"
-	/Library/Developer/CommandLineTools/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /Users/n.kats/CLionProjects/ft_ls/src/utils/cmp_ts_n.c -o CMakeFiles/42_ft_ls_master.dir/src/utils/cmp_ts_n.c.s
+	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /Users/lgunship/Desktop/CLion_Work_Dir/ft_ls1/src/utils/cmp_ts_n.c -o CMakeFiles/42_ft_ls_master.dir/src/utils/cmp_ts_n.c.s
 
 CMakeFiles/42_ft_ls_master.dir/src/utils/create_file.c.o: CMakeFiles/42_ft_ls_master.dir/flags.make
 CMakeFiles/42_ft_ls_master.dir/src/utils/create_file.c.o: ../src/utils/create_file.c
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/n.kats/CLionProjects/ft_ls/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_101) "Building C object CMakeFiles/42_ft_ls_master.dir/src/utils/create_file.c.o"
-	/Library/Developer/CommandLineTools/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/42_ft_ls_master.dir/src/utils/create_file.c.o   -c /Users/n.kats/CLionProjects/ft_ls/src/utils/create_file.c
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/lgunship/Desktop/CLion_Work_Dir/ft_ls1/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_91) "Building C object CMakeFiles/42_ft_ls_master.dir/src/utils/create_file.c.o"
+	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/42_ft_ls_master.dir/src/utils/create_file.c.o   -c /Users/lgunship/Desktop/CLion_Work_Dir/ft_ls1/src/utils/create_file.c
 
 CMakeFiles/42_ft_ls_master.dir/src/utils/create_file.c.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/42_ft_ls_master.dir/src/utils/create_file.c.i"
-	/Library/Developer/CommandLineTools/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /Users/n.kats/CLionProjects/ft_ls/src/utils/create_file.c > CMakeFiles/42_ft_ls_master.dir/src/utils/create_file.c.i
+	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /Users/lgunship/Desktop/CLion_Work_Dir/ft_ls1/src/utils/create_file.c > CMakeFiles/42_ft_ls_master.dir/src/utils/create_file.c.i
 
 CMakeFiles/42_ft_ls_master.dir/src/utils/create_file.c.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/42_ft_ls_master.dir/src/utils/create_file.c.s"
-	/Library/Developer/CommandLineTools/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /Users/n.kats/CLionProjects/ft_ls/src/utils/create_file.c -o CMakeFiles/42_ft_ls_master.dir/src/utils/create_file.c.s
+	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /Users/lgunship/Desktop/CLion_Work_Dir/ft_ls1/src/utils/create_file.c -o CMakeFiles/42_ft_ls_master.dir/src/utils/create_file.c.s
 
 CMakeFiles/42_ft_ls_master.dir/src/utils/delete_files.c.o: CMakeFiles/42_ft_ls_master.dir/flags.make
 CMakeFiles/42_ft_ls_master.dir/src/utils/delete_files.c.o: ../src/utils/delete_files.c
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/n.kats/CLionProjects/ft_ls/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_102) "Building C object CMakeFiles/42_ft_ls_master.dir/src/utils/delete_files.c.o"
-	/Library/Developer/CommandLineTools/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/42_ft_ls_master.dir/src/utils/delete_files.c.o   -c /Users/n.kats/CLionProjects/ft_ls/src/utils/delete_files.c
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/lgunship/Desktop/CLion_Work_Dir/ft_ls1/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_92) "Building C object CMakeFiles/42_ft_ls_master.dir/src/utils/delete_files.c.o"
+	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/42_ft_ls_master.dir/src/utils/delete_files.c.o   -c /Users/lgunship/Desktop/CLion_Work_Dir/ft_ls1/src/utils/delete_files.c
 
 CMakeFiles/42_ft_ls_master.dir/src/utils/delete_files.c.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/42_ft_ls_master.dir/src/utils/delete_files.c.i"
-	/Library/Developer/CommandLineTools/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /Users/n.kats/CLionProjects/ft_ls/src/utils/delete_files.c > CMakeFiles/42_ft_ls_master.dir/src/utils/delete_files.c.i
+	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /Users/lgunship/Desktop/CLion_Work_Dir/ft_ls1/src/utils/delete_files.c > CMakeFiles/42_ft_ls_master.dir/src/utils/delete_files.c.i
 
 CMakeFiles/42_ft_ls_master.dir/src/utils/delete_files.c.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/42_ft_ls_master.dir/src/utils/delete_files.c.s"
-	/Library/Developer/CommandLineTools/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /Users/n.kats/CLionProjects/ft_ls/src/utils/delete_files.c -o CMakeFiles/42_ft_ls_master.dir/src/utils/delete_files.c.s
+	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /Users/lgunship/Desktop/CLion_Work_Dir/ft_ls1/src/utils/delete_files.c -o CMakeFiles/42_ft_ls_master.dir/src/utils/delete_files.c.s
 
 CMakeFiles/42_ft_ls_master.dir/src/ft_ls.c.o: CMakeFiles/42_ft_ls_master.dir/flags.make
 CMakeFiles/42_ft_ls_master.dir/src/ft_ls.c.o: ../src/ft_ls.c
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/n.kats/CLionProjects/ft_ls/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_103) "Building C object CMakeFiles/42_ft_ls_master.dir/src/ft_ls.c.o"
-	/Library/Developer/CommandLineTools/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/42_ft_ls_master.dir/src/ft_ls.c.o   -c /Users/n.kats/CLionProjects/ft_ls/src/ft_ls.c
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/lgunship/Desktop/CLion_Work_Dir/ft_ls1/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_93) "Building C object CMakeFiles/42_ft_ls_master.dir/src/ft_ls.c.o"
+	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/42_ft_ls_master.dir/src/ft_ls.c.o   -c /Users/lgunship/Desktop/CLion_Work_Dir/ft_ls1/src/ft_ls.c
 
 CMakeFiles/42_ft_ls_master.dir/src/ft_ls.c.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/42_ft_ls_master.dir/src/ft_ls.c.i"
-	/Library/Developer/CommandLineTools/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /Users/n.kats/CLionProjects/ft_ls/src/ft_ls.c > CMakeFiles/42_ft_ls_master.dir/src/ft_ls.c.i
+	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /Users/lgunship/Desktop/CLion_Work_Dir/ft_ls1/src/ft_ls.c > CMakeFiles/42_ft_ls_master.dir/src/ft_ls.c.i
 
 CMakeFiles/42_ft_ls_master.dir/src/ft_ls.c.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/42_ft_ls_master.dir/src/ft_ls.c.s"
-	/Library/Developer/CommandLineTools/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /Users/n.kats/CLionProjects/ft_ls/src/ft_ls.c -o CMakeFiles/42_ft_ls_master.dir/src/ft_ls.c.s
+	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /Users/lgunship/Desktop/CLion_Work_Dir/ft_ls1/src/ft_ls.c -o CMakeFiles/42_ft_ls_master.dir/src/ft_ls.c.s
 
 CMakeFiles/42_ft_ls_master.dir/src/main.c.o: CMakeFiles/42_ft_ls_master.dir/flags.make
 CMakeFiles/42_ft_ls_master.dir/src/main.c.o: ../src/main.c
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/n.kats/CLionProjects/ft_ls/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_104) "Building C object CMakeFiles/42_ft_ls_master.dir/src/main.c.o"
-	/Library/Developer/CommandLineTools/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/42_ft_ls_master.dir/src/main.c.o   -c /Users/n.kats/CLionProjects/ft_ls/src/main.c
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/lgunship/Desktop/CLion_Work_Dir/ft_ls1/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_94) "Building C object CMakeFiles/42_ft_ls_master.dir/src/main.c.o"
+	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/42_ft_ls_master.dir/src/main.c.o   -c /Users/lgunship/Desktop/CLion_Work_Dir/ft_ls1/src/main.c
 
 CMakeFiles/42_ft_ls_master.dir/src/main.c.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/42_ft_ls_master.dir/src/main.c.i"
-	/Library/Developer/CommandLineTools/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /Users/n.kats/CLionProjects/ft_ls/src/main.c > CMakeFiles/42_ft_ls_master.dir/src/main.c.i
+	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /Users/lgunship/Desktop/CLion_Work_Dir/ft_ls1/src/main.c > CMakeFiles/42_ft_ls_master.dir/src/main.c.i
 
 CMakeFiles/42_ft_ls_master.dir/src/main.c.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/42_ft_ls_master.dir/src/main.c.s"
-	/Library/Developer/CommandLineTools/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /Users/n.kats/CLionProjects/ft_ls/src/main.c -o CMakeFiles/42_ft_ls_master.dir/src/main.c.s
+	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /Users/lgunship/Desktop/CLion_Work_Dir/ft_ls1/src/main.c -o CMakeFiles/42_ft_ls_master.dir/src/main.c.s
 
 CMakeFiles/42_ft_ls_master.dir/libft/src/put/ft_lprintf.c.o: CMakeFiles/42_ft_ls_master.dir/flags.make
 CMakeFiles/42_ft_ls_master.dir/libft/src/put/ft_lprintf.c.o: ../libft/src/put/ft_lprintf.c
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/n.kats/CLionProjects/ft_ls/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_105) "Building C object CMakeFiles/42_ft_ls_master.dir/libft/src/put/ft_lprintf.c.o"
-	/Library/Developer/CommandLineTools/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/42_ft_ls_master.dir/libft/src/put/ft_lprintf.c.o   -c /Users/n.kats/CLionProjects/ft_ls/libft/src/put/ft_lprintf.c
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/lgunship/Desktop/CLion_Work_Dir/ft_ls1/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_95) "Building C object CMakeFiles/42_ft_ls_master.dir/libft/src/put/ft_lprintf.c.o"
+	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/42_ft_ls_master.dir/libft/src/put/ft_lprintf.c.o   -c /Users/lgunship/Desktop/CLion_Work_Dir/ft_ls1/libft/src/put/ft_lprintf.c
 
 CMakeFiles/42_ft_ls_master.dir/libft/src/put/ft_lprintf.c.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/42_ft_ls_master.dir/libft/src/put/ft_lprintf.c.i"
-	/Library/Developer/CommandLineTools/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /Users/n.kats/CLionProjects/ft_ls/libft/src/put/ft_lprintf.c > CMakeFiles/42_ft_ls_master.dir/libft/src/put/ft_lprintf.c.i
+	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /Users/lgunship/Desktop/CLion_Work_Dir/ft_ls1/libft/src/put/ft_lprintf.c > CMakeFiles/42_ft_ls_master.dir/libft/src/put/ft_lprintf.c.i
 
 CMakeFiles/42_ft_ls_master.dir/libft/src/put/ft_lprintf.c.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/42_ft_ls_master.dir/libft/src/put/ft_lprintf.c.s"
-	/Library/Developer/CommandLineTools/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /Users/n.kats/CLionProjects/ft_ls/libft/src/put/ft_lprintf.c -o CMakeFiles/42_ft_ls_master.dir/libft/src/put/ft_lprintf.c.s
+	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /Users/lgunship/Desktop/CLion_Work_Dir/ft_ls1/libft/src/put/ft_lprintf.c -o CMakeFiles/42_ft_ls_master.dir/libft/src/put/ft_lprintf.c.s
 
 CMakeFiles/42_ft_ls_master.dir/libft/src/lst/ft_push_ptr.c.o: CMakeFiles/42_ft_ls_master.dir/flags.make
 CMakeFiles/42_ft_ls_master.dir/libft/src/lst/ft_push_ptr.c.o: ../libft/src/lst/ft_push_ptr.c
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/n.kats/CLionProjects/ft_ls/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_106) "Building C object CMakeFiles/42_ft_ls_master.dir/libft/src/lst/ft_push_ptr.c.o"
-	/Library/Developer/CommandLineTools/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/42_ft_ls_master.dir/libft/src/lst/ft_push_ptr.c.o   -c /Users/n.kats/CLionProjects/ft_ls/libft/src/lst/ft_push_ptr.c
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/lgunship/Desktop/CLion_Work_Dir/ft_ls1/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_96) "Building C object CMakeFiles/42_ft_ls_master.dir/libft/src/lst/ft_push_ptr.c.o"
+	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/42_ft_ls_master.dir/libft/src/lst/ft_push_ptr.c.o   -c /Users/lgunship/Desktop/CLion_Work_Dir/ft_ls1/libft/src/lst/ft_push_ptr.c
 
 CMakeFiles/42_ft_ls_master.dir/libft/src/lst/ft_push_ptr.c.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/42_ft_ls_master.dir/libft/src/lst/ft_push_ptr.c.i"
-	/Library/Developer/CommandLineTools/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /Users/n.kats/CLionProjects/ft_ls/libft/src/lst/ft_push_ptr.c > CMakeFiles/42_ft_ls_master.dir/libft/src/lst/ft_push_ptr.c.i
+	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /Users/lgunship/Desktop/CLion_Work_Dir/ft_ls1/libft/src/lst/ft_push_ptr.c > CMakeFiles/42_ft_ls_master.dir/libft/src/lst/ft_push_ptr.c.i
 
 CMakeFiles/42_ft_ls_master.dir/libft/src/lst/ft_push_ptr.c.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/42_ft_ls_master.dir/libft/src/lst/ft_push_ptr.c.s"
-	/Library/Developer/CommandLineTools/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /Users/n.kats/CLionProjects/ft_ls/libft/src/lst/ft_push_ptr.c -o CMakeFiles/42_ft_ls_master.dir/libft/src/lst/ft_push_ptr.c.s
+	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /Users/lgunship/Desktop/CLion_Work_Dir/ft_ls1/libft/src/lst/ft_push_ptr.c -o CMakeFiles/42_ft_ls_master.dir/libft/src/lst/ft_push_ptr.c.s
+
+CMakeFiles/42_ft_ls_master.dir/libft/src/lst/ft_strnewnull.c.o: CMakeFiles/42_ft_ls_master.dir/flags.make
+CMakeFiles/42_ft_ls_master.dir/libft/src/lst/ft_strnewnull.c.o: ../libft/src/lst/ft_strnewnull.c
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/lgunship/Desktop/CLion_Work_Dir/ft_ls1/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_97) "Building C object CMakeFiles/42_ft_ls_master.dir/libft/src/lst/ft_strnewnull.c.o"
+	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/42_ft_ls_master.dir/libft/src/lst/ft_strnewnull.c.o   -c /Users/lgunship/Desktop/CLion_Work_Dir/ft_ls1/libft/src/lst/ft_strnewnull.c
+
+CMakeFiles/42_ft_ls_master.dir/libft/src/lst/ft_strnewnull.c.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/42_ft_ls_master.dir/libft/src/lst/ft_strnewnull.c.i"
+	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /Users/lgunship/Desktop/CLion_Work_Dir/ft_ls1/libft/src/lst/ft_strnewnull.c > CMakeFiles/42_ft_ls_master.dir/libft/src/lst/ft_strnewnull.c.i
+
+CMakeFiles/42_ft_ls_master.dir/libft/src/lst/ft_strnewnull.c.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/42_ft_ls_master.dir/libft/src/lst/ft_strnewnull.c.s"
+	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /Users/lgunship/Desktop/CLion_Work_Dir/ft_ls1/libft/src/lst/ft_strnewnull.c -o CMakeFiles/42_ft_ls_master.dir/libft/src/lst/ft_strnewnull.c.s
 
 # Object files for target 42_ft_ls_master
 42_ft_ls_master_OBJECTS = \
-"CMakeFiles/42_ft_ls_master.dir/libft/ft_printf/ft_printf.c.o" \
-"CMakeFiles/42_ft_ls_master.dir/libft/ft_printf/pf_base.c.o" \
-"CMakeFiles/42_ft_ls_master.dir/libft/ft_printf/pf_ftoa.c.o" \
-"CMakeFiles/42_ft_ls_master.dir/libft/ft_printf/pf_len.c.o" \
-"CMakeFiles/42_ft_ls_master.dir/libft/ft_printf/pf_options.c.o" \
-"CMakeFiles/42_ft_ls_master.dir/libft/ft_printf/pf_parsing.c.o" \
-"CMakeFiles/42_ft_ls_master.dir/libft/ft_printf/pf_put.c.o" \
-"CMakeFiles/42_ft_ls_master.dir/libft/ft_printf/pf_router.c.o" \
-"CMakeFiles/42_ft_ls_master.dir/libft/ft_printf/pf_struct.c.o" \
-"CMakeFiles/42_ft_ls_master.dir/libft/ft_printf/pf_utils.c.o" \
 "CMakeFiles/42_ft_ls_master.dir/libft/src/char/ft_isalnum.c.o" \
 "CMakeFiles/42_ft_ls_master.dir/libft/src/char/ft_isalpha.c.o" \
 "CMakeFiles/42_ft_ls_master.dir/libft/src/char/ft_isascii.c.o" \
@@ -1542,21 +1415,12 @@ CMakeFiles/42_ft_ls_master.dir/libft/src/lst/ft_push_ptr.c.s: cmake_force
 "CMakeFiles/42_ft_ls_master.dir/src/ft_ls.c.o" \
 "CMakeFiles/42_ft_ls_master.dir/src/main.c.o" \
 "CMakeFiles/42_ft_ls_master.dir/libft/src/put/ft_lprintf.c.o" \
-"CMakeFiles/42_ft_ls_master.dir/libft/src/lst/ft_push_ptr.c.o"
+"CMakeFiles/42_ft_ls_master.dir/libft/src/lst/ft_push_ptr.c.o" \
+"CMakeFiles/42_ft_ls_master.dir/libft/src/lst/ft_strnewnull.c.o"
 
 # External object files for target 42_ft_ls_master
 42_ft_ls_master_EXTERNAL_OBJECTS =
 
-42_ft_ls_master: CMakeFiles/42_ft_ls_master.dir/libft/ft_printf/ft_printf.c.o
-42_ft_ls_master: CMakeFiles/42_ft_ls_master.dir/libft/ft_printf/pf_base.c.o
-42_ft_ls_master: CMakeFiles/42_ft_ls_master.dir/libft/ft_printf/pf_ftoa.c.o
-42_ft_ls_master: CMakeFiles/42_ft_ls_master.dir/libft/ft_printf/pf_len.c.o
-42_ft_ls_master: CMakeFiles/42_ft_ls_master.dir/libft/ft_printf/pf_options.c.o
-42_ft_ls_master: CMakeFiles/42_ft_ls_master.dir/libft/ft_printf/pf_parsing.c.o
-42_ft_ls_master: CMakeFiles/42_ft_ls_master.dir/libft/ft_printf/pf_put.c.o
-42_ft_ls_master: CMakeFiles/42_ft_ls_master.dir/libft/ft_printf/pf_router.c.o
-42_ft_ls_master: CMakeFiles/42_ft_ls_master.dir/libft/ft_printf/pf_struct.c.o
-42_ft_ls_master: CMakeFiles/42_ft_ls_master.dir/libft/ft_printf/pf_utils.c.o
 42_ft_ls_master: CMakeFiles/42_ft_ls_master.dir/libft/src/char/ft_isalnum.c.o
 42_ft_ls_master: CMakeFiles/42_ft_ls_master.dir/libft/src/char/ft_isalpha.c.o
 42_ft_ls_master: CMakeFiles/42_ft_ls_master.dir/libft/src/char/ft_isascii.c.o
@@ -1653,9 +1517,10 @@ CMakeFiles/42_ft_ls_master.dir/libft/src/lst/ft_push_ptr.c.s: cmake_force
 42_ft_ls_master: CMakeFiles/42_ft_ls_master.dir/src/main.c.o
 42_ft_ls_master: CMakeFiles/42_ft_ls_master.dir/libft/src/put/ft_lprintf.c.o
 42_ft_ls_master: CMakeFiles/42_ft_ls_master.dir/libft/src/lst/ft_push_ptr.c.o
+42_ft_ls_master: CMakeFiles/42_ft_ls_master.dir/libft/src/lst/ft_strnewnull.c.o
 42_ft_ls_master: CMakeFiles/42_ft_ls_master.dir/build.make
 42_ft_ls_master: CMakeFiles/42_ft_ls_master.dir/link.txt
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir=/Users/n.kats/CLionProjects/ft_ls/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_107) "Linking C executable 42_ft_ls_master"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir=/Users/lgunship/Desktop/CLion_Work_Dir/ft_ls1/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_98) "Linking C executable 42_ft_ls_master"
 	$(CMAKE_COMMAND) -E cmake_link_script CMakeFiles/42_ft_ls_master.dir/link.txt --verbose=$(VERBOSE)
 
 # Rule to build all files generated by this target.
@@ -1668,6 +1533,6 @@ CMakeFiles/42_ft_ls_master.dir/clean:
 .PHONY : CMakeFiles/42_ft_ls_master.dir/clean
 
 CMakeFiles/42_ft_ls_master.dir/depend:
-	cd /Users/n.kats/CLionProjects/ft_ls/cmake-build-debug && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /Users/n.kats/CLionProjects/ft_ls /Users/n.kats/CLionProjects/ft_ls /Users/n.kats/CLionProjects/ft_ls/cmake-build-debug /Users/n.kats/CLionProjects/ft_ls/cmake-build-debug /Users/n.kats/CLionProjects/ft_ls/cmake-build-debug/CMakeFiles/42_ft_ls_master.dir/DependInfo.cmake --color=$(COLOR)
+	cd /Users/lgunship/Desktop/CLion_Work_Dir/ft_ls1/cmake-build-debug && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /Users/lgunship/Desktop/CLion_Work_Dir/ft_ls1 /Users/lgunship/Desktop/CLion_Work_Dir/ft_ls1 /Users/lgunship/Desktop/CLion_Work_Dir/ft_ls1/cmake-build-debug /Users/lgunship/Desktop/CLion_Work_Dir/ft_ls1/cmake-build-debug /Users/lgunship/Desktop/CLion_Work_Dir/ft_ls1/cmake-build-debug/CMakeFiles/42_ft_ls_master.dir/DependInfo.cmake --color=$(COLOR)
 .PHONY : CMakeFiles/42_ft_ls_master.dir/depend
 
