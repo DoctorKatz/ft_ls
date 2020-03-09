@@ -6,7 +6,7 @@
 /*   By: null <null@student.42.fr>                  +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2020/03/05 20:51:11 by null              #+#    #+#             */
-/*   Updated: 2020/03/10 00:53:51 by lgunship         ###   ########.fr       */
+/*   Updated: 2020/03/10 01:42:27 by lgunship         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -18,7 +18,7 @@ void		ft_push_ptr(t_mnode **head, char *ptr)
 
 	tmp = (t_mnode*)malloc(sizeof(t_mnode));
 	tmp->memptr = ptr;
-	tmp->next = (*head);
+	tmp->next = (struct t_mnode *) (*head);
 	(*head) = tmp;
 }
 
@@ -35,7 +35,7 @@ void		ft_memlstdelete(t_mnode **head)
 		if ((*head)->memptr != NULL)
 			free((*head)->memptr);
 		prev = (*head);
-		(*head) = (*head)->next;
+		(*head) = (t_mnode *) (*head)->next;
 		ft_memdel((void**)&prev);
 	}
 	free(*head);

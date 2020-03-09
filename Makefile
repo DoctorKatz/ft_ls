@@ -1,15 +1,3 @@
-# **************************************************************************** #
-#                                                                              #
-#                                                         :::      ::::::::    #
-#    Makefile                                           :+:      :+:    :+:    #
-#                                                     +:+ +:+         +:+      #
-#    By: jaleman <jraleman@student.42.us.org>       +#+  +:+       +#+         #
-#                                                 +#+#+#+#+#+   +#+            #
-#    Created: 2019/02/15 18:18:00 by jaleman           #+#    #+#              #
-#    Updated: 2019/02/15 18:18:01 by jaleman          ###   ########.fr        #
-#                                                                              #
-# **************************************************************************** #
-
 NAME = ft_ls
 SRC =	src/main.c \
 		src/ft_ls.c \
@@ -35,7 +23,7 @@ SRC =	src/main.c \
 		src/utils/print/print_entry.c \
 		src/utils/print/print_perm.c
 CC = gcc
-CFLAGS = -I includes/ -I libft/ -Wall -Werror -Wextra
+CFLAGS = -I includes/ -I libft/inc -Wall -Werror -Wextra
 OBJ = $(SRC:.c=.o)
 DEBUG = #-g3 -fsanitize=address
 

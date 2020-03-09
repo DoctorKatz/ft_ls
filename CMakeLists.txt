@@ -2,6 +2,7 @@ cmake_minimum_required(VERSION 3.10)
 project(42_ft_ls_master C)
 
 set(CMAKE_C_STANDARD 11)
+set(-Wextra -Werror)
 
 include_directories(includes)
 include_directories(libft/ft_printf)

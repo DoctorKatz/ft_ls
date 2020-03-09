@@ -6,7 +6,7 @@
 /*   By: lgunship <lgunship@student.42.fr>          +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2020/03/01 01:54:29 by lgunship          #+#    #+#             */
-/*   Updated: 2020/03/10 01:14:57 by lgunship         ###   ########.fr       */
+/*   Updated: 2020/03/10 01:15:27 by lgunship         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -16,7 +16,6 @@ extern t_mnode		*g_memlst;
 
 char				*check_flags(int d, char *s, char *c, va_list factor)
 {
-	char	**st;
 
 	c++;
 	if (*c == 'd')
@@ -40,13 +39,14 @@ char				*check_flags(int d, char *s, char *c, va_list factor)
 void				ft_lprintf(char *format, ...)
 {
 	int				d;
-	unsigned long	u;
 	char			*s;
 	char			*c;
 	va_list			factor;
 
 	va_start(factor, format);
 	c = format;
+	d = 0;
+	s = NULL;
 	while (*c)
 	{
 		if (*c != '%')
